@@ -1,0 +1,482 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "Yellow-Space API Documentation",
+    "description": "This documentation contains four mains routes with CRUD operations: Admin, Announcements, Story, Video",
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  },
+  "host": "localhost:8000",
+  "basePath": "/",
+  "tags": [
+    {
+      "name": "Admin",
+      "description": "API for admin login and logout"
+    },
+    {
+      "name": "Announcement",
+      "description": "API for announcement CRUD operations."
+    },
+    {
+      "name": "Story",
+      "description": "API for story CRUD operations."
+    },
+    {
+      "name": "Video",
+      "description": "API for video CRUD operations."
+    }
+  ],
+  "schemes": ["http"],
+  "consumes": ["application/json"],
+  "produces": ["application/json"],
+  "paths": {
+    "/admin/login": {
+      "post": {
+        "tags": ["Admin"],
+        "summary": "login to admin panel.",
+        "description": "longin to admin panel.",
+        "parameters": [
+          {
+            "name": "User",
+            "in": "body",
+            "description": "User that we want to log in",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/Admin"
+            }
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "Successful operation!",
+            "schema": {
+              "$ref": "#/definitions/Admin"
+            }
+          }
+        }
+      }
+    },
+
+    "/admin/logout": {
+      "get": {
+        "tags": ["Admin"],
+        "summary": "logout of admin panel.",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+
+    "/announce": {
+      "get": {
+        "tags": ["Announcement"],
+        "summary": "Get all Announcements",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+
+    "/announce/admin/announce-create": {
+      "post": {
+        "tags": ["Announcement"],
+        "summary": "Create Announcement",
+        "description": "Create Announcement",
+        "parameters": [
+          {
+            "name": "POST",
+            "in": "body",
+            "description": "Only admin can create announcement",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/createAnnouncement"
+            }
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "Successful operation!",
+            "schema": {
+              "$ref": "#/definitions/createAnnouncement"
+            }
+          }
+        }
+      }
+    },
+
+    "/announce/admin/announce-update/{id}": {
+      "parameters": [
+        {
+          "name": "id",
+          "in": "path",
+          "required": true,
+          "description": "ID of announcement that we want to find",
+          "type": "integer"
+        }
+      ],
+      "patch": {
+        "tags": ["Announcement"],
+        "summary": "Update Announcement",
+        "description": "Update Announcement",
+        "parameters": [
+          {
+            "name": "PATCH",
+            "in": "body",
+            "description": "Only admin can create announcement",
+            "schema": {
+              "$ref": "#/definitions/updateAnnouncement"
+            }
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "Announcement is successfully updated!",
+            "schema": {
+              "$ref": "#/definitions/updateAnnouncement"
+            }
+          }
+        }
+      }
+    },
+
+    "/announce/admin/announce-delete/{id}": {
+      "parameters": [
+        {
+          "name": "id",
+          "in": "path",
+          "required": true,
+          "description": "ID of announcement that we want to find",
+          "type": "integer"
+        }
+      ],
+      "delete": {
+        "tags": ["Announcement"],
+        "summary": "Delete Announcement",
+        "description": "Delete Announcement",
+        "parameters": [
+          {
+            "name": "DELETE",
+            "in": "body",
+            "description": "Only admin can create announcement"
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "Announcement is successfully updated!"
+          }
+        }
+      }
+    },
+
+    "/story": {
+      "get": {
+        "tags": ["Story"],
+        "summary": "Get all Story",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+
+    "/story/admin/story-create": {
+      "post": {
+        "tags": ["Story"],
+        "summary": "Create Story",
+        "description": "Create Story",
+        "parameters": [
+          {
+            "name": "POST",
+            "in": "body",
+            "description": "Only admin can create story",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/createStory"
+            }
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "Successful operation!",
+            "schema": {
+              "$ref": "#/definitions/createStory"
+            }
+          }
+        }
+      }
+    },
+
+    "/story/admin/story-update/{id}": {
+      "parameters": [
+        {
+          "name": "id",
+          "in": "path",
+          "required": true,
+          "description": "ID of story that we want to find",
+          "type": "integer"
+        }
+      ],
+      "patch": {
+        "tags": ["Story"],
+        "summary": "Update Story",
+        "description": "Update Story",
+        "parameters": [
+          {
+            "name": "PATCH",
+            "in": "body",
+            "description": "Only admin can create story",
+            "schema": {
+              "$ref": "#/definitions/updateStory"
+            }
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "Story is successfully updated!",
+            "schema": {
+              "$ref": "#/definitions/updateStory"
+            }
+          }
+        }
+      }
+    },
+
+    "/story/admin/story-delete/{id}": {
+      "parameters": [
+        {
+          "name": "id",
+          "in": "path",
+          "required": true,
+          "description": "ID of story that we want to find",
+          "type": "integer"
+        }
+      ],
+      "delete": {
+        "tags": ["Story"],
+        "summary": "Delete Story",
+        "description": "Delete Story",
+        "parameters": [
+          {
+            "name": "DELETE",
+            "in": "body",
+            "description": "Only admin can create story"
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "Story is successfully updated!"
+          }
+        }
+      }
+    },
+
+    "/video": {
+      "get": {
+        "tags": ["Video"],
+        "summary": "Get all Video",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+
+    "/video/admin/video-create": {
+      "post": {
+        "tags": ["Video"],
+        "summary": "Create Video",
+        "description": "Create Video",
+        "parameters": [
+          {
+            "name": "POST",
+            "in": "body",
+            "description": "Only admin can create video",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/createVideo"
+            }
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "Successful operation!",
+            "schema": {
+              "$ref": "#/definitions/createVideo"
+            }
+          }
+        }
+      }
+    },
+
+    "/video/admin/video-update/{id}": {
+      "parameters": [
+        {
+          "name": "id",
+          "in": "path",
+          "required": true,
+          "description": "ID of video that we want to find",
+          "type": "integer"
+        }
+      ],
+      "patch": {
+        "tags": ["Video"],
+        "summary": "Update Video",
+        "description": "Update Video",
+        "parameters": [
+          {
+            "name": "PATCH",
+            "in": "body",
+            "description": "Only admin can create video",
+            "schema": {
+              "$ref": "#/definitions/updateVideo"
+            }
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "Video is successfully updated!",
+            "schema": {
+              "$ref": "#/definitions/updateVideo"
+            }
+          }
+        }
+      }
+    },
+
+    "/video/admin/video-delete/{id}": {
+      "parameters": [
+        {
+          "name": "id",
+          "in": "path",
+          "required": true,
+          "description": "ID of video that we want to find",
+          "type": "integer"
+        }
+      ],
+      "delete": {
+        "tags": ["Video"],
+        "summary": "Delete Video",
+        "description": "Delete Video",
+        "parameters": [
+          {
+            "name": "DELETE",
+            "in": "body",
+            "description": "Only admin can create video"
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "Video is successfully updated!"
+          }
+        }
+      }
+    }
+  },
+
+  "definitions": {
+    "Admin": {
+      "required": ["email", "password"],
+      "properties": {
+        "email": {
+          "type": "string",
+          "uniqueItems": true
+        },
+        "password": {
+          "type": "string"
+        }
+      }
+    },
+
+    "createAnnouncement": {
+      "required": ["title", "body"],
+      "properties": {
+        "title": {
+          "type": "string",
+          "uniqueItems": true
+        },
+        "body": {
+          "type": "string",
+          "uniqueItems": true
+        }
+      }
+    },
+
+    "updateAnnouncement": {
+      "properties": {
+        "title": {
+          "type": "string",
+          "uniqueItems": true
+        },
+        "body": {
+          "type": "string",
+          "uniqueItems": true
+        }
+      }
+    },
+
+    "createStory": {
+      "required": ["title", "body"],
+      "properties": {
+        "title": {
+          "type": "string",
+          "uniqueItems": true
+        },
+        "body": {
+          "type": "string",
+          "uniqueItems": true
+        }
+      }
+    },
+
+    "updateStory": {
+      "properties": {
+        "title": {
+          "type": "string",
+          "uniqueItems": true
+        },
+        "body": {
+          "type": "string",
+          "uniqueItems": true
+        }
+      }
+    },
+
+    "createVideo": {
+      "required": ["link"],
+      "properties": {
+        "link": {
+          "type": "string",
+          "uniqueItems": true
+        }
+      }
+    },
+
+    "updateVideo": {
+      "properties": {
+        "link": {
+          "type": "string",
+          "uniqueItems": true
+        }
+      }
+    }
+  }
+}
