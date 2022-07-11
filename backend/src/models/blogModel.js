@@ -28,6 +28,7 @@ const BlogSchema = new mongoose.Schema({
     required: true,
     minlength: [100, "Minimum length for the description is 100"],
   },
+  __v: { type: Number, select: false },
 });
 
 const Blogs = mongoose.model("Blogs", BlogSchema, "Blog");
