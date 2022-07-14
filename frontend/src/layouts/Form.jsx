@@ -1,11 +1,72 @@
 import SignupSvg from "../static/SignupSvg";
 import SigninSvg from "../static/SigninSvg";
 import PaymentSvg from "../static/PaymentSvg";
+import Request from "../services/Axios-CRUD";
+import { useState } from "react";
 const Form = (props) => {
+  const [getAnswer, setAnswer] = useState("");
+  const [getSignin, setSignin] = useState({ email: "", password: "" });
+  const [getSignup, setSignup] = useState({
+    firstName: "",
+    lastName: "",
+    email: "",
+    password: "",
+    confirmPassword: "",
+  });
+  const [getPayment, setPayment] = useState({
+    cardNumber: "",
+    expiryDate: "",
+    cvc: "",
+  });
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    props.setLoad(true);
+    props.Signin
+      ? Request.login(getSignin).then((res) => {
+          setAnswer(res.data);
+          props.setLoad(false);
+        })
+      : props.Signup
+      ? Request.signup(getSignup).then((res) => {
+          setAnswer(res.data);
+          props.setLoad(false);
+        })
+      : Request.peyment(getPayment).then((res) => {
+          setAnswer(res.data);
+          props.setLoad(false);
+        });
+
+    setSignin({
+      email: "",
+      password: "",
+    });
+
+    setSignup({
+      firstName: "",
+      lastName: "",
+      email: "",
+      password: "",
+      confirmPassword: "",
+    });
+
+    setPayment({
+      cardNumber: "",
+      expiryDate: "",
+      cvc: "",
+    });
+  };
+
+  console.log(getSignin);
+  console.log(getAnswer);
+
   return (
     <div class="container mx-auto flex px-5 md:flex-row flex-col items-center">
       <div class="lg:flex-grow md:w-1/2 flex flex-col content-start pt-4 text-center">
-        <form class="text-base font-[450] h-full w-full">
+        <form
+          class="text-base font-[450] h-full w-full"
+          onSubmit={handleSubmit}
+        >
           <div class="mx-44">
             <div>
               <div class="mb-6 space-y-4">
@@ -44,30 +105,70 @@ const Form = (props) => {
                   {props.Signup ? (
                     <>
                       <input
+                        onChange={(event) =>
+                          setSignup((values) => ({
+                            ...values,
+                            [event.target.name]: event.target.value,
+                          }))
+                        }
+                        value={getSignup.firstName}
+                        required
                         type="text"
                         name="firstName"
                         class="rounded-md shadow-md dark:shadow-neutral-600 focus:shadow-lg bg-slate-100 items-center pl-3 py-2 focus:outline-none focus:bg-gray-100 border-1 border-gray-200"
                         placeholder="First Name"
                       />
                       <input
+                        onChange={(event) =>
+                          setSignup((values) => ({
+                            ...values,
+                            [event.target.name]: event.target.value,
+                          }))
+                        }
+                        value={getSignup.lastName}
+                        required
                         type="text"
-                        name="firstName"
+                        name="lastName"
                         class="rounded-md shadow-md dark:shadow-neutral-600 focus:shadow-lg bg-slate-100 items-center pl-3 py-2 focus:outline-none focus:bg-gray-100 border-1 border-gray-200"
                         placeholder="Last Name"
                       />
                       <input
+                        onChange={(event) =>
+                          setSignup((values) => ({
+                            ...values,
+                            [event.target.name]: event.target.value,
+                          }))
+                        }
+                        value={getSignup.email}
+                        required
                         type="text"
                         name="email"
                         class="rounded-md shadow-md dark:shadow-neutral-600 focus:shadow-lg bg-slate-100 items-center pl-3 py-2 focus:outline-none focus:bg-gray-100 border-1 border-gray-200"
                         placeholder="Email"
                       />
                       <input
+                        onChange={(event) =>
+                          setSignup((values) => ({
+                            ...values,
+                            [event.target.name]: event.target.value,
+                          }))
+                        }
+                        value={getSignup.password}
+                        required
                         type="text"
-                        name="Password"
+                        name="password"
                         class="rounded-md shadow-md dark:shadow-neutral-600 focus:shadow-lg bg-slate-100 items-center pl-3 py-2 focus:outline-none focus:bg-gray-100 border-1 border-gray-200"
                         placeholder="Password"
                       />
                       <input
+                        onChange={(event) =>
+                          setSignup((values) => ({
+                            ...values,
+                            [event.target.name]: event.target.value,
+                          }))
+                        }
+                        value={getSignup.confirmPassword}
+                        required
                         type="text"
                         name="confirmPassword"
                         class="rounded-md shadow-md dark:shadow-neutral-600 focus:shadow-lg bg-slate-100 items-center pl-3 py-2 focus:outline-none focus:bg-gray-100 border-1 border-gray-200"
@@ -77,20 +178,79 @@ const Form = (props) => {
                   ) : props.Signin ? (
                     <>
                       <input
+                        onChange={(event) =>
+                          setSignin((values) => ({
+                            ...values,
+                            [event.target.name]: event.target.value,
+                          }))
+                        }
+                        value={getSignin.email}
+                        required
                         type="text"
                         name="email"
                         class="rounded-md shadow-md dark:shadow-neutral-600 focus:shadow-lg bg-slate-100 items-center pl-3 py-2 focus:outline-none focus:bg-gray-100 border-1 border-gray-200"
                         placeholder="Email"
                       />
                       <input
+                        onChange={(event) =>
+                          setSignin((values) => ({
+                            ...values,
+                            [event.target.name]: event.target.value,
+                          }))
+                        }
+                        value={getSignin.password}
+                        required
                         type="text"
-                        name="Password"
+                        name="password"
                         class="rounded-md shadow-md dark:shadow-neutral-600 focus:shadow-lg bg-slate-100 items-center pl-3 py-2 focus:outline-none focus:bg-gray-100 border-1 border-gray-200"
                         placeholder="Password"
                       />
                     </>
                   ) : (
-                    <p>Payment</p>
+                    <>
+                      <input
+                        onChange={(event) =>
+                          setPayment((values) => ({
+                            ...values,
+                            [event.target.name]: event.target.value,
+                          }))
+                        }
+                        value={getPayment.cardNumber}
+                        required
+                        type="text"
+                        name="cardNumber"
+                        class="rounded-md shadow-md dark:shadow-neutral-600 focus:shadow-lg bg-slate-100 items-center pl-3 py-2 focus:outline-none focus:bg-gray-100 border-1 border-gray-200"
+                        placeholder="Card Number"
+                      />
+                      <input
+                        onChange={(event) =>
+                          setPayment((values) => ({
+                            ...values,
+                            [event.target.name]: event.target.value,
+                          }))
+                        }
+                        value={getPayment.expiryDate}
+                        required
+                        type="text"
+                        name="expiryDate"
+                        class="rounded-md shadow-md dark:shadow-neutral-600 focus:shadow-lg bg-slate-100 items-center pl-3 py-2 focus:outline-none focus:bg-gray-100 border-1 border-gray-200"
+                        placeholder="ExpiryDate"
+                      />
+                      <input
+                        onChange={(event) =>
+                          setPayment((values) => ({
+                            ...values,
+                            [event.target.name]: event.target.value,
+                          }))
+                        }
+                        value={getPayment.cvc}
+                        required
+                        type="text"
+                        name="cvc"
+                        class="rounded-md shadow-md dark:shadow-neutral-600 focus:shadow-lg bg-slate-100 items-center pl-3 py-2 focus:outline-none focus:bg-gray-100 border-1 border-gray-200"
+                        placeholder="CVC"
+                      />
+                    </>
                   )}
                 </div>
                 <div class="space-y-2">
