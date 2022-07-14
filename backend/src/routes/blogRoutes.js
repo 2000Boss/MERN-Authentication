@@ -1,4 +1,4 @@
-const express = reqiure("express");
+const express = require("express");
 const blogController = require("../controllers/blogController");
 const authController = require("../controllers/authController");
 
