@@ -1,6 +1,34 @@
-import React from "react";
+import { Link } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import Request from "../services/Axios-CRUD";
+// import Spinner from "../components/Spinner";
+
+import { deleteUser } from "../StoreConfig/features/UserSlice";
+import { useNavigate } from "react-router-dom";
+import Cookies from "js-cookie";
 
 const Navbar = (props) => {
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
+  // const { userInfo, userToken } = useSelector((state) => state.user);
+  // const dispatch = useDispatch();
+
+  // useEffect(() => {
+  //   if (userToken) {
+  //     dispatch(getUserDetails());
+  //   }
+  // });
+
+  const Logout = () => {
+    dispatch(deleteUser());
+    navigate("/signin", { replace: true });
+    Request.logout();
+
+    Cookies.remove("logged_in");
+
+    //   return <Spinner />;
+  };
+
   return (
     <div class="w-full sticky top-0 z-50  text-gray-200 bg-slate-900">
       <div
@@ -80,21 +108,33 @@ const Navbar = (props) => {
             About
           </a>
           {props.Signup ? (
-            <a
+            <Link
               class="md:mt-0 mt-3 px-3 py-1 ml-2  items-center justify-center text-base leading-6 text-gray-700 whitespace-no-wrap bg-gray-100 border-2 border-transparent rounded-full shadow-sm hover:bg-transparent hover:text-white hover:border-white focus:outline-none duration-100"
-              href="/courses/all/"
-            >
-              Sign Up
-            </a>
-          ) : props.Signin ? (
-            <a
-              class="md:mt-0 mt-3 px-3 py-1 ml-2  items-center justify-center text-base leading-6 text-gray-700 whitespace-no-wrap bg-gray-100 border-2 border-transparent rounded-full shadow-sm hover:bg-transparent hover:text-white hover:border-white focus:outline-none duration-100"
-              href="/courses/all/"
+              to="/signin"
             >
               Sign In
-            </a>
+            </Link>
+          ) : props.Signin ? (
+            <Link
+              class="md:mt-0 mt-3 px-3 py-1 ml-2  items-center justify-center text-base leading-6 text-gray-700 whitespace-no-wrap bg-gray-100 border-2 border-transparent rounded-full shadow-sm hover:bg-transparent hover:text-white hover:border-white focus:outline-none duration-100"
+              to="/signup"
+            >
+              Sign Up
+            </Link>
+          ) : Cookies.get("logged_in") ? (
+            <button
+              class="md:mt-0 mt-3 px-3 py-1 ml-2  items-center justify-center text-base leading-6 text-gray-700 whitespace-no-wrap bg-gray-100 border-2 border-transparent rounded-full shadow-sm hover:bg-transparent hover:text-white hover:border-white focus:outline-none duration-100"
+              onClick={Logout}
+            >
+              Log Out
+            </button>
           ) : (
-            ""
+            <Link
+              class="md:mt-0 mt-3 px-3 py-1 ml-2  items-center justify-center text-base leading-6 text-gray-700 whitespace-no-wrap bg-gray-100 border-2 border-transparent rounded-full shadow-sm hover:bg-transparent hover:text-white hover:border-white focus:outline-none duration-100"
+              to="/signin"
+            >
+              Sign In
+            </Link>
           )}
         </nav>
       </div>

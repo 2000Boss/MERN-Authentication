@@ -1,38 +1,34 @@
 import http from "./http-common";
 
 class Request {
-  getAll(page = 0) {
-    return http.get(`yellowspace?page=${page}`);
+  savePayment() {
+    return http.post("payment/crud-payment-method");
   }
 
-  get(id) {
-    return http.get(`/yellowspace?id=${id}`);
+  paymentMethods() {
+    return http.get(`payment/crud-payment-method`);
   }
 
-  find(query, by = "name", page = 0) {
-    return http.get(`yellowspace?${by}=${query}&page=${page}`);
+  createPayment(data) {
+    return http.post("payment/create-payment-intent", data);
+  }
+  updatePayment(data) {
+    return http.put("payment/crud-payment-method", data);
   }
 
   login(data) {
     return http.post("user/login", data);
   }
-
-  signup(data) {
-    return http.post("user/signup", data);
+  logout() {
+    return http.get("user/logout");
   }
 
-  payment(data) {
-    return http.post("user/payment", data);
+  async signup(data) {
+    return await http.post("user/signup", data);
   }
 
-  updateReview(data) {
-    return http.put("/review-edit", data);
-  }
-
-  deleteReview(id, userId) {
-    return http.delete(`/review-delete?id=${id}`, {
-      data: { user_id: userId },
-    });
+  async payment(data) {
+    return await http.post("payment", data);
   }
 }
 

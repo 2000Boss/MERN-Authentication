@@ -3,7 +3,16 @@ import SigninSvg from "../static/SigninSvg";
 import PaymentSvg from "../static/PaymentSvg";
 import Request from "../services/Axios-CRUD";
 import { useState } from "react";
+import Cookies from "js-cookie";
+import { useDispatch } from "react-redux";
+import { useLocation, useNavigate } from "react-router-dom";
+import { updateUser } from "../StoreConfig/features/UserSlice";
+
 const Form = (props) => {
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
+  const location = useLocation();
+
   const [getAnswer, setAnswer] = useState("");
   const [getSignin, setSignin] = useState({ email: "", password: "" });
   const [getSignup, setSignup] = useState({
@@ -12,6 +21,7 @@ const Form = (props) => {
     email: "",
     password: "",
     confirmPassword: "",
+    photo: "",
   });
   const [getPayment, setPayment] = useState({
     cardNumber: "",
@@ -23,17 +33,55 @@ const Form = (props) => {
     event.preventDefault();
     props.setLoad(true);
     props.Signin
-      ? Request.login(getSignin).then((res) => {
-          setAnswer(res.data);
-          props.setLoad(false);
-        })
+      ? Request.login(getSignin)
+          .then((res) => {
+            setAnswer(res.data);
+
+            Cookies.set("logged_in", "yes", {
+              secure: true,
+              expires: new Date(res.data.data.expires),
+            });
+            dispatch(
+              updateUser({
+                email: res.data.data.user.email,
+                firstName: res.data.data.user.firstName,
+                lastName: res.data.data.user.lastName,
+                subscribtion: Cookies.get("subscribtion") || "NO",
+              })
+            );
+
+            res.data.status === "success" &&
+              (location.state?.from
+                ? navigate(location.state.from)
+                : navigate("/"));
+            props.setLoad(false);
+          })
+          .catch((error) => {
+            console.log(error.response.data.error);
+            props.setLoad(false);
+          })
       : props.Signup
       ? Request.signup(getSignup).then((res) => {
           setAnswer(res.data);
+          Cookies.set("logged_in", "yes", {
+            secure: true,
+            expires: res.data.expires,
+          });
+
+          dispatch(
+            updateUser({
+              email: getSignup.email,
+              firstName: getSignup.firstName,
+              lastName: getSignup.lastName,
+              subscribtion: Cookies.get("subscribtion") || "NO",
+            })
+          );
+          res.data.status === "success" && navigate("/");
           props.setLoad(false);
         })
       : Request.peyment(getPayment).then((res) => {
           setAnswer(res.data);
+          res.data.status === "success" && navigate("/");
           props.setLoad(false);
         });
 
@@ -57,7 +105,7 @@ const Form = (props) => {
     });
   };
 
-  console.log(getSignin);
+  console.log(getSignup);
   console.log(getAnswer);
 
   return (
@@ -173,6 +221,23 @@ const Form = (props) => {
                         name="confirmPassword"
                         class="rounded-md shadow-md dark:shadow-neutral-600 focus:shadow-lg bg-slate-100 items-center pl-3 py-2 focus:outline-none focus:bg-gray-100 border-1 border-gray-200"
                         placeholder="Confirm Password"
+                      />
+                      <input
+                        onChange={(event) =>
+                          setSignup(
+                            (values) => ({
+                              ...values,
+                              photo: event.target.files[0],
+                            })
+                            // console.log(event.target.files)
+                          )
+                        }
+                        required
+                        type="file"
+                        accept="image/*"
+                        name="photo"
+                        class="rounded-md shadow-md  dark:shadow-neutral-600 focus:shadow-lg bg-slate-100 items-center pl-3 py-2 focus:outline-none focus:bg-gray-100 border-1 border-gray-200"
+                        placeholder="Upload Profile Photo"
                       />
                     </>
                   ) : props.Signin ? (

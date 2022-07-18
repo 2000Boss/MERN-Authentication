@@ -1,0 +1,20 @@
+{
+  "Basic": {
+    "id": "2rf3rf34rev34ytg34rfer",
+    "Title": "Basic",
+    "Price": 12,
+    "Description": "You will have access to basic utilities of this blog website."
+  },
+  "Standard": {
+    "id": "2rf3rf34rev34ytg34rcc2",
+    "Title": "Standard",
+    "Price": 16,
+    "Description": "You will have access to basic utilities of this blog website."
+  },
+  "Enterprise": {
+    "id": "2rf3rf34r4fg4ytg34rfer",
+    "Title": "Enterprise",
+    "Price": 24,
+    "Description": "You will have access to basic utilities of this blog website."
+  }
+}

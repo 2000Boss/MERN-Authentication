@@ -6,6 +6,7 @@ const cors = require("cors");
 const globalErrorHandler = require("./controllers/errorController");
 const blogRouter = require("./routes/blogRoutes");
 const userRouter = require("./routes/userRoutes");
+const paymentRouter = require("./routes/paymentRoutes");
 
 const app = express();
 
@@ -28,6 +29,7 @@ app.use(cookieParser());
 
 app.use("/blog", blogRouter);
 app.use("/user", userRouter);
+app.use("/payment", paymentRouter);
 
 app.all("*", (req, res, next) => {
   next(new AppError(`Can't find ${req.originalUrl} on this server!`, 404));
