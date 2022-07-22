@@ -11,13 +11,13 @@ const Hero = () => {
               Meroon
             </h1>
             <p class="mb-8 md:pl-0 pl-2 pr-2 leading-relaxed text-gray-300">
-              Your number one source for all Django related news, tutorials and
+              Your number one source for all Meroon related news, tutorials and
               information. We're dedicated to providing you with the very best
               content, with an emphasis on community standards.
             </p>
             <div class="flex justify-center">
               <Link
-                to="/payment"
+                to="/pricing"
                 class="relative rounded-full px-5 py-2.5 overflow-hidden group bg-emerald-600  hover:bg-gradient-to-r hover:from-green-600 hover:to-green-600 text-white hover:ring-2 hover:ring-offset-2 hover:ring-green-600 transition-all ease-out duration-300"
               >
                 <span class="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>

@@ -44,7 +44,7 @@ const Card = () => {
               </a>
             </p>
             <div class="flex space-x-1 text-sm text-gray-500 -mr-2">
-              <time datetime="2020-03-16"> Mar 16, 2020 </time>
+              <time dateTime="2020-03-16"> Mar 16, 2020 </time>
               <span aria-hidden="true"> · </span>
               <span> 6 min read </span>
               <div class="pl-1">

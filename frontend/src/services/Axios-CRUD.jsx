@@ -23,12 +23,20 @@ class Request {
     return http.get("user/logout");
   }
 
-  async signup(data) {
-    return await http.post("user/signup", data);
+  signup(data) {
+    return http.post("user/signup", data);
+  }
+
+  updateProfile(data, _id) {
+    return http.patch(`user/update/${_id}`, data);
   }
 
   async payment(data) {
     return await http.post("payment", data);
+  }
+
+  async AWS_Link() {
+    return await http.get("s3/upload");
   }
 }
 

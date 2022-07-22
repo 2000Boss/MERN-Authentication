@@ -21,7 +21,6 @@ const Form = (props) => {
     email: "",
     password: "",
     confirmPassword: "",
-    photo: "",
   });
   const [getPayment, setPayment] = useState({
     cardNumber: "",
@@ -46,7 +45,7 @@ const Form = (props) => {
                 email: res.data.data.user.email,
                 firstName: res.data.data.user.firstName,
                 lastName: res.data.data.user.lastName,
-                subscribtion: Cookies.get("subscribtion") || "NO",
+                _id: res.data.data.user._id,
               })
             );
 
@@ -221,23 +220,6 @@ const Form = (props) => {
                         name="confirmPassword"
                         class="rounded-md shadow-md dark:shadow-neutral-600 focus:shadow-lg bg-slate-100 items-center pl-3 py-2 focus:outline-none focus:bg-gray-100 border-1 border-gray-200"
                         placeholder="Confirm Password"
-                      />
-                      <input
-                        onChange={(event) =>
-                          setSignup(
-                            (values) => ({
-                              ...values,
-                              photo: event.target.files[0],
-                            })
-                            // console.log(event.target.files)
-                          )
-                        }
-                        required
-                        type="file"
-                        accept="image/*"
-                        name="photo"
-                        class="rounded-md shadow-md  dark:shadow-neutral-600 focus:shadow-lg bg-slate-100 items-center pl-3 py-2 focus:outline-none focus:bg-gray-100 border-1 border-gray-200"
-                        placeholder="Upload Profile Photo"
                       />
                     </>
                   ) : props.Signin ? (

@@ -5,6 +5,7 @@ import Signin from "./pages/Signin";
 import Signup from "./pages/Signup";
 import PrivateRouter from "./services/PrivateRouter";
 import Checkout from "./pages/Payment-Note";
+import Profile from "./pages/Profile";
 // import Success from "./components/checkout/stripe-checkout/success";
 // import Canceled from "./components/checkout/stripe-checkout/canceled";
 // import NotFound from "./pages/NotFound";
@@ -16,8 +17,9 @@ function App() {
     <Routes>
       <Route exact path="/" element={<Home />} />
       <Route exact element={<PrivateRouter />}>
-        <Route path="/payment" element={<Payment />} />
+        <Route path="/payment/:subscribeId" element={<Payment />} />
         <Route path="/checkout" element={<Checkout />} />
+        <Route path="/profile" element={<Profile />} />
       </Route>
 
       {/* <Route path="/success" component={Success} /> */}

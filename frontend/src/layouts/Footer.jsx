@@ -33,7 +33,7 @@ const Footer = () => {
                 </li>
                 <li class="my-2">
                   <a
-                    href="https://github.com/TheAbhijeet/djangocentral-bugs-and-features"
+                    href="https://github.com/TheAbhijeet/Merooncentral-bugs-and-features"
                     class="text-gray-300 hover:text-gray-100"
                   >
                     Feature request
@@ -41,7 +41,7 @@ const Footer = () => {
                 </li>
                 <li class="my-2">
                   <a
-                    href="https://github.com/TheAbhijeet/djangocentral-bugs-and-features"
+                    href="https://github.com/TheAbhijeet/Merooncentral-bugs-and-features"
                     class="text-gray-300 hover:text-gray-100"
                   >
                     Report bug
@@ -100,9 +100,9 @@ const Footer = () => {
                 <li class="my-2">
                   <a
                     class="text-gray-300 hover:text-gray-100"
-                    href="/madewithdjango/all/"
+                    href="/madewithMeroon/all/"
                   >
-                    MadewithDjango
+                    MadewithMeroon
                   </a>
                 </li>
                 <li class="my-2">
@@ -133,13 +133,13 @@ const Footer = () => {
             </div>
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
               <h2 class="font-semibold text-gray-100 text-lg mb-3">
-                MadewithDjango
+                MadewithMeroon
               </h2>
               <ul class="list-none mb-10">
                 <li class="my-2">
                   <a
                     class="text-gray-300 hover:text-gray-100"
-                    href="/madewithdjango/submit-project/"
+                    href="/madewithMeroon/submit-project/"
                   >
                     Submit a project
                   </a>
@@ -147,7 +147,7 @@ const Footer = () => {
                 <li class="my-2">
                   <a
                     class="text-gray-300 hover:text-gray-100"
-                    href="/madewithdjango/tag/social-media"
+                    href="/madewithMeroon/tag/social-media"
                   >
                     Social Media
                   </a>
@@ -155,7 +155,7 @@ const Footer = () => {
                 <li class="my-2">
                   <a
                     class="text-gray-300 hover:text-gray-100"
-                    href="/madewithdjango/open-sourced/"
+                    href="/madewithMeroon/open-sourced/"
                   >
                     Open Source projects
                   </a>
@@ -163,7 +163,7 @@ const Footer = () => {
                 <li class="my-2">
                   <a
                     class="text-gray-300 hover:text-gray-100"
-                    href="/madewithdjango/tag/edtech"
+                    href="/madewithMeroon/tag/edtech"
                   >
                     Edtech
                   </a>
@@ -171,7 +171,7 @@ const Footer = () => {
                 <li class="my-2">
                   <a
                     class="text-gray-300 hover:text-gray-100"
-                    href="/madewithdjango/tag/fintech"
+                    href="/madewithMeroon/tag/fintech"
                   >
                     Fintech
                   </a>
@@ -193,10 +193,10 @@ const Footer = () => {
               © <span x-text="year">2022</span> —
             </p>
             <p class="text-gray-400 ml-1" target="_blank">
-              djangocentral |
+              Merooncentral |
               <span class="text-xs">
-                Djangocentral is not associated with the DSF | Django is a
-                registered trademark of the Django Software Foundation
+                Merooncentral is not associated with the DSF | Meroon is a
+                registered trademark of the Meroon Software Foundation
               </span>
             </p>
             <p></p>

@@ -21,23 +21,17 @@ const Navbar = (props) => {
 
   const Logout = () => {
     dispatch(deleteUser());
-    navigate("/signin", { replace: true });
     Request.logout();
-
     Cookies.remove("logged_in");
-
-    //   return <Spinner />;
+    navigate("/signin", { replace: true });
   };
 
   return (
     <div class="w-full sticky top-0 z-50  text-gray-200 bg-slate-900">
-      <div
-        x-data="{ open: false }"
-        class="flex flex-col max-w-screen-xl  px-2 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8"
-      >
+      <div class="flex flex-col max-w-screen-xl  px-2 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
         <div class="p-4 flex flex-row items-center justify-between pl-0 -ml-4">
-          <a
-            href="/"
+          <Link
+            to="/"
             class="flex title-font font-medium items-center text-gray-900"
           >
             <svg
@@ -64,7 +58,7 @@ const Navbar = (props) => {
               <path d="M3 12a9 9 0 1 0 9 -9"></path>
             </svg>
             <span class="ml-3 font-bold text-xl text-gray-100">Meroon</span>
-          </a>
+          </Link>
 
           <button
             aria-label="mobile-menu"
@@ -101,12 +95,12 @@ const Navbar = (props) => {
           <a class="md:mt-0 mt-3 px-3 py-2" href="/books/all/">
             Books
           </a>
-          <a class="md:mt-0 mt-3 px-3 py-2" href="/podcasts/all/">
-            Podcasts
-          </a>
-          <a class="md:mt-0 mt-3 px-3 py-2" href="/tools/notepad/">
-            About
-          </a>
+          <Link class="md:mt-0 mt-3 px-3 py-2" to="/pricing">
+            Pricing
+          </Link>
+          <Link class="md:mt-0 mt-3 px-3 py-2" to="/profile">
+            Profile
+          </Link>
           {props.Signup ? (
             <Link
               class="md:mt-0 mt-3 px-3 py-1 ml-2  items-center justify-center text-base leading-6 text-gray-700 whitespace-no-wrap bg-gray-100 border-2 border-transparent rounded-full shadow-sm hover:bg-transparent hover:text-white hover:border-white focus:outline-none duration-100"
@@ -126,7 +120,7 @@ const Navbar = (props) => {
               class="md:mt-0 mt-3 px-3 py-1 ml-2  items-center justify-center text-base leading-6 text-gray-700 whitespace-no-wrap bg-gray-100 border-2 border-transparent rounded-full shadow-sm hover:bg-transparent hover:text-white hover:border-white focus:outline-none duration-100"
               onClick={Logout}
             >
-              Log Out
+              Log out
             </button>
           ) : (
             <Link
