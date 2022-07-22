@@ -4,7 +4,7 @@ const AppError = require("./../utils/appError");
 const factory = require("./controlMiddleware");
 
 exports.getMe = (req, res, next) => {
-  req.params.id = req.user.id;
+  req.params.id = req.params.id;
   next();
 };
 
@@ -24,10 +24,14 @@ exports.updateMe = catchAsync(async (req, res, next) => {
   if (req.file) filteredBody.photo = req.file.filename;
 
   // 3) Update user document
-  const updatedUser = await User.findByIdAndUpdate(req.user.id, filteredBody, {
-    new: true,
-    runValidators: true,
-  });
+  const updatedUser = await User.findByIdAndUpdate(
+    req.params.id,
+    filteredBody,
+    {
+      new: true,
+      runValidators: true,
+    }
+  );
 
   res.status(200).json({
     status: "success",
@@ -38,7 +42,7 @@ exports.updateMe = catchAsync(async (req, res, next) => {
 });
 
 exports.deleteMe = catchAsync(async (req, res, next) => {
-  await User.findByIdAndUpdate(req.user.id, { active: false });
+  await User.findByIdAndUpdate(req.params.id, { active: false });
 
   res.status(204).json({
     status: "success",

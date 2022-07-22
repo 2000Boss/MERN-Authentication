@@ -14,6 +14,7 @@
   "author": "Abbosjon Madiev",
   "license": "ISC",
   "dependencies": {
+    "aws-sdk": "^2.1177.0",
     "bcryptjs": "^2.4.3",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
@@ -24,6 +25,7 @@
     "mongoose": "^6.4.4",
     "pug": "^3.0.2",
     "stripe": "^9.13.0",
+    "uuid": "^8.3.2",
     "validator": "^13.7.0"
   },
   "devDependencies": {

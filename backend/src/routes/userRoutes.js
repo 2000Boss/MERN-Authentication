@@ -26,10 +26,8 @@ router.delete("/deleteMe", userController.deleteMe);
 //   .get(userController.getAllUsers)
 //   .post(userController.createUser);
 
-// router
-//   .route("/:id")
+router.route("/update/:id").patch(userController.updateUser);
 //   .get(userController.getUser)
-//   .patch(userController.updateUser)
 //   .delete(userController.deleteUser);
 
 module.exports = router;
