@@ -36,7 +36,7 @@ class Request {
   }
 
   async AWS_Link() {
-    return await http.get("s3/upload");
+    return await http.get("user/upload");
   }
 }
 
