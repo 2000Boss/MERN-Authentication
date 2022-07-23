@@ -6,9 +6,9 @@ import Signup from "./pages/Signup";
 import PrivateRouter from "./services/PrivateRouter";
 import Checkout from "./pages/Payment-Note";
 import Profile from "./pages/Profile";
+import NotFound from "./pages/NotFound";
 // import Success from "./components/checkout/stripe-checkout/success";
 // import Canceled from "./components/checkout/stripe-checkout/canceled";
-// import NotFound from "./pages/NotFound";
 
 import { Route, Routes } from "react-router-dom";
 
@@ -28,7 +28,7 @@ function App() {
       <Route path="/pricing" element={<Pricing />} />
       <Route path="/signin" element={<Signin />} />
       <Route path="/signup" element={<Signup />} />
-      {/* <Route path="*" element={<NotFound />} /> */}
+      <Route path="*" element={<NotFound />} />
     </Routes>
   );
 }
