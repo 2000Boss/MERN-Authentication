@@ -60,90 +60,90 @@ const Profile = () => {
     event.preventDefault();
   };
   return (
-    <div class="min-h-screen flex flex-row bg-gray-100">
-      <div class="flex flex-col w-1/4 bg-white rounded-r-3xl overflow-hidden">
-        <div class="flex items-center justify-center h-20 shadow-md">
+    <div className="min-h-screen flex flex-row bg-gray-100">
+      <div className="flex flex-col w-1/4 bg-white rounded-r-3xl overflow-hidden">
+        <div className="flex items-center justify-center h-20 shadow-md">
           <a href="#Profile">
-            <img class="w-20 h-20" src={getProfile.photo} alt="" />
+            <img className="w-20 h-20" src={getProfile.photo} alt="" />
           </a>
         </div>
-        <ul class="flex flex-col py-4">
+        <ul className="flex flex-col py-4">
           <li>
             <Link
               to="/"
-              class="flex flex-row items-center h-12 transform hover:translate-x-2 transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800"
+              className="flex flex-row items-center h-12 transform hover:translate-x-2 transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800"
             >
-              <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400">
-                <i class="bx bx-home"></i>
+              <span className="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400">
+                <i className="bx bx-home"></i>
               </span>
-              <span class="text-sm font-medium">Home</span>
+              <span className="text-sm font-medium">Home</span>
             </Link>
           </li>
           <li>
             <a
               href="#Blogs"
-              class="flex flex-row items-center h-12 transform hover:translate-x-2 transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800"
+              className="flex flex-row items-center h-12 transform hover:translate-x-2 transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800"
             >
-              <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400">
-                <i class="bx bx-music"></i>
+              <span className="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400">
+                <i className="bx bx-music"></i>
               </span>
-              <span class="text-sm font-medium">My Blogs</span>
+              <span className="text-sm font-medium">My Blogs</span>
             </a>
           </li>
           <li>
             <a
               href="/"
-              class="flex flex-row items-center h-12 transform hover:translate-x-2 transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800"
+              className="flex flex-row items-center h-12 transform hover:translate-x-2 transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800"
             >
-              <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400">
-                <i class="bx bx-drink"></i>
+              <span className="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400">
+                <i className="bx bx-drink"></i>
               </span>
-              <span class="text-sm font-medium">New Blog</span>
+              <span className="text-sm font-medium">New Blog</span>
             </a>
           </li>
           <li>
             <a
               href="/pricing"
-              class="flex flex-row items-center h-12 transform hover:translate-x-2 transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800"
+              className="flex flex-row items-center h-12 transform hover:translate-x-2 transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800"
             >
-              <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400">
-                <i class="bx bx-shopping-bag"></i>
+              <span className="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400">
+                <i className="bx bx-shopping-bag"></i>
               </span>
-              <span class="text-sm font-medium">Subscribe</span>
+              <span className="text-sm font-medium">Subscribe</span>
             </a>
           </li>
           <li>
             <a
               href="/"
-              class="flex flex-row items-center h-12 transform hover:translate-x-2 transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800"
+              className="flex flex-row items-center h-12 transform hover:translate-x-2 transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800"
             >
-              <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400">
-                <i class="bx bx-chat"></i>
+              <span className="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400">
+                <i className="bx bx-chat"></i>
               </span>
-              <span class="text-sm font-medium">Chat</span>
+              <span className="text-sm font-medium">Chat</span>
             </a>
           </li>
           <li>
             <a
               href="/"
-              class="flex flex-row items-center h-12 transform hover:translate-x-2 transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800"
+              className="flex flex-row items-center h-12 transform hover:translate-x-2 transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800"
             >
-              <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400">
-                <i class="bx bx-user"></i>
+              <span className="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400">
+                <i className="bx bx-user"></i>
               </span>
-              <span class="text-sm font-medium">Profile</span>
+              <span className="text-sm font-medium">Profile</span>
             </a>
           </li>
           <li>
             <a
               href="/"
-              class="flex flex-row items-center h-12 transform hover:translate-x-2 transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800"
+              className="flex flex-row items-center h-12 transform hover:translate-x-2 transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800"
             >
-              <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400">
-                <i class="bx bx-bell"></i>
+              <span className="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400">
+                <i className="bx bx-bell"></i>
               </span>
-              <span class="text-sm font-medium">Notifications</span>
-              <span class="ml-auto mr-6 text-sm bg-red-100 rounded-full px-3 py-px text-red-500">
+              <span className="text-sm font-medium">Notifications</span>
+              <span className="ml-auto mr-6 text-sm bg-red-100 rounded-full px-3 py-px text-red-500">
                 5
               </span>
             </a>
@@ -151,34 +151,34 @@ const Profile = () => {
           <li>
             <a
               href="/logout"
-              class="flex flex-row items-center h-12 transform hover:translate-x-2 transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800"
+              className="flex flex-row items-center h-12 transform hover:translate-x-2 transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800"
             >
-              <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400">
-                <i class="bx bx-log-out"></i>
+              <span className="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400">
+                <i className="bx bx-log-out"></i>
               </span>
-              <span class="text-sm font-medium">Logout</span>
+              <span className="text-sm font-medium">Logout</span>
             </a>
           </li>
         </ul>
       </div>
-      <div class="flex flex-col w-3/4 mx-6 my-10 space-y-20">
+      <div className="flex flex-col w-3/4 mx-6 my-10 space-y-20">
         {<Error setError={setError}>{getError}</Error>}
-        <div id="Blogs" class="border-b-4 border-slate-700">
-          <div class="p-10">
-            <div class="w-full lg:max-w-full lg:flex">
+        <div id="Blogs" className="border-b-4 border-slate-700">
+          <div className="p-10">
+            <div className="w-full lg:max-w-full lg:flex">
               <div
-                class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
+                className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
                 style={{
                   backgroundImage:
                     "url('https://flowbite.com/docs/images/blog/image-1.jpg')",
                 }}
                 title="Mountain"
               ></div>
-              <div class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-                <div class="mb-8">
-                  <p class="text-sm text-gray-600 flex items-center">
+              <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+                <div className="mb-8">
+                  <p className="text-sm text-gray-600 flex items-center">
                     <svg
-                      class="fill-current text-gray-500 w-3 h-3 mr-2"
+                      className="fill-current text-gray-500 w-3 h-3 mr-2"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
                     >
@@ -186,44 +186,44 @@ const Profile = () => {
                     </svg>
                     Members only
                   </p>
-                  <div class="text-gray-900 font-bold text-xl mb-2">
+                  <div className="text-gray-900 font-bold text-xl mb-2">
                     Best Mountain Trails 2020
                   </div>
-                  <p class="text-gray-700 text-base">
+                  <p className="text-gray-700 text-base">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Voluptatibus quia, Nonea! Maiores et perferendis eaque,
                     exercitationem praesentium nihil.
                   </p>
                 </div>
-                <div class="flex items-center">
+                <div className="flex items-center">
                   <img
-                    class="w-10 h-10 rounded-full mr-4"
+                    className="w-10 h-10 rounded-full mr-4"
                     src="https://flowbite.com/docs/images/blog/image-1.jpg"
                     alt="Avatar of Writer"
                   />
-                  <div class="text-sm">
-                    <p class="text-gray-900 leading-none">John Smith</p>
-                    <p class="text-gray-600">Aug 18</p>
+                  <div className="text-sm">
+                    <p className="text-gray-900 leading-none">John Smith</p>
+                    <p className="text-gray-600">Aug 18</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="p-10">
-            <div class="w-full lg:max-w-full lg:flex">
+          <div className="p-10">
+            <div className="w-full lg:max-w-full lg:flex">
               <div
-                class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
+                className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
                 style={{
                   backgroundImage:
                     "url('https://flowbite.com/docs/images/blog/image-1.jpg')",
                 }}
                 title="Mountain"
               ></div>
-              <div class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-                <div class="mb-8">
-                  <p class="text-sm text-gray-600 flex items-center">
+              <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+                <div className="mb-8">
+                  <p className="text-sm text-gray-600 flex items-center">
                     <svg
-                      class="fill-current text-gray-500 w-3 h-3 mr-2"
+                      className="fill-current text-gray-500 w-3 h-3 mr-2"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
                     >
@@ -231,44 +231,44 @@ const Profile = () => {
                     </svg>
                     Members only
                   </p>
-                  <div class="text-gray-900 font-bold text-xl mb-2">
+                  <div className="text-gray-900 font-bold text-xl mb-2">
                     Best Mountain Trails 2020
                   </div>
-                  <p class="text-gray-700 text-base">
+                  <p className="text-gray-700 text-base">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Voluptatibus quia, Nonea! Maiores et perferendis eaque,
                     exercitationem praesentium nihil.
                   </p>
                 </div>
-                <div class="flex items-center">
+                <div className="flex items-center">
                   <img
-                    class="w-10 h-10 rounded-full mr-4"
+                    className="w-10 h-10 rounded-full mr-4"
                     src="https://flowbite.com/docs/images/blog/image-1.jpg"
                     alt="Avatar of Writer"
                   />
-                  <div class="text-sm">
-                    <p class="text-gray-900 leading-none">John Smith</p>
-                    <p class="text-gray-600">Aug 18</p>
+                  <div className="text-sm">
+                    <p className="text-gray-900 leading-none">John Smith</p>
+                    <p className="text-gray-600">Aug 18</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="p-10">
-            <div class="w-full lg:max-w-full lg:flex">
+          <div className="p-10">
+            <div className="w-full lg:max-w-full lg:flex">
               <div
-                class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
+                className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
                 style={{
                   backgroundImage:
                     "url('https://flowbite.com/docs/images/blog/image-1.jpg')",
                 }}
                 title="Mountain"
               ></div>
-              <div class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-                <div class="mb-8">
-                  <p class="text-sm text-gray-600 flex items-center">
+              <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+                <div className="mb-8">
+                  <p className="text-sm text-gray-600 flex items-center">
                     <svg
-                      class="fill-current text-gray-500 w-3 h-3 mr-2"
+                      className="fill-current text-gray-500 w-3 h-3 mr-2"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
                     >
@@ -276,44 +276,44 @@ const Profile = () => {
                     </svg>
                     Members only
                   </p>
-                  <div class="text-gray-900 font-bold text-xl mb-2">
+                  <div className="text-gray-900 font-bold text-xl mb-2">
                     Best Mountain Trails 2020
                   </div>
-                  <p class="text-gray-700 text-base">
+                  <p className="text-gray-700 text-base">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Voluptatibus quia, Nonea! Maiores et perferendis eaque,
                     exercitationem praesentium nihil.
                   </p>
                 </div>
-                <div class="flex items-center">
+                <div className="flex items-center">
                   <img
-                    class="w-10 h-10 rounded-full mr-4"
+                    className="w-10 h-10 rounded-full mr-4"
                     src="https://flowbite.com/docs/images/blog/image-1.jpg"
                     alt="Avatar of Writer"
                   />
-                  <div class="text-sm">
-                    <p class="text-gray-900 leading-none">John Smith</p>
-                    <p class="text-gray-600">Aug 18</p>
+                  <div className="text-sm">
+                    <p className="text-gray-900 leading-none">John Smith</p>
+                    <p className="text-gray-600">Aug 18</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="p-10">
-            <div class="w-full lg:max-w-full lg:flex">
+          <div className="p-10">
+            <div className="w-full lg:max-w-full lg:flex">
               <div
-                class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
+                className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
                 style={{
                   backgroundImage:
                     "url('https://flowbite.com/docs/images/blog/image-1.jpg')",
                 }}
                 title="Mountain"
               ></div>
-              <div class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-                <div class="mb-8">
-                  <p class="text-sm text-gray-600 flex items-center">
+              <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+                <div className="mb-8">
+                  <p className="text-sm text-gray-600 flex items-center">
                     <svg
-                      class="fill-current text-gray-500 w-3 h-3 mr-2"
+                      className="fill-current text-gray-500 w-3 h-3 mr-2"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
                     >
@@ -321,44 +321,44 @@ const Profile = () => {
                     </svg>
                     Members only
                   </p>
-                  <div class="text-gray-900 font-bold text-xl mb-2">
+                  <div className="text-gray-900 font-bold text-xl mb-2">
                     Best Mountain Trails 2020
                   </div>
-                  <p class="text-gray-700 text-base">
+                  <p className="text-gray-700 text-base">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Voluptatibus quia, Nonea! Maiores et perferendis eaque,
                     exercitationem praesentium nihil.
                   </p>
                 </div>
-                <div class="flex items-center">
+                <div className="flex items-center">
                   <img
-                    class="w-10 h-10 rounded-full mr-4"
+                    className="w-10 h-10 rounded-full mr-4"
                     src="https://flowbite.com/docs/images/blog/image-1.jpg"
                     alt="Avatar of Writer"
                   />
-                  <div class="text-sm">
-                    <p class="text-gray-900 leading-none">John Smith</p>
-                    <p class="text-gray-600">Aug 18</p>
+                  <div className="text-sm">
+                    <p className="text-gray-900 leading-none">John Smith</p>
+                    <p className="text-gray-600">Aug 18</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="p-10">
-            <div class="w-full lg:max-w-full lg:flex">
+          <div className="p-10">
+            <div className="w-full lg:max-w-full lg:flex">
               <div
-                class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
+                className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
                 style={{
                   backgroundImage:
                     "url('https://flowbite.com/docs/images/blog/image-1.jpg')",
                 }}
                 title="Mountain"
               ></div>
-              <div class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-                <div class="mb-8">
-                  <p class="text-sm text-gray-600 flex items-center">
+              <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+                <div className="mb-8">
+                  <p className="text-sm text-gray-600 flex items-center">
                     <svg
-                      class="fill-current text-gray-500 w-3 h-3 mr-2"
+                      className="fill-current text-gray-500 w-3 h-3 mr-2"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
                     >
@@ -366,44 +366,44 @@ const Profile = () => {
                     </svg>
                     Members only
                   </p>
-                  <div class="text-gray-900 font-bold text-xl mb-2">
+                  <div className="text-gray-900 font-bold text-xl mb-2">
                     Best Mountain Trails 2020
                   </div>
-                  <p class="text-gray-700 text-base">
+                  <p className="text-gray-700 text-base">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Voluptatibus quia, Nonea! Maiores et perferendis eaque,
                     exercitationem praesentium nihil.
                   </p>
                 </div>
-                <div class="flex items-center">
+                <div className="flex items-center">
                   <img
-                    class="w-10 h-10 rounded-full mr-4"
+                    className="w-10 h-10 rounded-full mr-4"
                     src="https://flowbite.com/docs/images/blog/image-1.jpg"
                     alt="Avatar of Writer"
                   />
-                  <div class="text-sm">
-                    <p class="text-gray-900 leading-none">John Smith</p>
-                    <p class="text-gray-600">Aug 18</p>
+                  <div className="text-sm">
+                    <p className="text-gray-900 leading-none">John Smith</p>
+                    <p className="text-gray-600">Aug 18</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="p-10">
-            <div class="w-full lg:max-w-full lg:flex">
+          <div className="p-10">
+            <div className="w-full lg:max-w-full lg:flex">
               <div
-                class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
+                className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
                 style={{
                   backgroundImage:
                     "url('https://flowbite.com/docs/images/blog/image-1.jpg')",
                 }}
                 title="Mountain"
               ></div>
-              <div class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-                <div class="mb-8">
-                  <p class="text-sm text-gray-600 flex items-center">
+              <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+                <div className="mb-8">
+                  <p className="text-sm text-gray-600 flex items-center">
                     <svg
-                      class="fill-current text-gray-500 w-3 h-3 mr-2"
+                      className="fill-current text-gray-500 w-3 h-3 mr-2"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
                     >
@@ -411,24 +411,24 @@ const Profile = () => {
                     </svg>
                     Members only
                   </p>
-                  <div class="text-gray-900 font-bold text-xl mb-2">
+                  <div className="text-gray-900 font-bold text-xl mb-2">
                     Best Mountain Trails 2020
                   </div>
-                  <p class="text-gray-700 text-base">
+                  <p className="text-gray-700 text-base">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Voluptatibus quia, Nonea! Maiores et perferendis eaque,
                     exercitationem praesentium nihil.
                   </p>
                 </div>
-                <div class="flex items-center">
+                <div className="flex items-center">
                   <img
-                    class="w-10 h-10 rounded-full mr-4"
+                    className="w-10 h-10 rounded-full mr-4"
                     src="https://flowbite.com/docs/images/blog/image-1.jpg"
                     alt="Avatar of Writer"
                   />
-                  <div class="text-sm">
-                    <p class="text-gray-900 leading-none">John Smith</p>
-                    <p class="text-gray-600">Aug 18</p>
+                  <div className="text-sm">
+                    <p className="text-gray-900 leading-none">John Smith</p>
+                    <p className="text-gray-600">Aug 18</p>
                   </div>
                 </div>
               </div>
@@ -438,36 +438,36 @@ const Profile = () => {
         <form
           onSubmit={handleSubmit}
           id="Profile"
-          class="shadow-lg border-b-4 border-slate-700 border-2  space-y-6 py-10"
+          className="shadow-lg border-b-4 border-slate-700 border-2  space-y-6 py-10"
         >
-          <div class="flex justify-center items-center">
-            <div class="flex items-center space-x-6">
-              <div class="shrink-0">
+          <div className="flex justify-center items-center">
+            <div className="flex items-center space-x-6">
+              <div className="shrink-0">
                 <img
                   src={getProfile.photo}
-                  class="object-cover w-16 h-16 rounded-full"
+                  className="object-cover w-16 h-16 rounded-full"
                   alt=""
                 />
               </div>
-              <label class="block">
-                <span class="sr-only">Choose File</span>
+              <label className="block">
+                <span className="sr-only">Choose File</span>
                 <input
                   onChange={handlePhoto}
                   required
                   type="file"
                   accept="image/*"
                   name="photo"
-                  class="block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100"
+                  className="block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100"
                 />
               </label>
             </div>
           </div>
-          <div class="flex flex-col content-start pt-4 text-center">
-            <div class="text-base font-[450] h-full w-full">
-              <div class="mx-44">
+          <div className="flex flex-col content-start pt-4 text-center">
+            <div className="text-base font-[450] h-full w-full">
+              <div className="mx-44">
                 <div>
-                  <div class="space-y-8">
-                    <div class="flex flex-col text-left space-y-6">
+                  <div className="space-y-8">
+                    <div className="flex flex-col text-left space-y-6">
                       <input
                         onChange={(event) =>
                           setProfile((values) => ({
@@ -479,7 +479,7 @@ const Profile = () => {
                         required
                         type="text"
                         name="firstName"
-                        class="rounded-md shadow-md dark:shadow-neutral-600 focus:shadow-lg bg-slate-100 items-center pl-3 py-2 focus:outline-none focus:bg-gray-100 border-1 border-gray-200"
+                        className="rounded-md shadow-md dark:shadow-neutral-600 focus:shadow-lg bg-slate-100 items-center pl-3 py-2 focus:outline-none focus:bg-gray-100 border-1 border-gray-200"
                         placeholder="First Name"
                       />
                       <input
@@ -493,7 +493,7 @@ const Profile = () => {
                         required
                         type="text"
                         name="lastName"
-                        class="rounded-md shadow-md dark:shadow-neutral-600 focus:shadow-lg bg-slate-100 items-center pl-3 py-2 focus:outline-none focus:bg-gray-100 border-1 border-gray-200"
+                        className="rounded-md shadow-md dark:shadow-neutral-600 focus:shadow-lg bg-slate-100 items-center pl-3 py-2 focus:outline-none focus:bg-gray-100 border-1 border-gray-200"
                         placeholder="Last Name"
                       />
                       <input
@@ -507,17 +507,17 @@ const Profile = () => {
                         required
                         type="text"
                         name="email"
-                        class="rounded-md shadow-md dark:shadow-neutral-600 focus:shadow-lg bg-slate-100 items-center pl-3 py-2 focus:outline-none focus:bg-gray-100 border-1 border-gray-200"
+                        className="rounded-md shadow-md dark:shadow-neutral-600 focus:shadow-lg bg-slate-100 items-center pl-3 py-2 focus:outline-none focus:bg-gray-100 border-1 border-gray-200"
                         placeholder="Email"
                       />
                     </div>
-                    <div class="space-y-2">
+                    <div className="space-y-2">
                       <button
                         type="submit"
-                        class="rounded-full px-20 py-3 overflow-hidden group bg-emerald-600 relative hover:bg-gradient-to-r hover:from-green-600 hover:to-green-600 text-white hover:ring-2 hover:ring-offset-2 hover:ring-green-600 transition-all ease-out duration-300"
+                        className="rounded-full px-20 py-3 overflow-hidden group bg-emerald-600 relative hover:bg-gradient-to-r hover:from-green-600 hover:to-green-600 text-white hover:ring-2 hover:ring-offset-2 hover:ring-green-600 transition-all ease-out duration-300"
                       >
-                        <span class="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
-                        <span class="text-xl relative">
+                        <span className="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
+                        <span className="text-xl relative">
                           <p>Save Changes</p>
                         </span>
                       </button>

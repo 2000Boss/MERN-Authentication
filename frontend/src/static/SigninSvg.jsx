@@ -2,17 +2,17 @@ import "./SigninStyle.css";
 const SigninSvg = () => {
   return (
     <svg
-      class="animated"
+      className="animated"
       id="freepik_stories-tablet-login"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 500 500"
       version="1.1"
       xmlnsXlink="http://www.w3.org/1999/xlink"
-      xmlnsSvgjs="http://svgjs.com/svgjs"
+      xmlnssvgjs="http://svgjs.com/svgjs"
     >
       <g
         id="freepik--Floor--inject-59"
-        class="animable"
+        className="animable"
         style={{ transformOrigin: "249.995px 348.121px" }}
       >
         <path
@@ -22,22 +22,22 @@ const SigninSvg = () => {
             fill: "rgb(250, 250, 250)",
             transformOrigin: "249.995px 348.121px",
           }}
-          class="animable"
+          className="animable"
         ></path>
       </g>
       <g
         id="freepik--Pictures--inject-59"
-        class="animable"
+        className="animable"
         style={{ transformOrigin: "206.135px 80.475px" }}
       >
         <g
           id="freepik--Picture--inject-59"
-          class="animable"
+          className="animable"
           style={{ transformOrigin: "178.62px 96.37px" }}
         >
           <g
             id="freepik--Frame--inject-59"
-            class="animable"
+            className="animable"
             style={{ transformOrigin: "178.62px 96.37px" }}
           >
             <polygon
@@ -47,7 +47,7 @@ const SigninSvg = () => {
                 transformOrigin: "178.635px 114.83px",
               }}
               id="eltlg7dw0ogvd"
-              class="animable"
+              className="animable"
             ></polygon>
             <polygon
               points="195.32 104.19 161.95 123.46 161.95 88.5 195.32 69.25 195.32 104.19"
@@ -56,7 +56,7 @@ const SigninSvg = () => {
                 transformOrigin: "178.635px 96.355px",
               }}
               id="el6wgbp1agzrp"
-              class="animable"
+              className="animable"
             ></polygon>
             <path
               d="M200.26,62.66l-41.54,24v44.41l41.54-24ZM197,105.21,162,125.47v-37L197,68.25Z"
@@ -65,7 +65,7 @@ const SigninSvg = () => {
                 transformOrigin: "179.49px 96.865px",
               }}
               id="el3g2lk1e796v"
-              class="animable"
+              className="animable"
             ></path>
             <polygon
               points="197.03 105.21 195.32 104.19 195.32 69.25 197.03 68.25 197.03 105.21"
@@ -74,7 +74,7 @@ const SigninSvg = () => {
                 transformOrigin: "196.175px 86.73px",
               }}
               id="ell308t4ip2wb"
-              class="animable"
+              className="animable"
             ></polygon>
             <polygon
               points="200.26 62.66 198.52 61.67 156.98 85.65 158.72 86.64 200.26 62.66"
@@ -83,7 +83,7 @@ const SigninSvg = () => {
                 transformOrigin: "178.62px 74.155px",
               }}
               id="elrtx5lcjfgo"
-              class="animable"
+              className="animable"
             ></polygon>
             <polygon
               points="156.98 85.65 158.72 86.64 158.72 131.06 156.98 130.06 156.98 85.65"
@@ -92,12 +92,12 @@ const SigninSvg = () => {
                 transformOrigin: "157.85px 108.355px",
               }}
               id="elq40v1irjucb"
-              class="animable"
+              className="animable"
             ></polygon>
           </g>
           <g
             id="freepik--Land--inject-59"
-            class="animable"
+            className="animable"
             style={{ transformOrigin: "178.635px 102.17px" }}
           >
             <polygon
@@ -107,7 +107,7 @@ const SigninSvg = () => {
                 transformOrigin: "178.635px 102.17px",
               }}
               id="elvpqimr4zq1"
-              class="animable"
+              className="animable"
             ></polygon>
             <path
               d="M175.45,85.68a5,5,0,0,0-2.28,3.95c0,1.45,1,2,2.28,1.31A5,5,0,0,0,177.72,87C177.72,85.55,176.7,85,175.45,85.68Z"
@@ -116,18 +116,18 @@ const SigninSvg = () => {
                 transformOrigin: "175.445px 88.3132px",
               }}
               id="el000wi76ef40fi"
-              class="animable"
+              className="animable"
             ></path>
           </g>
         </g>
         <g
           id="freepik--picture--inject-59"
-          class="animable"
+          className="animable"
           style={{ transformOrigin: "233.65px 64.575px" }}
         >
           <g
             id="freepik--frame--inject-59"
-            class="animable"
+            className="animable"
             style={{ transformOrigin: "233.65px 64.575px" }}
           >
             <polygon
@@ -137,7 +137,7 @@ const SigninSvg = () => {
                 transformOrigin: "233.66px 83.05px",
               }}
               id="el2tbm3ixq0ft"
-              class="animable"
+              className="animable"
             ></polygon>
             <polygon
               points="250.35 72.41 216.97 91.67 216.97 56.72 250.35 37.47 250.35 72.41"
@@ -146,7 +146,7 @@ const SigninSvg = () => {
                 transformOrigin: "233.66px 64.57px",
               }}
               id="eljnp8zpof8j8"
-              class="animable"
+              className="animable"
             ></polygon>
             <path
               d="M255.29,30.88l-41.54,24V99.27l41.54-24Zm-3.23,42.55L217,93.68v-37l35.09-20.25Z"
@@ -155,7 +155,7 @@ const SigninSvg = () => {
                 transformOrigin: "234.52px 65.075px",
               }}
               id="elpvzly2691v"
-              class="animable"
+              className="animable"
             ></path>
             <polygon
               points="252.06 73.43 250.35 72.41 250.35 37.47 252.06 36.47 252.06 73.43"
@@ -164,7 +164,7 @@ const SigninSvg = () => {
                 transformOrigin: "251.205px 54.95px",
               }}
               id="eltf8v3veas2o"
-              class="animable"
+              className="animable"
             ></polygon>
             <polygon
               points="255.29 30.88 253.55 29.88 212.01 53.87 213.75 54.86 255.29 30.88"
@@ -173,7 +173,7 @@ const SigninSvg = () => {
                 transformOrigin: "233.65px 42.37px",
               }}
               id="elnkeqazniyil"
-              class="animable"
+              className="animable"
             ></polygon>
             <polygon
               points="212.01 53.87 213.75 54.86 213.75 99.27 212.01 98.28 212.01 53.87"
@@ -182,12 +182,12 @@ const SigninSvg = () => {
                 transformOrigin: "212.88px 76.57px",
               }}
               id="elodritp9uk09"
-              class="animable"
+              className="animable"
             ></polygon>
           </g>
           <g
             id="freepik--land--inject-59"
-            class="animable"
+            className="animable"
             style={{ transformOrigin: "233.665px 70.39px" }}
           >
             <polygon
@@ -197,7 +197,7 @@ const SigninSvg = () => {
                 transformOrigin: "233.665px 70.39px",
               }}
               id="elj3m4m6k13z"
-              class="animable"
+              className="animable"
             ></polygon>
             <path
               d="M230.47,53.9a5,5,0,0,0-2.27,3.94c0,1.46,1,2,2.27,1.32a5,5,0,0,0,2.28-3.94C232.75,53.77,231.73,53.18,230.47,53.9Z"
@@ -206,19 +206,19 @@ const SigninSvg = () => {
                 transformOrigin: "230.475px 56.5221px",
               }}
               id="elkwv617pnb7"
-              class="animable"
+              className="animable"
             ></path>
           </g>
         </g>
       </g>
       <g
         id="freepik--Window--inject-59"
-        class="animable"
+        className="animable"
         style={{ transformOrigin: "439.565px 154.325px" }}
       >
         <g
           id="freepik--window--inject-59"
-          class="animable"
+          className="animable"
           style={{ transformOrigin: "439.565px 154.325px" }}
         >
           <path
@@ -228,7 +228,7 @@ const SigninSvg = () => {
               transformOrigin: "439.565px 154.325px",
             }}
             id="elts1zx8bm2y"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M475.26,260.93V123.35c0-25.69-16.92-56.28-37.79-68.33s-37.79-1-37.79,24.7V217.29Z"
@@ -237,7 +237,7 @@ const SigninSvg = () => {
               transformOrigin: "437.47px 155.537px",
             }}
             id="elwmq5jq3osnf"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M471.12,123.35V253.77L403.81,214.9V79.72c0-12.84,4.52-21.69,12.12-24.49a15.63,15.63,0,0,1,5.51-.95c4.3,0,9,1.45,14,4.32C455.1,70,471.12,99,471.12,123.35Z"
@@ -246,7 +246,7 @@ const SigninSvg = () => {
               transformOrigin: "437.465px 154.025px",
             }}
             id="eljcz1q44escp"
-            class="animable"
+            className="animable"
           ></path>
           <polygon
             points="403.81 214.9 408.08 212.44 471.12 248.85 471.12 253.77 403.81 214.9"
@@ -255,7 +255,7 @@ const SigninSvg = () => {
               transformOrigin: "437.465px 233.105px",
             }}
             id="elys5tfrrkyj"
-            class="animable"
+            className="animable"
           ></polygon>
           <path
             d="M471.12,123.35v125.5l-63-36.41V77.25c0-10.2,2.87-17.89,7.86-22a15.63,15.63,0,0,1,5.51-.95c4.3,0,9,1.45,14,4.32C455.1,70,471.12,99,471.12,123.35Z"
@@ -264,7 +264,7 @@ const SigninSvg = () => {
               transformOrigin: "439.62px 151.575px",
             }}
             id="elgy59h14u9oc"
-            class="animable"
+            className="animable"
           ></path>
           <polygon
             points="439.53 235.53 435.4 233.14 435.4 57.11 439.53 57.11 439.53 235.53"
@@ -273,7 +273,7 @@ const SigninSvg = () => {
               transformOrigin: "437.465px 146.32px",
             }}
             id="elvxq1v9uugob"
-            class="animable"
+            className="animable"
           ></polygon>
           <path
             d="M443.67,64.58V233.15l-4.13,2.37V61.28Q441.64,62.8,443.67,64.58Z"
@@ -282,7 +282,7 @@ const SigninSvg = () => {
               transformOrigin: "441.605px 148.4px",
             }}
             id="el4es3lipdwic"
-            class="animable"
+            className="animable"
           ></path>
           <polygon
             points="403.81 185.74 435.4 203.98 435.4 208.83 403.81 190.6 403.81 185.74"
@@ -291,7 +291,7 @@ const SigninSvg = () => {
               transformOrigin: "419.605px 197.285px",
             }}
             id="elq3jh0akl4o"
-            class="animable"
+            className="animable"
           ></polygon>
           <polygon
             points="408.08 183.28 403.81 185.74 435.4 203.98 435.4 199.13 408.08 183.28"
@@ -300,7 +300,7 @@ const SigninSvg = () => {
               transformOrigin: "419.605px 193.63px",
             }}
             id="ell8yj799iyo"
-            class="animable"
+            className="animable"
           ></polygon>
           <polygon
             points="439.53 206.36 471.12 224.6 471.12 229.45 439.53 211.22 439.53 206.36"
@@ -309,7 +309,7 @@ const SigninSvg = () => {
               transformOrigin: "455.325px 217.905px",
             }}
             id="elbier1xzm2tl"
-            class="animable"
+            className="animable"
           ></polygon>
           <polygon
             points="443.8 203.9 439.53 206.36 471.12 224.6 471.12 219.75 443.8 203.9"
@@ -318,7 +318,7 @@ const SigninSvg = () => {
               transformOrigin: "455.325px 214.25px",
             }}
             id="elmjhjnjxiy8"
-            class="animable"
+            className="animable"
           ></polygon>
           <polygon
             points="403.81 88.92 435.4 107.16 435.4 112.01 403.81 93.78 403.81 88.92"
@@ -327,7 +327,7 @@ const SigninSvg = () => {
               transformOrigin: "419.605px 100.465px",
             }}
             id="elmn0pln2efad"
-            class="animable"
+            className="animable"
           ></polygon>
           <polygon
             points="408.08 86.47 403.81 88.92 435.4 107.16 435.4 102.31 408.08 86.47"
@@ -336,7 +336,7 @@ const SigninSvg = () => {
               transformOrigin: "419.605px 96.815px",
             }}
             id="eld7xlk4qfktb"
-            class="animable"
+            className="animable"
           ></polygon>
           <polygon
             points="439.53 109.55 471.12 127.78 471.12 132.63 439.53 114.4 439.53 109.55"
@@ -345,7 +345,7 @@ const SigninSvg = () => {
               transformOrigin: "455.325px 121.09px",
             }}
             id="elyiq4c3s4e4o"
-            class="animable"
+            className="animable"
           ></polygon>
           <polygon
             points="443.8 107.08 439.53 109.55 471.12 127.78 471.12 122.94 443.8 107.08"
@@ -354,13 +354,13 @@ const SigninSvg = () => {
               transformOrigin: "455.325px 117.43px",
             }}
             id="eltm06pe19w8q"
-            class="animable"
+            className="animable"
           ></polygon>
         </g>
       </g>
       <g
         id="freepik--Shadows--inject-59"
-        class="animable"
+        className="animable"
         style={{ transformOrigin: "246.164px 354.291px" }}
       >
         <path
@@ -370,7 +370,7 @@ const SigninSvg = () => {
             fill: "rgb(224, 224, 224)",
             transformOrigin: "56.2668px 440.291px",
           }}
-          class="animable"
+          className="animable"
         ></path>
         <path
           id="freepik--shadow--inject-59"
@@ -379,7 +379,7 @@ const SigninSvg = () => {
             fill: "rgb(224, 224, 224)",
             transformOrigin: "210.295px 350.215px",
           }}
-          class="animable"
+          className="animable"
         ></path>
         <path
           id="freepik--shadow--inject-59"
@@ -388,7 +388,7 @@ const SigninSvg = () => {
             fill: "rgb(224, 224, 224)",
             transformOrigin: "266.595px 424.39px",
           }}
-          class="animable"
+          className="animable"
         ></path>
         <ellipse
           id="freepik--shadow--inject-59"
@@ -400,22 +400,22 @@ const SigninSvg = () => {
             fill: "rgb(224, 224, 224)",
             transformOrigin: "414.73px 374.95px",
           }}
-          class="animable"
+          className="animable"
         ></ellipse>
       </g>
       <g
         id="freepik--Device--inject-59"
-        class="animable"
+        className="animable"
         style={{ transformOrigin: "210.605px 252.628px" }}
       >
         <g
           id="freepik--device--inject-59"
-          class="animable"
+          className="animable"
           style={{ transformOrigin: "210.605px 252.628px" }}
         >
           <g
             id="freepik--Case--inject-59"
-            class="animable"
+            className="animable"
             style={{ transformOrigin: "205.46px 249.863px" }}
           >
             <path
@@ -425,7 +425,7 @@ const SigninSvg = () => {
                 transformOrigin: "203.475px 296.183px",
               }}
               id="el2m4rmylvnep"
-              class="animable"
+              className="animable"
             ></path>
             <g id="elojirydlabel">
               <path
@@ -435,7 +435,7 @@ const SigninSvg = () => {
                   opacity: "0.35",
                   transformOrigin: "203.475px 296.183px",
                 }}
-                class="animable"
+                className="animable"
               ></path>
             </g>
             <path
@@ -445,7 +445,7 @@ const SigninSvg = () => {
                 transformOrigin: "194.529px 279.035px",
               }}
               id="elfn40vqdabm"
-              class="animable"
+              className="animable"
             ></path>
             <g id="el9bgbn7thqri">
               <path
@@ -454,7 +454,7 @@ const SigninSvg = () => {
                   opacity: "0.15",
                   transformOrigin: "194.529px 279.035px",
                 }}
-                class="animable"
+                className="animable"
               ></path>
             </g>
             <polygon
@@ -464,7 +464,7 @@ const SigninSvg = () => {
                 transformOrigin: "206.135px 344.94px",
               }}
               id="elm0me4xosznk"
-              class="animable"
+              className="animable"
             ></polygon>
             <path
               d="M327.37,59.42,72.84,206.11c-5.58,3.22-7.32,8.44-6.34,15.31L96.62,432.81c1,6.87,6.46,10.89,12,7.67L360.94,294.89c5.58-3.22,9.31-11.41,8.32-18.28L339.26,66C338.28,59.16,333,56.2,327.37,59.42Z"
@@ -473,7 +473,7 @@ const SigninSvg = () => {
                 transformOrigin: "217.83px 249.863px",
               }}
               id="elbc82toj31gh"
-              class="animable"
+              className="animable"
             ></path>
             <g id="elt3ucgpb24d">
               <path
@@ -483,13 +483,13 @@ const SigninSvg = () => {
                   opacity: "0.35",
                   transformOrigin: "217.83px 249.863px",
                 }}
-                class="animable"
+                className="animable"
               ></path>
             </g>
           </g>
           <g
             id="freepik--Tablet--inject-59"
-            class="animable"
+            className="animable"
             style={{ transformOrigin: "224.654px 253.832px" }}
           >
             <path
@@ -499,7 +499,7 @@ const SigninSvg = () => {
                 transformOrigin: "207.665px 139.138px",
               }}
               id="elw0ydel0y00q"
-              class="animable"
+              className="animable"
             ></path>
             <path
               d="M104.81,442.61v0c-2.5-1-4.36-3.62-4.9-7.4L70.06,225.68c-.62-4.29-.82-8.14.74-11.39l8.14,3.46q-.31.66-.6,1.38c-.15.38-.28.75-.4,1.13a1.09,1.09,0,0,0,0,.17,13.18,13.18,0,0,0-.39,1.32c-.12.46-.22.93-.29,1.38a7.59,7.59,0,0,0-.15,1.05,16.24,16.24,0,0,0,0,4.46l30,210.57c.54,3.82,2.44,6.44,5,7.45Z"
@@ -508,7 +508,7 @@ const SigninSvg = () => {
                 transformOrigin: "90.8548px 330.475px",
               }}
               id="eluktqhz90f1a"
-              class="animable"
+              className="animable"
             ></path>
             <path
               d="M337.66,64.77,83.13,211.46c-5.58,3.22-7.32,8.44-6.34,15.31l30.27,212.45c1,6.88,6.31,9.84,11.89,6.61L371.23,300.24c5.58-3.22,9.31-11.4,8.32-18.28l-30-210.58C348.57,64.51,343.24,61.55,337.66,64.77Z"
@@ -517,7 +517,7 @@ const SigninSvg = () => {
                 transformOrigin: "228.12px 255.303px",
               }}
               id="eljq8tbsnogl"
-              class="animable"
+              className="animable"
             ></path>
             <path
               d="M355.74,299.27l-225.19,130c-2.89,1.67-5.65.14-6.16-3.42L94.69,217.4c-.51-3.56,1.42-7.8,4.31-9.47L324.19,78c2.89-1.67,5.65-.14,6.16,3.42l29.7,208.4C360.56,293.36,358.63,297.6,355.74,299.27Z"
@@ -526,7 +526,7 @@ const SigninSvg = () => {
                 transformOrigin: "227.37px 253.635px",
               }}
               id="el8l6n83yav2e"
-              class="animable"
+              className="animable"
             ></path>
             <path
               d="M94.69,217.4l29.7,208.4c0,.14,0,.27.08.41L349.66,296.26c2.89-1.67,4.82-5.91,4.31-9.47L324.19,78,99,207.93C96.11,209.6,94.18,213.84,94.69,217.4Z"
@@ -535,7 +535,7 @@ const SigninSvg = () => {
                 transformOrigin: "224.33px 252.105px",
               }}
               id="el0gncvi81cqn"
-              class="animable"
+              className="animable"
             ></path>
             <path
               d="M106.17,346.44a5,5,0,0,1-2.17,4.77c-1.45.84-2.84.07-3.09-1.73a5,5,0,0,1,2.17-4.76C104.53,343.88,105.92,344.65,106.17,346.44Z"
@@ -544,7 +544,7 @@ const SigninSvg = () => {
                 transformOrigin: "103.541px 347.965px",
               }}
               id="elahx33txe4m6"
-              class="animable"
+              className="animable"
             ></path>
             <path
               d="M96.33,297.64h0a3.94,3.94,0,0,0-1.69,3.71l4.92,34.31c.2,1.39,1.28,2,2.41,1.34h0a3.92,3.92,0,0,0,1.69-3.7L98.74,299C98.54,297.59,97.46,297,96.33,297.64Z"
@@ -553,12 +553,12 @@ const SigninSvg = () => {
                 transformOrigin: "99.1501px 317.325px",
               }}
               id="elsw3q1vtf4f8"
-              class="animable"
+              className="animable"
             ></path>
           </g>
           <g
             id="freepik--Articles--inject-59"
-            class="animable"
+            className="animable"
             style={{ transformOrigin: "210.359px 151.155px" }}
           >
             <path
@@ -568,7 +568,7 @@ const SigninSvg = () => {
                 transformOrigin: "210.359px 151.155px",
               }}
               id="el4ia0c5gwcu"
-              class="animable"
+              className="animable"
             ></path>
             <path
               d="M306.2,97.83h0c-.85.49-1.66,0-1.81-1l-.09-.59a3,3,0,0,1,1.27-2.79h0c.86-.49,1.67,0,1.82,1l.08.59A2.94,2.94,0,0,1,306.2,97.83Z"
@@ -577,7 +577,7 @@ const SigninSvg = () => {
                 transformOrigin: "305.887px 95.64px",
               }}
               id="elvpyy278k3o8"
-              class="animable"
+              className="animable"
             ></path>
             <path
               d="M312.4,94.25h0c-.86.5-1.67,0-1.82-1l-.08-.58a3,3,0,0,1,1.27-2.8h0c.85-.49,1.66,0,1.81,1l.09.59A3,3,0,0,1,312.4,94.25Z"
@@ -586,7 +586,7 @@ const SigninSvg = () => {
                 transformOrigin: "312.084px 92.0621px",
               }}
               id="elsddtzqsmjvo"
-              class="animable"
+              className="animable"
             ></path>
             <path
               d="M318.59,90.68h0c-.85.49-1.66,0-1.81-1l-.09-.59A3,3,0,0,1,318,86.29h0c.86-.5,1.67,0,1.82,1l.08.58A3,3,0,0,1,318.59,90.68Z"
@@ -595,18 +595,18 @@ const SigninSvg = () => {
                 transformOrigin: "318.296px 88.4828px",
               }}
               id="elwy6bf1rchz"
-              class="animable"
+              className="animable"
             ></path>
           </g>
         </g>
         <g
           id="freepik--Tab--inject-59"
-          class="animable"
+          className="animable"
           style={{ transformOrigin: "258.016px 216.841px" }}
         >
           <g
             id="freepik--Box--inject-59"
-            class="animable"
+            className="animable"
             style={{ transformOrigin: "258.016px 216.841px" }}
           >
             <g id="elauyjd2cuhfw">
@@ -615,12 +615,12 @@ const SigninSvg = () => {
                   opacity: "0.2",
                   transformOrigin: "254.644px 215.445px",
                 }}
-                class="animable"
+                className="animable"
               >
                 <path
                   d="M195.31,195.19,299.6,135a.63.63,0,0,1,1,.44l14.15,98.79a1.61,1.61,0,0,1-.76,1.47l-104.3,60.19a.63.63,0,0,1-1-.44l-14.15-98.79A1.57,1.57,0,0,1,195.31,195.19Z"
                   id="elm2iuf9ji3xm"
-                  class="animable"
+                  className="animable"
                   style={{ transformOrigin: "254.644px 215.445px" }}
                 ></path>
               </g>
@@ -632,7 +632,7 @@ const SigninSvg = () => {
                 transformOrigin: "252.377px 217.674px",
               }}
               id="elzzsm4wlhp1"
-              class="animable"
+              className="animable"
             ></path>
             <g id="el5wr18ojccyr">
               <g
@@ -640,7 +640,7 @@ const SigninSvg = () => {
                   opacity: "0.2",
                   transformOrigin: "252.555px 167.758px",
                 }}
-                class="animable"
+                className="animable"
               >
                 <path
                   d="M306.79,138.14c-.65-.29-3-1.28-3.34-1.41a1.33,1.33,0,0,0-1.2.14L199.32,196.28a2.9,2.9,0,0,0-1,1.14l3.43,1.45a2.8,2.8,0,0,1,1-1.14l102.94-59.4A1.36,1.36,0,0,1,306.79,138.14Z"
@@ -649,7 +649,7 @@ const SigninSvg = () => {
                     transformOrigin: "252.555px 167.758px",
                   }}
                   id="el3y4zxc7adnv"
-                  class="animable"
+                  className="animable"
                 ></path>
               </g>
             </g>
@@ -660,7 +660,7 @@ const SigninSvg = () => {
                 transformOrigin: "261.44px 218.443px",
               }}
               id="elh9mowxjh8p9"
-              class="animable"
+              className="animable"
             ></path>
             <g id="elee6h1dyd29h">
               <g
@@ -668,7 +668,7 @@ const SigninSvg = () => {
                   opacity: "0.7",
                   transformOrigin: "261.44px 218.443px",
                 }}
-                class="animable"
+                className="animable"
               >
                 <path
                   d="M202.74,197.73l102.93-59.4c.88-.51,1.69-.16,1.82.77l14,97.46a2.84,2.84,0,0,1-1.34,2.6l-102.94,59.4c-.87.5-1.68.16-1.82-.77l-14-97.46A2.83,2.83,0,0,1,202.74,197.73Z"
@@ -677,7 +677,7 @@ const SigninSvg = () => {
                     transformOrigin: "261.44px 218.443px",
                   }}
                   id="elgtgsb6wsssv"
-                  class="animable"
+                  className="animable"
                 ></path>
               </g>
             </g>
@@ -688,7 +688,7 @@ const SigninSvg = () => {
                 transformOrigin: "206.983px 248.06px",
               }}
               id="elraydktz163o"
-              class="animable"
+              className="animable"
             ></path>
             <g id="elx3qjgxgp7t">
               <path
@@ -697,7 +697,7 @@ const SigninSvg = () => {
                   opacity: "0.15",
                   transformOrigin: "206.983px 248.06px",
                 }}
-                class="animable"
+                className="animable"
               ></path>
             </g>
             <path
@@ -707,7 +707,7 @@ const SigninSvg = () => {
                 transformOrigin: "261.38px 218.455px",
               }}
               id="el58qf34thk3v"
-              class="animable"
+              className="animable"
             ></path>
           </g>
           <path
@@ -717,7 +717,7 @@ const SigninSvg = () => {
               transformOrigin: "236.11px 197.528px",
             }}
             id="elts1jgiiwqhn"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M242.88,200.08a.28.28,0,0,1-.29,0,.29.29,0,0,1-.16-.26l-1.62-11.3a.72.72,0,0,1,.06-.4.69.69,0,0,1,.25-.3l1.15-.66a.28.28,0,0,1,.29,0,.32.32,0,0,1,.16.27l1.62,11.3a.72.72,0,0,1-.06.4.61.61,0,0,1-.25.29Z"
@@ -726,7 +726,7 @@ const SigninSvg = () => {
               transformOrigin: "242.575px 193.62px",
             }}
             id="elmq4tyhops6g"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M245.17,190.4a7.69,7.69,0,0,1,0-2.09,6.93,6.93,0,0,1,1.8-3.69,7.75,7.75,0,0,1,1.79-1.41,5.39,5.39,0,0,1,2.09-.78,2.61,2.61,0,0,1,1.42.21,1.9,1.9,0,0,1,.83.75,3.3,3.3,0,0,1,.36.86.57.57,0,0,1-.06.4.62.62,0,0,1-.26.29l-1.15.67a.33.33,0,0,1-.26,0,.37.37,0,0,1-.17-.13,1.61,1.61,0,0,0-.19-.22A1.08,1.08,0,0,0,251,185a2,2,0,0,0-.75,0,2.79,2.79,0,0,0-1.1.41,4,4,0,0,0-1.6,1.69,4.05,4.05,0,0,0-.41,2.3c0,.45.1.93.17,1.44s.15,1,.24,1.41c.16.95.49,1.52,1,1.71a2.1,2.1,0,0,0,1.8-.33,4.69,4.69,0,0,0,.94-.7,3.43,3.43,0,0,0,1.08-2,4.51,4.51,0,0,0,0-1.37l0-.14-1.73,1a.28.28,0,0,1-.29,0,.34.34,0,0,1-.16-.27l-.18-1.24a.65.65,0,0,1,.07-.4.6.6,0,0,1,.25-.29l3.26-1.89a.26.26,0,0,1,.29,0,.29.29,0,0,1,.16.26l.28,1.92a7.7,7.7,0,0,1,0,2.09,7.06,7.06,0,0,1-1.8,3.77,7.92,7.92,0,0,1-1.84,1.45,5.36,5.36,0,0,1-1.93.73,2.4,2.4,0,0,1-1.46-.22,2.52,2.52,0,0,1-1-1,5.71,5.71,0,0,1-.58-1.75q-.06-.33-.12-.72c-.05-.27-.09-.54-.13-.82s-.08-.56-.11-.83S245.19,190.63,245.17,190.4Z"
@@ -735,7 +735,7 @@ const SigninSvg = () => {
               transformOrigin: "249.745px 189.495px",
             }}
             id="elw2x0aiwsew"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M263.13,188.38q-.24.15-.39.06l-.22-.14-5-5,1,7.21a.72.72,0,0,1-.06.4.72.72,0,0,1-.25.29l-1.15.67a.28.28,0,0,1-.29,0,.32.32,0,0,1-.16-.27L255,180.34a.7.7,0,0,1,.06-.4.69.69,0,0,1,.25-.3l1-.57a.39.39,0,0,1,.39-.06l.22.14,5,5-1-7.21a.72.72,0,0,1,.06-.4.72.72,0,0,1,.25-.29l1.15-.66a.26.26,0,0,1,.29,0,.32.32,0,0,1,.16.27l1.62,11.3a.67.67,0,0,1-.06.39.69.69,0,0,1-.25.3Z"
@@ -744,7 +744,7 @@ const SigninSvg = () => {
               transformOrigin: "259.725px 183.728px",
             }}
             id="el2q20ed098pg"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M270.35,184.22a.28.28,0,0,1-.29,0,.29.29,0,0,1-.16-.26l-1.62-11.3a.72.72,0,0,1,.06-.4.69.69,0,0,1,.25-.3l1.15-.66a.28.28,0,0,1,.29,0,.35.35,0,0,1,.17.27l1.61,11.3a.72.72,0,0,1-.06.4.66.66,0,0,1-.25.29Z"
@@ -753,7 +753,7 @@ const SigninSvg = () => {
               transformOrigin: "270.045px 177.76px",
             }}
             id="elqnkv3pst5y"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M280.55,178.33a.44.44,0,0,1-.4.06l-.22-.14-5-5,1,7.2a.71.71,0,0,1-.07.4.63.63,0,0,1-.25.3l-1.15.66a.28.28,0,0,1-.29,0,.34.34,0,0,1-.16-.27l-1.62-11.3a.73.73,0,0,1,.07-.4.6.6,0,0,1,.25-.29l1-.58a.38.38,0,0,1,.39,0,.93.93,0,0,1,.22.14l5,5-1-7.21a.65.65,0,0,1,.07-.4.56.56,0,0,1,.25-.29l1.15-.67a.28.28,0,0,1,.29,0,.32.32,0,0,1,.16.26l1.62,11.3a.83.83,0,0,1-.07.4.63.63,0,0,1-.25.3Z"
@@ -762,7 +762,7 @@ const SigninSvg = () => {
               transformOrigin: "277.124px 173.675px",
             }}
             id="elvf6wzftnfgl"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M244.08,253.09a1.35,1.35,0,0,1,1.2-.22,1.12,1.12,0,0,1,.55.95,2.37,2.37,0,0,1-.07,1,2.23,2.23,0,0,1-.5.9l1.08,1.34,0,.07a.25.25,0,0,1,0,.14.2.2,0,0,1-.08.1l-.51.29c-.08,0-.14.06-.18,0a.21.21,0,0,1-.1-.08l-1-1.26-.79.46.25,1.71a.45.45,0,0,1,0,.16.28.28,0,0,1-.11.13l-.48.28a.13.13,0,0,1-.12,0,.14.14,0,0,1-.07-.11l-.68-4.74a.55.55,0,0,1,0-.17.32.32,0,0,1,.11-.12Zm-.56,2.83.86-.5a1.47,1.47,0,0,0,.52-.46.87.87,0,0,0,.13-.67c0-.28-.14-.42-.28-.44a1.09,1.09,0,0,0-.57.18l-.86.5Z"
@@ -771,7 +771,7 @@ const SigninSvg = () => {
               transformOrigin: "244.407px 255.945px",
             }}
             id="elyw0j2n3tp3o"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M246.58,255.15a3.37,3.37,0,0,1,0-.84,3.13,3.13,0,0,1,.2-.8,3,3,0,0,1,.4-.68,2.19,2.19,0,0,1,.59-.51,1.36,1.36,0,0,1,.62-.2,1,1,0,0,1,.52.14,1.15,1.15,0,0,1,.38.43,2,2,0,0,1,.21.65l0,.33a.27.27,0,0,1,0,.17.26.26,0,0,1-.11.12l-2,1.15a.57.57,0,0,0,.1.26.35.35,0,0,0,.19.13.63.63,0,0,0,.24,0,1.12,1.12,0,0,0,.26-.11,1.29,1.29,0,0,0,.3-.22.94.94,0,0,0,.18-.24,1,1,0,0,1,.1-.14.35.35,0,0,1,.11-.09l.47-.27a.12.12,0,0,1,.13,0,.11.11,0,0,1,.06.11.88.88,0,0,1-.05.32,2.15,2.15,0,0,1-.22.47,3.89,3.89,0,0,1-.38.5,2,2,0,0,1-.58.45,1.38,1.38,0,0,1-.62.21.85.85,0,0,1-.52-.14,1.18,1.18,0,0,1-.38-.46A2.39,2.39,0,0,1,246.58,255.15Zm1.3-2a1.11,1.11,0,0,0-.28.24.91.91,0,0,0-.18.27,1.18,1.18,0,0,0-.1.3.8.8,0,0,0,0,.26l1.34-.77a.9.9,0,0,0-.08-.21.36.36,0,0,0-.14-.16.35.35,0,0,0-.21,0A1,1,0,0,0,247.88,253.2Z"
@@ -780,7 +780,7 @@ const SigninSvg = () => {
               transformOrigin: "248.042px 254.306px",
             }}
             id="el4q44v7u4b7"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M252,252.92s0-.09-.06-.1a.26.26,0,0,0-.16,0l-.29.08L251,253a1.2,1.2,0,0,1-.46.07.57.57,0,0,1-.31-.1.51.51,0,0,1-.2-.25,1.6,1.6,0,0,1-.1-.38,1.57,1.57,0,0,1,0-.48,2.18,2.18,0,0,1,.19-.52,2.61,2.61,0,0,1,.35-.49,2.2,2.2,0,0,1,.5-.4,2.06,2.06,0,0,1,.53-.22,1,1,0,0,1,.42,0,.62.62,0,0,1,.3.16.73.73,0,0,1,.15.29.27.27,0,0,1,0,.17.4.4,0,0,1-.1.12l-.46.26a.18.18,0,0,1-.14,0l-.11,0a.29.29,0,0,0-.16,0,.76.76,0,0,0-.27.11,1.1,1.1,0,0,0-.31.25.35.35,0,0,0-.1.31.14.14,0,0,0,.05.12.18.18,0,0,0,.14,0l.27-.06.44-.13a1,1,0,0,1,.81,0,.85.85,0,0,1,.32.62,1.35,1.35,0,0,1,0,.48,1.86,1.86,0,0,1-.2.52,2.54,2.54,0,0,1-.38.5,2.49,2.49,0,0,1-.54.43,2.12,2.12,0,0,1-.57.23,1,1,0,0,1-.45,0,.58.58,0,0,1-.3-.18.61.61,0,0,1-.15-.3.27.27,0,0,1,0-.17.28.28,0,0,1,.11-.13l.46-.26a.19.19,0,0,1,.14,0l.11.06a.34.34,0,0,0,.18,0,.78.78,0,0,0,.31-.13l.18-.12.17-.14a.88.88,0,0,0,.12-.17A.27.27,0,0,0,252,252.92Z"
@@ -789,7 +789,7 @@ const SigninSvg = () => {
               transformOrigin: "251.342px 252.422px",
             }}
             id="elndo06rrdrqg"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M253.1,251.38a2.88,2.88,0,0,1,0-.83,3,3,0,0,1,.2-.8,2.65,2.65,0,0,1,.4-.69,2.3,2.3,0,0,1,.58-.5,1.4,1.4,0,0,1,.63-.2.92.92,0,0,1,.52.14,1.19,1.19,0,0,1,.38.42,2.13,2.13,0,0,1,.21.66l0,.33a.23.23,0,0,1,0,.16.27.27,0,0,1-.1.13l-2,1.15a.57.57,0,0,0,.1.26.32.32,0,0,0,.18.13.63.63,0,0,0,.24,0,.85.85,0,0,0,.26-.11,1.66,1.66,0,0,0,.31-.22,1.88,1.88,0,0,0,.18-.24,1.16,1.16,0,0,1,.09-.14.53.53,0,0,1,.11-.09l.48-.27a.11.11,0,0,1,.12,0,.13.13,0,0,1,.07.11,1.3,1.3,0,0,1-.06.32,2,2,0,0,1-.21.46,2.89,2.89,0,0,1-.39.51,2.58,2.58,0,0,1-.57.45,1.38,1.38,0,0,1-.62.21.83.83,0,0,1-.52-.14,1.27,1.27,0,0,1-.39-.46A2.39,2.39,0,0,1,253.1,251.38Zm1.3-1.94a1.4,1.4,0,0,0-.29.23,1.67,1.67,0,0,0-.18.28,1.18,1.18,0,0,0-.1.3c0,.1,0,.18,0,.26l1.35-.78-.08-.2a.36.36,0,0,0-.14-.16.38.38,0,0,0-.22-.05A.92.92,0,0,0,254.4,249.44Z"
@@ -798,7 +798,7 @@ const SigninSvg = () => {
               transformOrigin: "254.565px 250.546px",
             }}
             id="elc45t432tmbe"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M257.79,249.25a.39.39,0,0,0,.15.3c.08.06.2,0,.38-.07l.37-.21a.11.11,0,0,1,.12,0,.14.14,0,0,1,.07.11l.07.49a.3.3,0,0,1,0,.16.28.28,0,0,1-.11.13l-.44.25a1,1,0,0,1-.9.17c-.24-.11-.39-.39-.45-.85l-.23-1.58-.39.23a.13.13,0,0,1-.12,0,.13.13,0,0,1-.07-.11l-.07-.48a.26.26,0,0,1,0-.17.27.27,0,0,1,.1-.13l.4-.22-.18-1.2a.45.45,0,0,1,0-.16.28.28,0,0,1,.11-.13l.45-.26a.13.13,0,0,1,.12,0,.16.16,0,0,1,.07.12l.17,1.19.77-.44a.11.11,0,0,1,.12,0,.14.14,0,0,1,.07.11l.07.49a.3.3,0,0,1,0,.16.28.28,0,0,1-.11.13l-.76.44Z"
@@ -807,7 +807,7 @@ const SigninSvg = () => {
               transformOrigin: "257.558px 248.063px",
             }}
             id="elx1g4o5aphfa"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M262,242.75a1.37,1.37,0,0,1,1.18-.22c.31.12.5.45.58,1a2.38,2.38,0,0,1-.23,1.46,2.51,2.51,0,0,1-1,1.07l-1,.55.24,1.64a.55.55,0,0,1,0,.17.22.22,0,0,1-.11.12l-.48.28a.11.11,0,0,1-.12,0,.15.15,0,0,1-.07-.12l-.68-4.73a.34.34,0,0,1,0-.17.22.22,0,0,1,.11-.12Zm-.61,2.94.92-.53a1.43,1.43,0,0,0,.52-.48,1,1,0,0,0,.12-.7c0-.27-.13-.42-.28-.45a1,1,0,0,0-.57.16l-.92.53Z"
@@ -816,7 +816,7 @@ const SigninSvg = () => {
               transformOrigin: "262.045px 245.659px",
             }}
             id="el8erpvfer25k"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M264.36,243.83a2.32,2.32,0,0,1,.07-.39,2.14,2.14,0,0,1,.55-.95,2.35,2.35,0,0,1,.51-.41,1.67,1.67,0,0,1,.57-.21.79.79,0,0,1,.46,0,.77.77,0,0,1,.34.33,1.77,1.77,0,0,1,.19.6l.31,2.16a.51.51,0,0,1,0,.17.22.22,0,0,1-.11.12l-.45.26a.11.11,0,0,1-.12,0,.14.14,0,0,1-.07-.11l0-.24a2.29,2.29,0,0,1-.31.57,1.89,1.89,0,0,1-.58.49,1.6,1.6,0,0,1-.47.19.63.63,0,0,1-.37-.05.62.62,0,0,1-.27-.24,1.16,1.16,0,0,1-.14-.41,1.57,1.57,0,0,1,.18-1,2.82,2.82,0,0,1,.73-.83l.94-.77c0-.2-.1-.31-.22-.33a.65.65,0,0,0-.42.1.9.9,0,0,0-.23.19,1.54,1.54,0,0,0-.14.23l-.08.14a.39.39,0,0,1-.1.08l-.55.32a.14.14,0,0,1-.11,0A.1.1,0,0,1,264.36,243.83Zm1.3,1.49a1.56,1.56,0,0,0,.35-.27,1.85,1.85,0,0,0,.23-.34,1.74,1.74,0,0,0,.13-.36,1.24,1.24,0,0,0,0-.33V244l-.79.64a1.46,1.46,0,0,0-.33.35.57.57,0,0,0-.07.33c0,.1.07.16.16.16A.76.76,0,0,0,265.66,245.32Z"
@@ -825,7 +825,7 @@ const SigninSvg = () => {
               transformOrigin: "265.864px 244.127px",
             }}
             id="elpkmvsqc14cm"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M269.71,242.68a.15.15,0,0,0-.06-.11.27.27,0,0,0-.16,0,1.48,1.48,0,0,0-.29.07l-.46.14a1.77,1.77,0,0,1-.46.07.64.64,0,0,1-.32-.1.62.62,0,0,1-.19-.25,1.39,1.39,0,0,1-.1-.39,1.6,1.6,0,0,1,0-.48,2.11,2.11,0,0,1,.19-.51,2.27,2.27,0,0,1,.34-.49,2,2,0,0,1,.51-.4,1.54,1.54,0,0,1,.53-.22,1,1,0,0,1,.42,0,.55.55,0,0,1,.29.16.64.64,0,0,1,.16.29.27.27,0,0,1,0,.17.22.22,0,0,1-.11.12l-.46.27a.3.3,0,0,1-.14,0l-.11,0a.35.35,0,0,0-.15,0,.85.85,0,0,0-.28.12,1,1,0,0,0-.3.24.41.41,0,0,0-.11.32.17.17,0,0,0,.06.11s.07,0,.14,0l.27-.05.44-.14a1,1,0,0,1,.81,0,.82.82,0,0,1,.32.61,1.32,1.32,0,0,1,0,.48,2.22,2.22,0,0,1-.2.52,2.39,2.39,0,0,1-.93.93,1.89,1.89,0,0,1-.56.23,1.13,1.13,0,0,1-.45,0,.75.75,0,0,1-.3-.18.6.6,0,0,1-.15-.31.27.27,0,0,1,0-.17.26.26,0,0,1,.11-.12l.45-.27c.06,0,.11,0,.14,0a.67.67,0,0,1,.12.06.35.35,0,0,0,.18,0,.72.72,0,0,0,.31-.12l.18-.12.17-.15a.66.66,0,0,0,.12-.17A.32.32,0,0,0,269.71,242.68Z"
@@ -834,7 +834,7 @@ const SigninSvg = () => {
               transformOrigin: "269.082px 242.2px",
             }}
             id="elzis1bej50v"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M272.8,240.89a.14.14,0,0,0-.06-.11.25.25,0,0,0-.16,0,1.67,1.67,0,0,0-.29.07l-.45.14a1.84,1.84,0,0,1-.47.07.6.6,0,0,1-.31-.1.54.54,0,0,1-.19-.25,1.41,1.41,0,0,1-.1-.38,1.31,1.31,0,0,1,0-.48,1.72,1.72,0,0,1,.19-.52,2,2,0,0,1,.34-.49,1.85,1.85,0,0,1,.51-.4,1.76,1.76,0,0,1,.53-.22,1,1,0,0,1,.42,0,.55.55,0,0,1,.29.16.58.58,0,0,1,.15.29.21.21,0,0,1,0,.17.36.36,0,0,1-.11.13l-.46.26c-.06,0-.1.05-.14,0l-.11,0h-.16a.92.92,0,0,0-.27.12,1.26,1.26,0,0,0-.31.25.4.4,0,0,0-.1.31.33.33,0,0,0,0,.12.2.2,0,0,0,.14,0,1.12,1.12,0,0,0,.27,0l.44-.14a1,1,0,0,1,.81,0,.8.8,0,0,1,.33.61,1.32,1.32,0,0,1,0,.48,2,2,0,0,1-.21.53,2.39,2.39,0,0,1-.37.5,2.58,2.58,0,0,1-.55.42,1.84,1.84,0,0,1-.57.23,1.08,1.08,0,0,1-.44,0,.69.69,0,0,1-.3-.18.6.6,0,0,1-.15-.31.31.31,0,0,1,0-.16.36.36,0,0,1,.11-.13l.46-.26c.06,0,.11-.05.14,0l.12.06a.4.4,0,0,0,.17,0,.92.92,0,0,0,.32-.13l.18-.12.17-.15a.83.83,0,0,0,.12-.16A.27.27,0,0,0,272.8,240.89Z"
@@ -843,7 +843,7 @@ const SigninSvg = () => {
               transformOrigin: "272.15px 240.44px",
             }}
             id="elf1kzvinkaao"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M277.1,237.92l.23-2.4a.83.83,0,0,1,0-.15.22.22,0,0,1,.11-.13l.45-.26a.13.13,0,0,1,.12,0,.13.13,0,0,1,.07.11v0l-.42,3.9a.45.45,0,0,1,0,.16.33.33,0,0,1-.11.13l-.45.26c-.06,0-.1,0-.13,0a.36.36,0,0,1-.07-.1l-.86-1.62-.3,2.29a.94.94,0,0,1,0,.16.22.22,0,0,1-.11.13l-.45.26a.12.12,0,0,1-.13,0,.36.36,0,0,1-.07-.1l-1.38-2.86s0,0,0-.05a.45.45,0,0,1,0-.16.28.28,0,0,1,.11-.13l.45-.26c.06,0,.1,0,.13,0a.47.47,0,0,1,.06.09l.84,1.79.27-2.43a.56.56,0,0,1,0-.15.25.25,0,0,1,.1-.12l.45-.26a.11.11,0,0,1,.12,0,.18.18,0,0,1,.08.09Z"
@@ -852,7 +852,7 @@ const SigninSvg = () => {
               transformOrigin: "275.836px 237.822px",
             }}
             id="elnuyj7qmdmi"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M280,233.73a1.6,1.6,0,0,1,.6-.21.86.86,0,0,1,.51.08,1,1,0,0,1,.39.33,1.51,1.51,0,0,1,.22.55c0,.05,0,.1,0,.17l0,.2,0,.21a1.11,1.11,0,0,1,0,.17,2.8,2.8,0,0,1-.28,1.39,3.1,3.1,0,0,1-.41.61,2.35,2.35,0,0,1-.58.46,1.51,1.51,0,0,1-.61.22,1,1,0,0,1-.51-.07.94.94,0,0,1-.38-.34,1.44,1.44,0,0,1-.22-.55l0-.16,0-.2a1.49,1.49,0,0,1,0-.21,1.11,1.11,0,0,1,0-.17,2.6,2.6,0,0,1,.28-1.4,3.1,3.1,0,0,1,.41-.61A2.65,2.65,0,0,1,280,233.73Zm1,1.24a.73.73,0,0,0-.14-.33.43.43,0,0,0-.2-.14.39.39,0,0,0-.24,0,1.3,1.3,0,0,0-.25.1l-.24.18a1,1,0,0,0-.2.25,1.1,1.1,0,0,0-.14.33,1.48,1.48,0,0,0,0,.43s0,.09,0,.15l0,.19a1.13,1.13,0,0,0,0,.18,1.06,1.06,0,0,0,0,.14.78.78,0,0,0,.14.33.39.39,0,0,0,.2.14.4.4,0,0,0,.24,0,1.06,1.06,0,0,0,.25-.11.91.91,0,0,0,.23-.17,1,1,0,0,0,.21-.25,1.4,1.4,0,0,0,.17-.76,1,1,0,0,0,0-.15,1.11,1.11,0,0,1,0-.19l0-.18C280.93,235.05,280.92,235,280.91,235Z"
@@ -861,7 +861,7 @@ const SigninSvg = () => {
               transformOrigin: "280.223px 235.714px",
             }}
             id="ellh191e2ld9a"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M283.72,232.59a1.17,1.17,0,0,0-.49.5,1.27,1.27,0,0,0-.07.72l.28,1.91a.3.3,0,0,1,0,.16.28.28,0,0,1-.11.13l-.45.26a.11.11,0,0,1-.12,0,.14.14,0,0,1-.07-.11l-.49-3.42a.34.34,0,0,1,0-.17.22.22,0,0,1,.11-.12l.45-.27a.13.13,0,0,1,.12,0,.14.14,0,0,1,.07.11l0,.17a2.81,2.81,0,0,1,.29-.46,1.54,1.54,0,0,1,.45-.37l.27-.15a.11.11,0,0,1,.12,0,.14.14,0,0,1,.07.11l.07.49a.27.27,0,0,1,0,.17.4.4,0,0,1-.1.12Z"
@@ -870,7 +870,7 @@ const SigninSvg = () => {
               transformOrigin: "283.212px 233.875px",
             }}
             id="elt8joc3x63mj"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M285.77,230.38a1.55,1.55,0,0,1,.33-.15,1,1,0,0,1,.28,0,.65.65,0,0,1,.21,0l.14.07-.22-1.56a.33.33,0,0,1,0-.17.26.26,0,0,1,.11-.12l.45-.27a.13.13,0,0,1,.12,0,.14.14,0,0,1,.07.11l.69,4.81a.27.27,0,0,1,0,.17.2.2,0,0,1-.1.12l-.46.26a.11.11,0,0,1-.12,0,.14.14,0,0,1-.06-.11l0-.17a1.89,1.89,0,0,1-.1.21,1.92,1.92,0,0,1-.17.26,2.77,2.77,0,0,1-.24.25,1.57,1.57,0,0,1-.32.24,1.19,1.19,0,0,1-.56.17.85.85,0,0,1-.47-.15A1.11,1.11,0,0,1,285,234a2,2,0,0,1-.2-.59c0-.07,0-.15,0-.25a1.38,1.38,0,0,1,0-.26,2.82,2.82,0,0,1,0-.71,3.22,3.22,0,0,1,.19-.71,2.57,2.57,0,0,1,.36-.62A1.71,1.71,0,0,1,285.77,230.38Zm-.3,2.09a2.52,2.52,0,0,0,.06.41c.07.31.18.49.33.55a.58.58,0,0,0,.53-.08,1.15,1.15,0,0,0,.46-.49,1.4,1.4,0,0,0,.14-.74,1.68,1.68,0,0,0,0-.29,1.46,1.46,0,0,0,0-.27.65.65,0,0,0-.31-.47.57.57,0,0,0-.53.06,1.24,1.24,0,0,0-.46.5A1.49,1.49,0,0,0,285.47,232.47Z"
@@ -879,7 +879,7 @@ const SigninSvg = () => {
               transformOrigin: "286.371px 231.333px",
             }}
             id="elwmryycti289"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M251,262a2,2,0,0,1,.73-.28,1.39,1.39,0,0,1,.55,0,.83.83,0,0,1,.37.26,1,1,0,0,1,.18.38.25.25,0,0,1,0,.17.27.27,0,0,1-.1.13l-.42.24a.22.22,0,0,1-.16,0,.21.21,0,0,1-.11-.08.49.49,0,0,0-.32-.16,1,1,0,0,0-.56.17,2.09,2.09,0,0,0-.28.22,1.34,1.34,0,0,0-.23.25,1.46,1.46,0,0,0-.14.28.58.58,0,0,0,0,.29.38.38,0,0,0,.09.24.34.34,0,0,0,.22.08,2.32,2.32,0,0,0,.37-.07l.57-.16a3.23,3.23,0,0,1,.65-.13,1,1,0,0,1,.47.06.63.63,0,0,1,.3.28,1.18,1.18,0,0,1,.16.49,2,2,0,0,1,0,.68,2.3,2.3,0,0,1-.27.68,2.88,2.88,0,0,1-.5.63,3.39,3.39,0,0,1-.7.53,2.37,2.37,0,0,1-.65.27,1.45,1.45,0,0,1-.58,0,.94.94,0,0,1-.45-.24.91.91,0,0,1-.24-.49.25.25,0,0,1,0-.17.26.26,0,0,1,.11-.12l.42-.24a.24.24,0,0,1,.16-.05.21.21,0,0,1,.11.08l.13.13a.3.3,0,0,0,.18.08.86.86,0,0,0,.27,0,1.62,1.62,0,0,0,.39-.18,1.85,1.85,0,0,0,.34-.23,1.19,1.19,0,0,0,.27-.28,1,1,0,0,0,.18-.3.75.75,0,0,0,0-.33.31.31,0,0,0-.12-.22.59.59,0,0,0-.28,0,2.55,2.55,0,0,0-.44.11l-.6.16a2.09,2.09,0,0,1-.56.09.77.77,0,0,1-.41-.08.69.69,0,0,1-.27-.29,1.58,1.58,0,0,1-.16-.53,1.9,1.9,0,0,1,0-.67A2.59,2.59,0,0,1,250,263a3.2,3.2,0,0,1,.46-.6A2.71,2.71,0,0,1,251,262Z"
@@ -888,7 +888,7 @@ const SigninSvg = () => {
               transformOrigin: "251.505px 264.586px",
             }}
             id="elu6iszm28gcm"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M254,260.2a.13.13,0,0,1,.12,0,.14.14,0,0,1,.07.11l.08.57a.33.33,0,0,1,0,.17.32.32,0,0,1-.11.12l-.51.3a.13.13,0,0,1-.12,0,.16.16,0,0,1-.07-.12l-.08-.57a.27.27,0,0,1,0-.17.24.24,0,0,1,.1-.12Zm.85,4.94a.27.27,0,0,1,0,.17.29.29,0,0,1-.1.12l-.45.26a.12.12,0,0,1-.13,0,.17.17,0,0,1-.06-.11l-.49-3.42a.26.26,0,0,1,0-.17.2.2,0,0,1,.1-.12l.45-.27a.13.13,0,0,1,.12,0,.14.14,0,0,1,.07.11Z"
@@ -897,7 +897,7 @@ const SigninSvg = () => {
               transformOrigin: "254.115px 262.947px",
             }}
             id="el7s7h8odyf2"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M257.2,264.82a2,2,0,0,0,.25-.2,1.27,1.27,0,0,0,.21-.29,1.24,1.24,0,0,0,.16-.77l0-.27a2.21,2.21,0,0,1-.11.21,1.22,1.22,0,0,1-.16.26,2.77,2.77,0,0,1-.24.25,1.65,1.65,0,0,1-.33.24,1.13,1.13,0,0,1-.56.17.81.81,0,0,1-.46-.15,1.11,1.11,0,0,1-.35-.39,2,2,0,0,1-.2-.59,1.45,1.45,0,0,1,0-.25,1.38,1.38,0,0,1,0-.26,2.9,2.9,0,0,1,0-.72,3.29,3.29,0,0,1,.19-.7,2.57,2.57,0,0,1,.36-.62,1.6,1.6,0,0,1,.52-.45,1.55,1.55,0,0,1,.33-.15.93.93,0,0,1,.27,0,.65.65,0,0,1,.21,0,.52.52,0,0,1,.15.07l0-.17a.55.55,0,0,1,0-.17.26.26,0,0,1,.11-.12l.45-.26a.11.11,0,0,1,.12,0,.14.14,0,0,1,.07.11l.49,3.44a2.55,2.55,0,0,1-.21,1.57,2.45,2.45,0,0,1-1.05,1.09,1.67,1.67,0,0,1-.57.23,1.15,1.15,0,0,1-.49,0,.91.91,0,0,1-.36-.2.77.77,0,0,1-.18-.36.23.23,0,0,1,0-.16.28.28,0,0,1,.11-.13l.4-.23a.16.16,0,0,1,.16,0l.12.07a.32.32,0,0,0,.24.09A1,1,0,0,0,257.2,264.82Zm-1.12-2.44a1.77,1.77,0,0,0,.05.41c.08.31.19.49.34.55a.58.58,0,0,0,.53-.08,1.21,1.21,0,0,0,.46-.49,1.4,1.4,0,0,0,.14-.74,1.68,1.68,0,0,0,0-.29c0-.11,0-.2-.05-.27a.63.63,0,0,0-.32-.47.56.56,0,0,0-.52.06,1.24,1.24,0,0,0-.46.5A1.39,1.39,0,0,0,256.08,262.38Z"
@@ -906,7 +906,7 @@ const SigninSvg = () => {
               transformOrigin: "257.055px 262.714px",
             }}
             id="elktvdnnxjdxl"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M262.31,260.86a.45.45,0,0,1,0,.16.28.28,0,0,1-.11.13l-.45.26a.11.11,0,0,1-.12,0,.15.15,0,0,1-.07-.12l-.27-1.86a1,1,0,0,0-.26-.61c-.14-.11-.32-.1-.55,0a1,1,0,0,0-.46.55,1.45,1.45,0,0,0-.08.81l.26,1.86a.35.35,0,0,1,0,.17.32.32,0,0,1-.11.12l-.45.26a.11.11,0,0,1-.12,0,.14.14,0,0,1-.07-.11l-.49-3.42a.26.26,0,0,1,0-.17.2.2,0,0,1,.1-.12l.46-.26a.11.11,0,0,1,.12,0,.14.14,0,0,1,.06.11l0,.17a2.41,2.41,0,0,1,.32-.53,1.56,1.56,0,0,1,.47-.41,1.33,1.33,0,0,1,.63-.21.68.68,0,0,1,.45.15,1,1,0,0,1,.29.42,2.81,2.81,0,0,1,.15.62Z"
@@ -915,7 +915,7 @@ const SigninSvg = () => {
               transformOrigin: "260.631px 260.124px",
             }}
             id="elz6b3va7i8tm"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M263.94,256.22a.26.26,0,0,1,0-.17.27.27,0,0,1,.1-.13l.45-.26a.13.13,0,0,1,.12,0,.13.13,0,0,1,.07.11l.27,1.86a1,1,0,0,0,.25.62c.13.11.31.11.54,0a1,1,0,0,0,.44-.54,1.62,1.62,0,0,0,.07-.8L266,255a.26.26,0,0,1,0-.17.24.24,0,0,1,.1-.12l.45-.26a.12.12,0,0,1,.13,0,.14.14,0,0,1,.06.11l.49,3.42a.35.35,0,0,1,0,.17.26.26,0,0,1-.11.12l-.45.26a.11.11,0,0,1-.12,0,.14.14,0,0,1-.07-.11l0-.17a3.89,3.89,0,0,1-.3.5,1.47,1.47,0,0,1-.47.42,1.3,1.3,0,0,1-.62.21.74.74,0,0,1-.44-.16,1.07,1.07,0,0,1-.28-.43,2.68,2.68,0,0,1-.15-.62Z"
@@ -924,7 +924,7 @@ const SigninSvg = () => {
               transformOrigin: "265.583px 256.905px",
             }}
             id="elj8gqdj5n4tg"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M269.81,256.82a1.87,1.87,0,0,1-.34.15,1.47,1.47,0,0,1-.27,0l-.21,0a.52.52,0,0,1-.15-.07l.23,1.56a.26.26,0,0,1,0,.17.25.25,0,0,1-.1.12l-.46.26a.11.11,0,0,1-.12,0,.14.14,0,0,1-.06-.11l-.69-4.81a.33.33,0,0,1,0-.17.22.22,0,0,1,.11-.12l.45-.27a.13.13,0,0,1,.12,0,.14.14,0,0,1,.07.11l0,.17c0-.06.07-.13.11-.22a1.59,1.59,0,0,1,.17-.25,1.84,1.84,0,0,1,.24-.26,2,2,0,0,1,.32-.23,1.09,1.09,0,0,1,.56-.17.8.8,0,0,1,.47.15,1.09,1.09,0,0,1,.34.39,1.8,1.8,0,0,1,.21.59c0,.07,0,.15,0,.25s0,.18,0,.26a2.83,2.83,0,0,1,0,.71,2.86,2.86,0,0,1-.19.71,2.91,2.91,0,0,1-.35.62A1.71,1.71,0,0,1,269.81,256.82Zm.3-2.09a2.37,2.37,0,0,0-.06-.41c-.07-.31-.18-.49-.34-.55a.59.59,0,0,0-.52.07,1.12,1.12,0,0,0-.46.5,1.39,1.39,0,0,0-.15.74c0,.08,0,.17,0,.29s0,.2.05.27a.66.66,0,0,0,.32.47.56.56,0,0,0,.52-.07,1.17,1.17,0,0,0,.47-.49A1.59,1.59,0,0,0,270.11,254.73Z"
@@ -933,7 +933,7 @@ const SigninSvg = () => {
               transformOrigin: "269.231px 255.854px",
             }}
             id="el9opr63l736j"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M276.05,252.92a.34.34,0,0,1,0,.17.28.28,0,0,1-.11.13l-.45.26a.13.13,0,0,1-.12,0,.13.13,0,0,1-.07-.11l-.26-1.86a1,1,0,0,0-.27-.61c-.14-.11-.32-.1-.55,0a1,1,0,0,0-.46.55,1.57,1.57,0,0,0-.08.81l.26,1.87a.3.3,0,0,1,0,.16.28.28,0,0,1-.11.13l-.45.26a.11.11,0,0,1-.12,0,.13.13,0,0,1-.07-.11l-.49-3.41a.26.26,0,0,1,0-.17.34.34,0,0,1,.1-.13l.46-.26a.13.13,0,0,1,.12,0,.11.11,0,0,1,.06.11l0,.17a2.2,2.2,0,0,1,.32-.53,1.56,1.56,0,0,1,.47-.41,1.33,1.33,0,0,1,.63-.21.68.68,0,0,1,.45.15,1,1,0,0,1,.29.42,2.81,2.81,0,0,1,.15.62Z"
@@ -942,7 +942,7 @@ const SigninSvg = () => {
               transformOrigin: "274.373px 252.214px",
             }}
             id="elt38y715m95l"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M277.67,248a1.56,1.56,0,0,1,.61-.22,1,1,0,0,1,.51.08,1.14,1.14,0,0,1,.39.34,1.44,1.44,0,0,1,.22.55s0,.1,0,.17l0,.2,0,.2c0,.07,0,.13,0,.17a2.83,2.83,0,0,1-.05.71,3.29,3.29,0,0,1-.23.69,2.77,2.77,0,0,1-.41.6,2.18,2.18,0,0,1-.58.47,1.51,1.51,0,0,1-.61.22,1,1,0,0,1-.51-.08,1,1,0,0,1-.38-.33,1.51,1.51,0,0,1-.22-.55s0-.1,0-.16l0-.2,0-.21c0-.07,0-.13,0-.17a2.44,2.44,0,0,1,0-.71,2.82,2.82,0,0,1,.24-.69,2.51,2.51,0,0,1,.41-.61A2.34,2.34,0,0,1,277.67,248Zm1,1.23a.73.73,0,0,0-.14-.32.37.37,0,0,0-.2-.14.49.49,0,0,0-.24,0,1.36,1.36,0,0,0-.25.11l-.24.17a1,1,0,0,0-.2.25,1.16,1.16,0,0,0-.14.34,1.48,1.48,0,0,0,0,.43s0,.09,0,.15a1.1,1.1,0,0,1,0,.18,1.06,1.06,0,0,0,0,.19,1.15,1.15,0,0,1,0,.14,1.08,1.08,0,0,0,.14.32.41.41,0,0,0,.21.15.66.66,0,0,0,.24,0,1.74,1.74,0,0,0,.25-.11l.23-.17a1,1,0,0,0,.21-.25,1.15,1.15,0,0,0,.13-.34,1.43,1.43,0,0,0,0-.43s0-.08,0-.14l0-.19a1.1,1.1,0,0,0,0-.18Z"
@@ -951,7 +951,7 @@ const SigninSvg = () => {
               transformOrigin: "277.894px 249.98px",
             }}
             id="elz4cw8l5b78o"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M283.13,247.38l.23-2.4a.83.83,0,0,1,0-.15.19.19,0,0,1,.1-.12l.46-.27a.13.13,0,0,1,.12,0,.11.11,0,0,1,.06.11.11.11,0,0,1,0,0l-.42,3.9a.9.9,0,0,1,0,.16.25.25,0,0,1-.12.13l-.45.26a.11.11,0,0,1-.12,0l-.08-.1-.85-1.62-.3,2.29a.75.75,0,0,1,0,.16.27.27,0,0,1-.11.13l-.45.26c-.06,0-.1,0-.13,0a.36.36,0,0,1-.07-.1l-1.38-2.86s0,0,0,0a.23.23,0,0,1,0-.16.28.28,0,0,1,.11-.13l.45-.26a.11.11,0,0,1,.12,0l.07.09.84,1.79.27-2.43a.34.34,0,0,1,0-.15.24.24,0,0,1,.1-.12l.45-.26a.11.11,0,0,1,.12,0,.13.13,0,0,1,.07.09Z"
@@ -960,7 +960,7 @@ const SigninSvg = () => {
               transformOrigin: "281.853px 247.273px",
             }}
             id="el73w71w86c5g"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M306.72,187.06l-91.78,53c-.52.3-1,0-1.11-.61l-1.4-9.77a1.8,1.8,0,0,1,.78-1.7L305,175c.52-.3,1,0,1.1.61l1.4,9.77A1.8,1.8,0,0,1,306.72,187.06Z"
@@ -969,7 +969,7 @@ const SigninSvg = () => {
               transformOrigin: "259.964px 207.53px",
             }}
             id="elig8qechpos"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M219.93,232.33a.12.12,0,0,1,.13,0,.13.13,0,0,1,.07.12l.08.56a.29.29,0,0,1,0,.18.23.23,0,0,1-.11.14L217.25,235a.12.12,0,0,1-.13,0,.2.2,0,0,1-.08-.12l-.73-5.12a.29.29,0,0,1,0-.18.4.4,0,0,1,.11-.14l2.78-1.6a.12.12,0,0,1,.13,0,.15.15,0,0,1,.07.12l.08.56a.29.29,0,0,1,0,.18.29.29,0,0,1-.11.13l-2.08,1.2.18,1.26,1.94-1.11a.12.12,0,0,1,.13,0,.15.15,0,0,1,.07.12l.08.56a.29.29,0,0,1,0,.18.4.4,0,0,1-.11.14l-1.94,1.11.19,1.32Z"
@@ -978,7 +978,7 @@ const SigninSvg = () => {
               transformOrigin: "218.26px 231.42px",
             }}
             id="elmfz6a1ns1k"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M220.76,230.86a.12.12,0,0,1-.13,0,.15.15,0,0,1-.07-.12l-.08-.52a.33.33,0,0,1,0-.19.3.3,0,0,1,.12-.13l2-1.13a.12.12,0,0,1,.13,0,.15.15,0,0,1,.07.12l.08.53a.27.27,0,0,1,0,.17.28.28,0,0,1-.12.14Z"
@@ -987,7 +987,7 @@ const SigninSvg = () => {
               transformOrigin: "221.68px 229.815px",
             }}
             id="elc2zmakj5lyb"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M224.32,226.83a2,2,0,0,1,.32-.56,1.59,1.59,0,0,1,.44-.39,1.15,1.15,0,0,1,.69-.2.77.77,0,0,1,.48.26,2.05,2.05,0,0,1,.16-.41,3.17,3.17,0,0,1,.23-.36,2.61,2.61,0,0,1,.27-.3,2.55,2.55,0,0,1,.28-.21,1.23,1.23,0,0,1,.64-.2.69.69,0,0,1,.45.18,1.23,1.23,0,0,1,.3.46,4,4,0,0,1,.16.68l.3,2.13a.29.29,0,0,1,0,.18.28.28,0,0,1-.11.13l-.49.28a.12.12,0,0,1-.13,0,.15.15,0,0,1-.07-.12l-.3-2.09c0-.36-.15-.58-.28-.66a.52.52,0,0,0-.5.06,1,1,0,0,0-.41.46,1.53,1.53,0,0,0-.09.83l.3,2.14a.27.27,0,0,1,0,.17.23.23,0,0,1-.11.14l-.49.28a.12.12,0,0,1-.13,0,.15.15,0,0,1-.07-.12l-.3-2.09c-.05-.36-.14-.58-.28-.66a.47.47,0,0,0-.5.06,1.11,1.11,0,0,0-.42.48,1.51,1.51,0,0,0-.08.85l.3,2.09a.29.29,0,0,1,0,.18.23.23,0,0,1-.11.14l-.49.28a.12.12,0,0,1-.13,0,.19.19,0,0,1-.07-.12l-.53-3.7a.31.31,0,0,1,0-.18.36.36,0,0,1,.11-.13l.49-.28a.12.12,0,0,1,.13,0,.15.15,0,0,1,.08.12Z"
@@ -996,7 +996,7 @@ const SigninSvg = () => {
               transformOrigin: "226.295px 227.7px",
             }}
             id="el3wyt0oo5o2n"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M229.48,224.52a2.61,2.61,0,0,1,.07-.42,3.45,3.45,0,0,1,.21-.51,3,3,0,0,1,.38-.52,3.11,3.11,0,0,1,.56-.44,2,2,0,0,1,.61-.23.92.92,0,0,1,.5,0,.83.83,0,0,1,.37.35,2.06,2.06,0,0,1,.2.66l.34,2.33a.39.39,0,0,1,0,.18.24.24,0,0,1-.11.13l-.49.28a.12.12,0,0,1-.13,0,.15.15,0,0,1-.07-.12l0-.26a2.29,2.29,0,0,1-.33.61,2,2,0,0,1-.63.54,1.53,1.53,0,0,1-.5.2.78.78,0,0,1-.41-.05.63.63,0,0,1-.28-.26,1,1,0,0,1-.15-.45,1.65,1.65,0,0,1,.19-1,3.1,3.1,0,0,1,.78-.9l1-.83q0-.33-.24-.36a.7.7,0,0,0-.45.12.61.61,0,0,0-.24.2.87.87,0,0,0-.15.25,1,1,0,0,1-.1.14.28.28,0,0,1-.1.09l-.6.35a.14.14,0,0,1-.11,0S229.48,224.58,229.48,224.52Zm1.4,1.62a2.28,2.28,0,0,0,.38-.3,1.72,1.72,0,0,0,.25-.37,1.53,1.53,0,0,0,.14-.39,1.38,1.38,0,0,0,0-.35v-.08l-.85.69a1.74,1.74,0,0,0-.36.38.59.59,0,0,0-.07.36.15.15,0,0,0,.17.16A.72.72,0,0,0,230.88,226.14Z"
@@ -1005,7 +1005,7 @@ const SigninSvg = () => {
               transformOrigin: "231.105px 224.837px",
             }}
             id="elm5v40xwgzu"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M233.49,219.48s.09,0,.13,0a.13.13,0,0,1,.07.12l.09.62a.36.36,0,0,1-.14.31l-.55.32a.1.1,0,0,1-.13,0,.15.15,0,0,1-.08-.12l-.08-.61a.37.37,0,0,1,0-.18.28.28,0,0,1,.12-.14Zm.92,5.33a.38.38,0,0,1,0,.18.26.26,0,0,1-.12.13l-.49.29a.12.12,0,0,1-.13,0,.15.15,0,0,1-.07-.12L233,221.6a.29.29,0,0,1,0-.18.36.36,0,0,1,.11-.13l.49-.28a.12.12,0,0,1,.13,0,.14.14,0,0,1,.08.12Z"
@@ -1014,7 +1014,7 @@ const SigninSvg = () => {
               transformOrigin: "233.605px 222.455px",
             }}
             id="elp3lx2kpllgj"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M236.13,223.82a.31.31,0,0,1,0,.18.36.36,0,0,1-.11.13l-.49.28a.12.12,0,0,1-.13,0,.15.15,0,0,1-.08-.12l-.74-5.2a.3.3,0,0,1,0-.18.36.36,0,0,1,.11-.13l.49-.28a.12.12,0,0,1,.13,0,.15.15,0,0,1,.08.12Z"
@@ -1023,7 +1023,7 @@ const SigninSvg = () => {
               transformOrigin: "235.355px 221.455px",
             }}
             id="elzbcax7o2oq"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M309.61,207.16l-91.79,53c-.52.3-1,0-1.1-.61l-1.4-9.77a1.8,1.8,0,0,1,.77-1.7l91.79-53c.51-.3,1,0,1.1.61l1.4,9.77A1.82,1.82,0,0,1,309.61,207.16Z"
@@ -1032,7 +1032,7 @@ const SigninSvg = () => {
               transformOrigin: "262.849px 227.62px",
             }}
             id="elzxdap3cnoi"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M221.06,248.51a1.51,1.51,0,0,1,1.28-.25c.33.14.53.49.62,1.07a2.61,2.61,0,0,1-.24,1.58,2.85,2.85,0,0,1-1.15,1.16l-1,.6.26,1.76a.57.57,0,0,1,0,.18.33.33,0,0,1-.12.14l-.52.3a.12.12,0,0,1-.13,0,.15.15,0,0,1-.07-.12l-.74-5.11a.57.57,0,0,1,0-.18.28.28,0,0,1,.12-.14Zm-.66,3.17,1-.58a1.63,1.63,0,0,0,.56-.51,1.1,1.1,0,0,0,.13-.75c0-.3-.15-.46-.31-.49a.9.9,0,0,0-.61.17l-1,.57Z"
@@ -1041,7 +1041,7 @@ const SigninSvg = () => {
               transformOrigin: "221.118px 251.64px",
             }}
             id="elrukcmoggf6"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M223.62,249.67a1.83,1.83,0,0,1,.07-.42,2.2,2.2,0,0,1,.21-.51,3,3,0,0,1,.38-.52,2.8,2.8,0,0,1,.56-.44,1.93,1.93,0,0,1,.61-.23.84.84,0,0,1,.5,0,.76.76,0,0,1,.36.35,1.84,1.84,0,0,1,.21.65l.33,2.34a.27.27,0,0,1,0,.17.23.23,0,0,1-.11.14l-.49.28a.12.12,0,0,1-.13,0,.16.16,0,0,1-.07-.12l0-.26a2.29,2.29,0,0,1-.33.61,2,2,0,0,1-.63.54,1.49,1.49,0,0,1-.5.19.62.62,0,0,1-.69-.3,1,1,0,0,1-.15-.45,1.64,1.64,0,0,1,.19-1,3.13,3.13,0,0,1,.78-.91l1-.82q0-.33-.24-.36a.68.68,0,0,0-.45.11.71.71,0,0,0-.24.2,2.13,2.13,0,0,0-.16.25.49.49,0,0,1-.09.15.43.43,0,0,1-.1.09l-.6.34a.13.13,0,0,1-.12,0A.12.12,0,0,1,223.62,249.67Zm1.4,1.61a1.35,1.35,0,0,0,.37-.3,1.27,1.27,0,0,0,.26-.36,1.2,1.2,0,0,0,.13-.39,1.12,1.12,0,0,0,0-.36v-.08l-.85.7a1.54,1.54,0,0,0-.36.38.51.51,0,0,0-.07.36.15.15,0,0,0,.17.16A.74.74,0,0,0,225,251.28Z"
@@ -1050,7 +1050,7 @@ const SigninSvg = () => {
               transformOrigin: "225.242px 249.985px",
             }}
             id="eld0f8zk3l3pv"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M229.39,248.42a.13.13,0,0,0-.07-.11.27.27,0,0,0-.17,0l-.31.08-.49.15a1.42,1.42,0,0,1-.5.07.6.6,0,0,1-.34-.1.58.58,0,0,1-.21-.27,2.22,2.22,0,0,1-.11-.41,1.56,1.56,0,0,1,0-.52,1.71,1.71,0,0,1,.2-.56,2.31,2.31,0,0,1,.37-.53,2.27,2.27,0,0,1,.54-.43,2.24,2.24,0,0,1,.58-.24,1,1,0,0,1,.45,0,.53.53,0,0,1,.32.17.62.62,0,0,1,.16.31.23.23,0,0,1,0,.18.33.33,0,0,1-.12.14l-.49.28a.22.22,0,0,1-.16,0l-.12,0h-.16a.86.86,0,0,0-.3.13,1.23,1.23,0,0,0-.33.26.41.41,0,0,0-.11.34.18.18,0,0,0,.06.13s.07,0,.15,0l.29-.06.47-.15a1.08,1.08,0,0,1,.88,0,.92.92,0,0,1,.35.66,1.56,1.56,0,0,1,0,.52,2.07,2.07,0,0,1-.23.56,2.32,2.32,0,0,1-.41.55,2.37,2.37,0,0,1-.58.45,1.71,1.71,0,0,1-.62.25.93.93,0,0,1-.47,0,.62.62,0,0,1-.33-.2.57.57,0,0,1-.16-.33.27.27,0,0,1,0-.17.33.33,0,0,1,.11-.14l.5-.29a.17.17,0,0,1,.15,0l.13.06a.5.5,0,0,0,.19,0,.84.84,0,0,0,.33-.14,1.13,1.13,0,0,0,.2-.13.93.93,0,0,0,.18-.16.46.46,0,0,0,.13-.18A.24.24,0,0,0,229.39,248.42Z"
@@ -1059,7 +1059,7 @@ const SigninSvg = () => {
               transformOrigin: "228.705px 247.912px",
             }}
             id="elndcpvl77jx"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M232.73,246.49a.14.14,0,0,0-.06-.11.23.23,0,0,0-.17,0,1.89,1.89,0,0,0-.32.07l-.49.15a1.39,1.39,0,0,1-.5.07.62.62,0,0,1-.34-.1.58.58,0,0,1-.21-.27,1.54,1.54,0,0,1-.1-.41,1.32,1.32,0,0,1,0-.52,2.35,2.35,0,0,1,.2-.56,3,3,0,0,1,.37-.53,2.33,2.33,0,0,1,.55-.43,1.66,1.66,0,0,1,.57-.24,1,1,0,0,1,.46,0,.56.56,0,0,1,.32.17.66.66,0,0,1,.16.31.29.29,0,0,1,0,.18.29.29,0,0,1-.11.13l-.5.29a.2.2,0,0,1-.15,0l-.12,0a.46.46,0,0,0-.17,0,.86.86,0,0,0-.3.13,1.64,1.64,0,0,0-.33.26.41.41,0,0,0-.11.34.23.23,0,0,0,.06.13.28.28,0,0,0,.15,0l.29-.06.48-.14a1,1,0,0,1,.87,0,.89.89,0,0,1,.35.66,1.56,1.56,0,0,1,0,.52,2,2,0,0,1-.22.56,2.62,2.62,0,0,1-.41.55,2.7,2.7,0,0,1-.59.45,1.68,1.68,0,0,1-.61.25,1,1,0,0,1-.48,0,.66.66,0,0,1-.33-.2.73.73,0,0,1-.16-.33.27.27,0,0,1,0-.17.28.28,0,0,1,.12-.14l.49-.29c.07,0,.12,0,.15,0l.13.06a.5.5,0,0,0,.19,0,.93.93,0,0,0,.34-.14,1.07,1.07,0,0,0,.19-.13l.19-.16.13-.18A.29.29,0,0,0,232.73,246.49Z"
@@ -1068,7 +1068,7 @@ const SigninSvg = () => {
               transformOrigin: "232.058px 245.976px",
             }}
             id="elzdgxgvbkwv"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M237.37,243.29l.26-2.6a1.1,1.1,0,0,1,0-.16.25.25,0,0,1,.12-.13l.49-.28a.12.12,0,0,1,.13,0,.13.13,0,0,1,.07.12.06.06,0,0,1,0,.06L238,244.5a1.36,1.36,0,0,1,0,.17.27.27,0,0,1-.12.14l-.49.28c-.06,0-.11,0-.13,0a.39.39,0,0,1-.08-.1l-.93-1.76-.32,2.48c0,.06,0,.11,0,.17a.25.25,0,0,1-.12.13l-.49.29a.14.14,0,0,1-.14,0,.36.36,0,0,1-.07-.1l-1.5-3.09a.11.11,0,0,1,0-.06.31.31,0,0,1,0-.18.28.28,0,0,1,.11-.13l.49-.28c.06,0,.1,0,.13,0a.39.39,0,0,1,.08.1l.9,1.93.29-2.63a.71.71,0,0,1,0-.16.24.24,0,0,1,.11-.13l.48-.28a.12.12,0,0,1,.13,0,.22.22,0,0,1,.08.09Z"
@@ -1077,7 +1077,7 @@ const SigninSvg = () => {
               transformOrigin: "236.022px 243.21px",
             }}
             id="el4rbvc1tf0v5"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M240.46,238.77a1.57,1.57,0,0,1,.66-.24,1,1,0,0,1,.55.09,1.08,1.08,0,0,1,.41.36,1.93,1.93,0,0,1,.27.78l0,.22a1.7,1.7,0,0,1,0,.22c0,.07,0,.13,0,.18a2.79,2.79,0,0,1-.06.76,2.88,2.88,0,0,1-.25.75,2.76,2.76,0,0,1-.44.65,2.31,2.31,0,0,1-.62.5,1.67,1.67,0,0,1-.66.24,1.1,1.1,0,0,1-.55-.08,1.08,1.08,0,0,1-.41-.36,1.8,1.8,0,0,1-.24-.6,1.46,1.46,0,0,1,0-.17l0-.22,0-.22a1.76,1.76,0,0,1,0-.19,2.81,2.81,0,0,1,0-.76,3.31,3.31,0,0,1,.25-.75,3,3,0,0,1,.45-.66A2.17,2.17,0,0,1,240.46,238.77Zm1,1.33a1,1,0,0,0-.15-.35.54.54,0,0,0-.22-.16.58.58,0,0,0-.26,0,1.59,1.59,0,0,0-.27.12,1.43,1.43,0,0,0-.26.19,1.09,1.09,0,0,0-.21.26,1.11,1.11,0,0,0-.15.37,1.64,1.64,0,0,0,0,.46s0,.1,0,.16a1.36,1.36,0,0,0,0,.2l0,.2,0,.15a.75.75,0,0,0,.15.36.4.4,0,0,0,.22.15.43.43,0,0,0,.25,0,.8.8,0,0,0,.27-.12,1.51,1.51,0,0,0,.26-.18,1.44,1.44,0,0,0,.22-.27,1.79,1.79,0,0,0,.15-.37,1.67,1.67,0,0,0,0-.46,1,1,0,0,0,0-.16l0-.2,0-.2Z"
@@ -1086,7 +1086,7 @@ const SigninSvg = () => {
               transformOrigin: "240.724px 240.905px",
             }}
             id="eli9r4xg29hsa"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M244.52,237.54a1.23,1.23,0,0,0-.53.53,1.47,1.47,0,0,0-.07.78l.3,2.06a.38.38,0,0,1,0,.18.26.26,0,0,1-.12.13l-.48.29a.14.14,0,0,1-.14,0,.15.15,0,0,1-.07-.12l-.53-3.69a.29.29,0,0,1,0-.18.3.3,0,0,1,.12-.13l.48-.28a.14.14,0,0,1,.14,0,.15.15,0,0,1,.07.12l0,.18a2.23,2.23,0,0,1,.31-.5,1.94,1.94,0,0,1,.48-.39l.29-.17a.15.15,0,0,1,.13,0,.15.15,0,0,1,.08.12l.07.52a.29.29,0,0,1,0,.18.24.24,0,0,1-.11.13Z"
@@ -1095,7 +1095,7 @@ const SigninSvg = () => {
               transformOrigin: "243.965px 238.932px",
             }}
             id="elwawpie145pc"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M246.73,235.15a1.25,1.25,0,0,1,.37-.16.78.78,0,0,1,.29,0,.69.69,0,0,1,.22,0l.16.08-.24-1.69a.29.29,0,0,1,0-.18.29.29,0,0,1,.11-.13l.49-.29a.15.15,0,0,1,.13,0,.15.15,0,0,1,.08.12l.74,5.2a.27.27,0,0,1,0,.17.33.33,0,0,1-.11.14l-.49.28a.12.12,0,0,1-.13,0,.17.17,0,0,1-.08-.12l0-.19a2.67,2.67,0,0,1-.12.24,1.34,1.34,0,0,1-.17.27,2.34,2.34,0,0,1-.27.28,2,2,0,0,1-.35.25,1.21,1.21,0,0,1-.6.18.84.84,0,0,1-.5-.15,1.34,1.34,0,0,1-.38-.43,2.22,2.22,0,0,1-.22-.63c0-.08,0-.17,0-.28a1.49,1.49,0,0,1,0-.28,3,3,0,0,1,.22-1.53,2.7,2.7,0,0,1,.38-.66A1.85,1.85,0,0,1,246.73,235.15Zm-.32,2.26a3.11,3.11,0,0,0,.06.44c.08.33.2.53.37.59a.62.62,0,0,0,.56-.08,1.25,1.25,0,0,0,.5-.54,1.49,1.49,0,0,0,.15-.8,2.11,2.11,0,0,0,0-.31,1.72,1.72,0,0,0-.05-.29.71.71,0,0,0-.34-.51.63.63,0,0,0-.57.07,1.25,1.25,0,0,0-.5.54A1.72,1.72,0,0,0,246.41,237.41Z"
@@ -1104,11 +1104,11 @@ const SigninSvg = () => {
               transformOrigin: "247.366px 236.183px",
             }}
             id="el4a6lvbegvac"
-            class="animable"
+            className="animable"
           ></path>
           <g
             id="freepik--Eye--inject-59"
-            class="animable"
+            className="animable"
             style={{ transformOrigin: "302.805px 204.541px" }}
           >
             <path
@@ -1118,7 +1118,7 @@ const SigninSvg = () => {
                 transformOrigin: "302.805px 204.541px",
               }}
               id="elvi5c1dmoixc"
-              class="animable"
+              className="animable"
             ></path>
             <path
               d="M302.46,202.21a3.64,3.64,0,0,0-1.57,3.44c.19,1.29,1.19,1.85,2.24,1.24a3.65,3.65,0,0,0,1.57-3.44C304.51,202.16,303.51,201.6,302.46,202.21Zm.5,3.47c-.5.3-1,0-1.08-.6a1.75,1.75,0,0,1,.76-1.66c.5-.29,1,0,1.08.6A1.75,1.75,0,0,1,303,205.68Z"
@@ -1127,31 +1127,31 @@ const SigninSvg = () => {
                 transformOrigin: "302.795px 204.55px",
               }}
               id="el0klr430gwlc9"
-              class="animable"
+              className="animable"
             ></path>
           </g>
         </g>
         <g
           id="freepik--Button--inject-59"
-          class="animable"
+          className="animable"
           style={{ transformOrigin: "235.48px 318.776px" }}
         >
           <g id="freepik--shadow--inject-59">
             <g
               style={{ opacity: "0.2", transformOrigin: "232.745px 317.12px" }}
-              class="animable"
+              className="animable"
             >
               <path
                 d="M136.6,358.92,325.26,250c.78-.45,1.5-.14,1.62.69l3.2,22.31a2.52,2.52,0,0,1-1.2,2.32L140.23,384.24c-.78.45-1.51.14-1.62-.69l-3.2-22.31A2.53,2.53,0,0,1,136.6,358.92Z"
                 id="elge3xw4xuvzb"
-                class="animable"
+                className="animable"
                 style={{ transformOrigin: "232.745px 317.12px" }}
               ></path>
             </g>
           </g>
           <g
             id="freepik--speech-bubble--inject-59"
-            class="animable"
+            className="animable"
             style={{ transformOrigin: "237.68px 321.575px" }}
           >
             <path
@@ -1161,7 +1161,7 @@ const SigninSvg = () => {
                 transformOrigin: "237.68px 321.587px",
               }}
               id="elr41znyggu6"
-              class="animable"
+              className="animable"
             ></path>
             <g id="elw3muab2hs6g">
               <path
@@ -1170,13 +1170,13 @@ const SigninSvg = () => {
                   opacity: "0.2",
                   transformOrigin: "145.635px 375.072px",
                 }}
-                class="animable"
+                className="animable"
               ></path>
             </g>
             <g id="elv0hj70524uh">
               <g
                 style={{ opacity: "0.2", transformOrigin: "236.4px 310.376px" }}
-                class="animable"
+                className="animable"
               >
                 <path
                   d="M332.66,259.26c-.24-.72-1-.95-1.74-.51L148.14,364.24a2.73,2.73,0,0,0-1,1.12l-7-3a2.79,2.79,0,0,1,1-1.07l182.8-105.48a4.28,4.28,0,0,1,3.34-.15l3.41,1.42A3.66,3.66,0,0,1,332.66,259.26Z"
@@ -1185,7 +1185,7 @@ const SigninSvg = () => {
                     transformOrigin: "236.4px 310.376px",
                   }}
                   id="elqdnd8c8szt9"
-                  class="animable"
+                  className="animable"
                 ></path>
               </g>
             </g>
@@ -1196,7 +1196,7 @@ const SigninSvg = () => {
                 transformOrigin: "241.185px 323.04px",
               }}
               id="el5z9aicc3yna"
-              class="animable"
+              className="animable"
             ></path>
           </g>
           <path
@@ -1206,7 +1206,7 @@ const SigninSvg = () => {
               transformOrigin: "228.082px 331.147px",
             }}
             id="elhje0azdx23"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M234.9,322.82a3.4,3.4,0,0,1,1.32-.47,2,2,0,0,1,1.1.18,2.1,2.1,0,0,1,.83.72,3,3,0,0,1,.48,1.19c0,.09.05.21.07.36l.06.44.06.44a2.81,2.81,0,0,1,0,.36,5.73,5.73,0,0,1-.1,1.54,5.82,5.82,0,0,1-1.39,2.79,5,5,0,0,1-1.24,1,3.35,3.35,0,0,1-1.32.47,2.1,2.1,0,0,1-1.1-.17,2.07,2.07,0,0,1-.82-.72,3.49,3.49,0,0,1-.49-1.19l-.07-.34c0-.14-.05-.29-.07-.43s0-.3,0-.45,0-.28,0-.38a5.31,5.31,0,0,1,.1-1.53,6.56,6.56,0,0,1,.51-1.49,5.84,5.84,0,0,1,.88-1.32A5.28,5.28,0,0,1,234.9,322.82Zm2.07,2.67a1.74,1.74,0,0,0-.3-.71.83.83,0,0,0-.44-.3,1,1,0,0,0-.52,0,2.66,2.66,0,0,0-.53.23,3.14,3.14,0,0,0-.52.38,2.36,2.36,0,0,0-.44.54,2.31,2.31,0,0,0-.29.72,3.06,3.06,0,0,0-.07.93c0,.09,0,.19,0,.32s0,.27.05.4,0,.28.07.4a2.6,2.6,0,0,0,.06.3,1.74,1.74,0,0,0,.31.71.78.78,0,0,0,.43.3.92.92,0,0,0,.52,0,2.5,2.5,0,0,0,.54-.23,3.07,3.07,0,0,0,.51-.38,2.16,2.16,0,0,0,.44-.54,2.6,2.6,0,0,0,.3-.72,3,3,0,0,0,.06-.92,2.23,2.23,0,0,0,0-.32c0-.13,0-.27,0-.41l-.06-.39C237,325.67,237,325.57,237,325.49Z"
@@ -1215,7 +1215,7 @@ const SigninSvg = () => {
               transformOrigin: "235.519px 327.095px",
             }}
             id="ell7yo21yo3m9"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M244,328.4a2.83,2.83,0,0,0,.54-.42,3,3,0,0,0,.77-1.41,2.59,2.59,0,0,0,0-.88l-.08-.59a5,5,0,0,1-.23.47,6.32,6.32,0,0,1-.36.54,5.31,5.31,0,0,1-.52.56,3.8,3.8,0,0,1-.7.5,2.41,2.41,0,0,1-1.21.37,1.79,1.79,0,0,1-1-.31,2.44,2.44,0,0,1-.75-.86,3.76,3.76,0,0,1-.44-1.26c0-.16-.06-.34-.09-.55a4.49,4.49,0,0,1-.07-.56,6.15,6.15,0,0,1,0-1.54,6,6,0,0,1,.41-1.52,5.53,5.53,0,0,1,.76-1.34,4,4,0,0,1,1.12-1,3.39,3.39,0,0,1,.73-.32,2.24,2.24,0,0,1,.59-.08,1.52,1.52,0,0,1,.45.07,1.27,1.27,0,0,1,.31.16l0-.37a.68.68,0,0,1,.06-.36.54.54,0,0,1,.23-.26l1-.57a.26.26,0,0,1,.27,0,.27.27,0,0,1,.14.24l1.07,7.43a5.66,5.66,0,0,1-.46,3.39,5.52,5.52,0,0,1-2.26,2.36,3.9,3.9,0,0,1-1.24.49,2.5,2.5,0,0,1-1.06,0,1.68,1.68,0,0,1-.77-.43,1.5,1.5,0,0,1-.4-.77.52.52,0,0,1,.05-.36.64.64,0,0,1,.24-.27l.87-.5a.33.33,0,0,1,.33,0l.26.15a.88.88,0,0,0,.52.18A2.08,2.08,0,0,0,244,328.4Zm-2.42-5.26a5,5,0,0,0,.12.89c.15.66.4,1.05.73,1.18a1.25,1.25,0,0,0,1.13-.16,2.53,2.53,0,0,0,1-1.07,3.13,3.13,0,0,0,.31-1.6c0-.17,0-.38-.06-.62s-.08-.44-.12-.59a1.35,1.35,0,0,0-.68-1,1.18,1.18,0,0,0-1.13.14,2.59,2.59,0,0,0-1,1.07A3.24,3.24,0,0,0,241.54,323.14Z"
@@ -1224,7 +1224,7 @@ const SigninSvg = () => {
               transformOrigin: "243.448px 323.835px",
             }}
             id="el7fv2im2pzwn"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M248.56,311.85a.25.25,0,0,1,.26,0,.3.3,0,0,1,.14.24l.18,1.24a.6.6,0,0,1-.06.36.54.54,0,0,1-.23.26l-1.1.64a.25.25,0,0,1-.26,0,.34.34,0,0,1-.15-.24l-.18-1.24a.8.8,0,0,1,.06-.36.62.62,0,0,1,.23-.27Zm1.83,10.66a.76.76,0,0,1-.06.36.57.57,0,0,1-.23.27l-1,.56a.25.25,0,0,1-.26,0,.3.3,0,0,1-.14-.24l-1.06-7.39a.6.6,0,0,1,.06-.36.52.52,0,0,1,.22-.26l1-.57a.25.25,0,0,1,.26,0,.28.28,0,0,1,.15.24Z"
@@ -1233,7 +1233,7 @@ const SigninSvg = () => {
               transformOrigin: "248.775px 317.775px",
             }}
             id="elujwinmdsovb"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M258.44,317.86a.58.58,0,0,1-.06.36.52.52,0,0,1-.23.27l-1,.56a.27.27,0,0,1-.27,0,.33.33,0,0,1-.14-.24l-.58-4a2,2,0,0,0-.58-1.31c-.29-.24-.69-.22-1.18.07a2.27,2.27,0,0,0-1,1.19,3.5,3.5,0,0,0-.17,1.75l.58,4a.76.76,0,0,1-.06.36.62.62,0,0,1-.23.27l-1,.56a.25.25,0,0,1-.26,0,.34.34,0,0,1-.15-.24l-1-7.39a.6.6,0,0,1,.06-.36.52.52,0,0,1,.22-.26l1-.57a.25.25,0,0,1,.26,0,.3.3,0,0,1,.15.24l.05.36a5.27,5.27,0,0,1,.69-1.13,3.44,3.44,0,0,1,1-.89,2.81,2.81,0,0,1,1.35-.45,1.42,1.42,0,0,1,1,.32,2.07,2.07,0,0,1,.62.91,5.71,5.71,0,0,1,.34,1.34Z"
@@ -1242,12 +1242,12 @@ const SigninSvg = () => {
               transformOrigin: "254.775px 316.371px",
             }}
             id="elhbzqmj3dvjj"
-            class="animable"
+            className="animable"
           ></path>
         </g>
         <g
           id="freepik--Icon--inject-59"
-          class="animable"
+          className="animable"
           style={{ transformOrigin: "164.324px 278.144px" }}
         >
           <path
@@ -1257,7 +1257,7 @@ const SigninSvg = () => {
               transformOrigin: "164.324px 298.498px",
             }}
             id="eluphmmb4cdrd"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M195.23,278c-1.55-5.59-4.73-9.41-8.75-11.12s-8.84-1.29-13.73,1.53l-21.34,12.32c-9.81,5.66-16.85,19.35-16.51,32.1l1.77,20.62,62.51-36.08Z"
@@ -1266,7 +1266,7 @@ const SigninSvg = () => {
               transformOrigin: "167.034px 299.659px",
             }}
             id="elco7s25x0lgu"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M168.46,225.94c3.79,1.61,6.51,5.28,7.28,10.63,1.53,10.7-5.36,24.08-15.4,29.87-5,2.9-9.87,3.35-13.66,1.75L141.46,266c-3.79-1.6-6.51-5.28-7.28-10.63-1.53-10.7,5.36-24.08,15.4-29.87,5-2.9,9.87-3.35,13.66-1.74Z"
@@ -1275,7 +1275,7 @@ const SigninSvg = () => {
               transformOrigin: "154.96px 245.971px",
             }}
             id="elautj8eyvoo"
-            class="animable"
+            className="animable"
           ></path>
           <path
             d="M160.34,266.44c-5,2.9-9.87,3.35-13.66,1.75s-6.52-5.28-7.28-10.64c-1.54-10.7,5.36-24.08,15.39-29.87,5-2.9,9.87-3.35,13.67-1.74s6.51,5.28,7.28,10.63C177.27,247.27,170.38,260.65,160.34,266.44Z"
@@ -1284,23 +1284,23 @@ const SigninSvg = () => {
               transformOrigin: "157.569px 247.061px",
             }}
             id="elidk9xxk2fp9"
-            class="animable"
+            className="animable"
           ></path>
         </g>
       </g>
       <g
         id="freepik--Plant--inject-59"
-        class="animable"
+        className="animable"
         style={{ transformOrigin: "56.25px 397.51px" }}
       >
         <g
           id="freepik--plant--inject-59"
-          class="animable"
+          className="animable"
           style={{ transformOrigin: "56.25px 397.51px" }}
         >
           <g
             id="freepik--Pot--inject-59"
-            class="animable"
+            className="animable"
             style={{ transformOrigin: "56.2527px 419.352px" }}
           >
             <path
@@ -1310,7 +1310,7 @@ const SigninSvg = () => {
                 transformOrigin: "56.24px 433.462px",
               }}
               id="elct2mh9b2rg"
-              class="animable"
+              className="animable"
             ></path>
             <path
               d="M78.2,432a23.8,23.8,0,0,0,3.49-2.43L85,416.21a23.64,23.64,0,0,1-5.88,4.67c-12.25,7.07-31.89,7.25-44.56.58l1.48-6-.46-.63H27.2l6,25h0c.45,3,2.67,6,6.67,8.27,6.44,3.72,15.71,4.77,23.79,3.19-14.47,1.08-24.4-5.24-25.89-11.08-.6-2.32-1.63-7.47-1.63-7.47C48.24,438.92,66.65,438.67,78.2,432Z"
@@ -1319,7 +1319,7 @@ const SigninSvg = () => {
                 transformOrigin: "56.1px 433.415px",
               }}
               id="el9hfnelw3l8"
-              class="animable"
+              className="animable"
             ></path>
             <path
               d="M88.3,407.47A12.07,12.07,0,0,1,86.37,412a21.47,21.47,0,0,1-7.29,6.47c-12.61,7.28-33.06,7.28-45.66,0A21.38,21.38,0,0,1,26.13,412a12.4,12.4,0,0,1-1.93-4.51h0c-1.12-5.48,2-11.18,9.23-15.38,12.6-7.28,33.05-7.28,45.66,0C86.35,396.29,89.43,402,88.3,407.47Z"
@@ -1328,7 +1328,7 @@ const SigninSvg = () => {
                 transformOrigin: "56.2527px 405.29px",
               }}
               id="elc9fhwvtpo6"
-              class="animable"
+              className="animable"
             ></path>
             <path
               d="M86.37,412a21.47,21.47,0,0,1-7.29,6.47c-12.61,7.28-33.06,7.28-45.66,0A21.38,21.38,0,0,1,26.13,412a12.4,12.4,0,0,1-1.93-4.51h0l1.43,9.84c.66,4,3.61,7.82,8.87,10.86,12,6.93,31.49,6.93,43.51,0,5.19-3,8.14-6.81,8.84-10.72l.08-.51,1.38-9.47A12.07,12.07,0,0,1,86.37,412Z"
@@ -1337,7 +1337,7 @@ const SigninSvg = () => {
                 transformOrigin: "56.255px 420.439px",
               }}
               id="elzcomi6ru4t"
-              class="animable"
+              className="animable"
             ></path>
             <path
               d="M75.28,394.29c-10.51-6.07-27.55-6.07-38.05,0-5.95,3.43-8.52,8.07-7.75,12.55.6,3.44,3.19,6.78,7.75,9.41,10.5,6.07,27.54,6.07,38.05,0,4.55-2.63,7.13-6,7.73-9.4C83.8,402.36,81.22,397.72,75.28,394.29Z"
@@ -1346,7 +1346,7 @@ const SigninSvg = () => {
                 transformOrigin: "56.2479px 405.27px",
               }}
               id="eliu00oo20a3g"
-              class="animable"
+              className="animable"
             ></path>
             <path
               d="M31.26,411a18.05,18.05,0,0,0,6,5.25c10.5,6.07,27.54,6.07,38.05,0a18.11,18.11,0,0,0,6-5.25c-.08-3.64-2.51-7.25-7.31-10-9.77-5.64-25.6-5.64-35.35,0C33.77,403.75,31.34,407.37,31.26,411Z"
@@ -1355,7 +1355,7 @@ const SigninSvg = () => {
                 transformOrigin: "56.285px 408.786px",
               }}
               id="elq3vz7t6s4i"
-              class="animable"
+              className="animable"
             ></path>
           </g>
           <path
@@ -1365,13 +1365,13 @@ const SigninSvg = () => {
               transformOrigin: "62.5359px 375.127px",
             }}
             id="el0tjc0q2r2bs"
-            class="animable"
+            className="animable"
           ></path>
           <g id="elemghwrzahat">
             <path
               d="M58.26,399.7c-4.83-1.3-5.65-11.76-2.94-22.8,2.63-10.74,11.05-26.85,12.84-26.49s4,17.86,2.77,29.41C69.41,393.83,63.09,401,58.26,399.7Z"
               style={{ opacity: "0.4", transformOrigin: "62.5359px 375.127px" }}
-              class="animable"
+              className="animable"
             ></path>
           </g>
           <g id="elx0o4mbhpuj">
@@ -1382,14 +1382,14 @@ const SigninSvg = () => {
                 opacity: "0.5",
                 transformOrigin: "62.66px 372.667px",
               }}
-              class="animable"
+              className="animable"
             ></path>
           </g>
           <g id="el7hopcocniuc">
             <path
               d="M58.26,399.7c4.83,1.31,11.15-5.87,12.67-19.88a81.42,81.42,0,0,0,.27-12c-3.94,3.23-7.9,9.85-7.9,9.85a106.05,106.05,0,0,0-4.69-10.57,72.36,72.36,0,0,0-3.29,9.8C52.61,387.94,53.43,398.4,58.26,399.7Z"
               style={{ opacity: "0.1", transformOrigin: "62.5464px 383.476px" }}
-              class="animable"
+              className="animable"
             ></path>
           </g>
           <path
@@ -1399,13 +1399,13 @@ const SigninSvg = () => {
               transformOrigin: "47.9865px 374.585px",
             }}
             id="el8ofo9t337eo"
-            class="animable"
+            className="animable"
           ></path>
           <g id="elidnph14lh7">
             <path
               d="M54.32,405.5c-6.35,4.08-12.27-10.42-15.43-21.36S37.8,344.58,41,343c2.26-1.11,14.26,24.53,16.61,37C59.32,389.05,59.38,402.26,54.32,405.5Z"
               style={{ opacity: "0.2", transformOrigin: "47.9865px 374.585px" }}
-              class="animable"
+              className="animable"
             ></path>
           </g>
           <path
@@ -1415,13 +1415,13 @@ const SigninSvg = () => {
               transformOrigin: "47.835px 369.225px",
             }}
             id="elhhugteq7frb"
-            class="animable"
+            className="animable"
           ></path>
           <g id="elmvvf5ezh88c">
             <path
               d="M54.28,368.66a36,36,0,0,0-5.14,8.43s-6.9-9.35-11.74-13.59c-.27,7.77.12,15.88,1.49,20.64,3.16,10.94,9.08,25.44,15.43,21.36,5.06-3.24,5-16.45,3.29-25.47A77.57,77.57,0,0,0,54.28,368.66Z"
               style={{ opacity: "0.1", transformOrigin: "47.9872px 384.852px" }}
-              class="animable"
+              className="animable"
             ></path>
           </g>
           <path
@@ -1431,13 +1431,13 @@ const SigninSvg = () => {
               transformOrigin: "33.5221px 391.191px",
             }}
             id="eltxhr7khdfk"
-            class="animable"
+            className="animable"
           ></path>
           <g id="elku5wpo0yrhq">
             <path
               d="M53.89,413c-11.62.63-22.47-6.4-29.51-15.27s-12.54-27.18-10.95-28.31,20.33,10.43,27.37,18.77C50,399.08,53.89,413,53.89,413Z"
               style={{ opacity: "0.4", transformOrigin: "33.5221px 391.191px" }}
-              class="animable"
+              className="animable"
             ></path>
           </g>
           <path
@@ -1447,13 +1447,13 @@ const SigninSvg = () => {
               transformOrigin: "30.89px 391.26px",
             }}
             id="el4jq4ebp999s"
-            class="animable"
+            className="animable"
           ></path>
           <g id="elqa6ua8epau">
             <path
               d="M27.73,377C28.82,386.63,34,412.51,53.89,413c0,0-3.86-13.88-13.09-24.81C37.81,384.61,32.73,380.5,27.73,377Z"
               style={{ opacity: "0.2", transformOrigin: "40.81px 395px" }}
-              class="animable"
+              className="animable"
             ></path>
           </g>
           <path
@@ -1463,7 +1463,7 @@ const SigninSvg = () => {
               transformOrigin: "42.7513px 387.41px",
             }}
             id="elq6wavvksym"
-            class="animable"
+            className="animable"
           ></path>
           <g id="el7oh8kutouft">
             <path
@@ -1473,7 +1473,7 @@ const SigninSvg = () => {
                 opacity: "0.2",
                 transformOrigin: "42.435px 386.365px",
               }}
-              class="animable"
+              className="animable"
             ></path>
           </g>
           <g id="elymbwhqsup3k">
@@ -1483,7 +1483,7 @@ const SigninSvg = () => {
                 opacity: "0.15",
                 transformOrigin: "50.5485px 396.465px",
               }}
-              class="animable"
+              className="animable"
             ></path>
           </g>
           <path
@@ -1493,13 +1493,13 @@ const SigninSvg = () => {
               transformOrigin: "78.9779px 391.191px",
             }}
             id="elncbcsiitixe"
-            class="animable"
+            className="animable"
           ></path>
           <g id="el6i7b8mbcorq">
             <path
               d="M58.61,413c11.61.63,22.47-6.4,29.51-15.27s12.54-27.18,10.95-28.31S78.74,379.81,71.7,388.15C62.47,399.08,58.61,413,58.61,413Z"
               style={{ opacity: "0.4", transformOrigin: "78.9779px 391.191px" }}
-              class="animable"
+              className="animable"
             ></path>
           </g>
           <path
@@ -1509,13 +1509,13 @@ const SigninSvg = () => {
               transformOrigin: "81.61px 391.245px",
             }}
             id="elwy5dm0rlbzi"
-            class="animable"
+            className="animable"
           ></path>
           <g id="elwa7hbk4c20c">
             <path
               d="M84.77,377c-1.1,9.61-6.23,35.49-26.16,35.94,0,0,3.86-13.88,13.09-24.81C74.68,384.61,79.77,380.5,84.77,377Z"
               style={{ opacity: "0.2", transformOrigin: "71.69px 394.97px" }}
-              class="animable"
+              className="animable"
             ></path>
           </g>
           <path
@@ -1525,7 +1525,7 @@ const SigninSvg = () => {
               transformOrigin: "69.7507px 387.41px",
             }}
             id="eluwb1nmq8rio"
-            class="animable"
+            className="animable"
           ></path>
           <g id="eli1arnbeq9sb">
             <path
@@ -1535,7 +1535,7 @@ const SigninSvg = () => {
                 opacity: "0.2",
                 transformOrigin: "70.035px 386.35px",
               }}
-              class="animable"
+              className="animable"
             ></path>
           </g>
           <g id="el236qrpwhjvs">
@@ -1545,7 +1545,7 @@ const SigninSvg = () => {
                 opacity: "0.15",
                 transformOrigin: "61.9494px 396.545px",
               }}
-              class="animable"
+              className="animable"
             ></path>
           </g>
           <path
@@ -1555,7 +1555,7 @@ const SigninSvg = () => {
               transformOrigin: "56.25px 393.14px",
             }}
             id="eljc6yg8i1j5d"
-            class="animable"
+            className="animable"
           ></path>
           <g id="el8xtecpcbpnu">
             <path
@@ -1565,7 +1565,7 @@ const SigninSvg = () => {
                 opacity: "0.3",
                 transformOrigin: "56.25px 393.14px",
               }}
-              class="animable"
+              className="animable"
             ></path>
           </g>
           <g id="elvgh7noqx88q">
@@ -1576,19 +1576,19 @@ const SigninSvg = () => {
                 opacity: "0.2",
                 transformOrigin: "56.28px 394.616px",
               }}
-              class="animable"
+              className="animable"
             ></path>
           </g>
         </g>
       </g>
       <g
         id="freepik--Key--inject-59"
-        class="animable"
+        className="animable"
         style={{ transformOrigin: "268.59px 421.822px" }}
       >
         <g
           id="freepik--key--inject-59"
-          class="animable"
+          className="animable"
           style={{ transformOrigin: "268.59px 421.822px" }}
         >
           <path
@@ -1598,13 +1598,13 @@ const SigninSvg = () => {
               transformOrigin: "268.59px 424.159px",
             }}
             id="elhsz1niis7w8"
-            class="animable"
+            className="animable"
           ></path>
           <g id="el538kcj3okji">
             <path
               d="M324.73,393.61c-14.46-8.28-37.86-8.19-52.26.19-6,3.51-9.82,5.87-10.77,10.42v4.71a14.91,14.91,0,0,0,4.53,10.17L201.58,452l0,4.7,7.27,4.16,20.26-.07,7.94-4.63v-4.44l6.33-3.57,8.83-.81,3.51-2,.32-7.89,6.52-3.79,9.57,2.13,12.42-7.23c13.41,3.16,29.41,1.57,40.28-4.76,7.22-4.21,10.81-9.7,10.77-15.17l0-4.66C334.92,399.06,331.23,397.33,324.73,393.61Zm-9,13.52a16.35,16.35,0,0,1-14.8.06c-4.1-2.35-4.11-6.18,0-8.55a16.32,16.32,0,0,1,14.8-.05C319.83,400.93,319.84,404.76,315.76,407.13Z"
               style={{ opacity: "0.2", transformOrigin: "268.59px 424.159px" }}
-              class="animable"
+              className="animable"
             ></path>
           </g>
           <path
@@ -1614,7 +1614,7 @@ const SigninSvg = () => {
               transformOrigin: "268.584px 419.457px",
             }}
             id="elsfkd35w5fy8"
-            class="animable"
+            className="animable"
           ></path>
           <g id="elp60vu1eotv9">
             <path
@@ -1624,13 +1624,13 @@ const SigninSvg = () => {
                 opacity: "0.3",
                 transformOrigin: "268.584px 419.457px",
               }}
-              class="animable"
+              className="animable"
             ></path>
           </g>
           <g id="ela2rlbczlo7">
             <g
               style={{ opacity: "0.2", transformOrigin: "292.345px 406.275px" }}
-              class="animable"
+              className="animable"
             >
               <path
                 d="M261.81,405.59l36.44-5.75c-1-2-.1-4.3,2.66-5.9a16.37,16.37,0,0,1,14.81-.06,6.36,6.36,0,0,1,2.74,2.77l13.3-2.1a26.5,26.5,0,0,0-7.05-5.64c-.42-.24-.87-.45-1.3-.68l-60,9.46A13.12,13.12,0,0,0,261.81,405.59Z"
@@ -1639,7 +1639,7 @@ const SigninSvg = () => {
                   transformOrigin: "296.744px 396.91px",
                 }}
                 id="elk4bont4bq9l"
-                class="animable"
+                className="animable"
               ></path>
               <path
                 d="M333.53,411a13,13,0,0,0,.11-13.87l-15.14,2.38a6.16,6.16,0,0,1-2.75,2.88,16.34,16.34,0,0,1-14.81.05l-.2-.12-38.29,6a16.81,16.81,0,0,0,3.77,6l-17.12,10Z"
@@ -1648,7 +1648,7 @@ const SigninSvg = () => {
                   transformOrigin: "292.345px 410.725px",
                 }}
                 id="elit6jpsl9ne"
-                class="animable"
+                className="animable"
               ></path>
             </g>
           </g>
@@ -1659,34 +1659,34 @@ const SigninSvg = () => {
               transformOrigin: "298.66px 404.09px",
             }}
             id="elmqs2d81o5us"
-            class="animable"
+            className="animable"
           ></path>
           <g id="elqwnj12g5q8n">
             <path
               d="M312,423.94l0,4.7a62.71,62.71,0,0,1-27.47-.09l0-4.7A62.71,62.71,0,0,0,312,423.94Z"
               style={{ opacity: "0.1", transformOrigin: "298.265px 426.984px" }}
-              class="animable"
+              className="animable"
             ></path>
           </g>
           <g id="elix5tlbur1gd">
             <polygon
               points="272.12 431.07 272.14 435.78 262.57 433.65 262.55 428.95 272.12 431.07"
               style={{ opacity: "0.1", transformOrigin: "267.345px 432.365px" }}
-              class="animable"
+              className="animable"
             ></polygon>
           </g>
           <g id="eluhxnnpk52jh">
             <polygon
               points="256.04 432.74 256.05 437.44 255.73 445.33 255.71 440.63 256.04 432.74"
               style={{ opacity: "0.1", transformOrigin: "255.88px 439.035px" }}
-              class="animable"
+              className="animable"
             ></polygon>
           </g>
           <g id="el9ag4hskgz3">
             <polygon
               points="252.2 442.67 252.22 447.37 243.39 448.18 243.37 443.48 252.2 442.67"
               style={{ opacity: "0.1", transformOrigin: "247.795px 445.425px" }}
-              class="animable"
+              className="animable"
             ></polygon>
           </g>
           <g id="elpko3t09ag9p">
@@ -1700,14 +1700,14 @@ const SigninSvg = () => {
                 transformOrigin:
                   "218.995px 458.5px; transform: rotate(-0.21deg)",
               }}
-              class="animable"
+              className="animable"
             ></rect>
           </g>
           <g id="elcqmjx7xoynk">
             <polygon
               points="201.58 452.03 201.6 456.73 208.87 460.89 208.86 456.19 205.67 454.36 205.68 456.39 203.92 455.39 203.91 453.33 201.58 452.03"
               style={{ opacity: "0.15", transformOrigin: "205.225px 456.46px" }}
-              class="animable"
+              className="animable"
             ></polygon>
           </g>
           <polygon
@@ -1717,7 +1717,7 @@ const SigninSvg = () => {
               transformOrigin: "204.795px 454.86px",
             }}
             id="el659m6phl62o"
-            class="animable"
+            className="animable"
           ></polygon>
           <g id="elkl5vygqkkrl">
             <polygon
@@ -1727,7 +1727,7 @@ const SigninSvg = () => {
                 opacity: "0.3",
                 transformOrigin: "204.795px 454.86px",
               }}
-              class="animable"
+              className="animable"
             ></polygon>
           </g>
           <polygon
@@ -1737,30 +1737,30 @@ const SigninSvg = () => {
               transformOrigin: "237.055px 435.575px",
             }}
             id="eln9zdiwmvbxn"
-            class="animable"
+            className="animable"
           ></polygon>
           <g id="el7hms4r2uj97">
             <polygon
               points="268.44 415.76 268.45 417.81 270.2 416.79 268.44 415.76"
               style={{ opacity: "0.15", transformOrigin: "269.32px 416.785px" }}
-              class="animable"
+              className="animable"
             ></polygon>
           </g>
         </g>
       </g>
       <g
         id="freepik--Character--inject-59"
-        class="animable"
+        className="animable"
         style={{ transformOrigin: "403.826px 234.092px" }}
       >
         <g
           id="freepik--Chartacter--inject-59"
-          class="animable"
+          className="animable"
           style={{ transformOrigin: "403.826px 234.092px" }}
         >
           <g
             id="freepik--Bottom--inject-59"
-            class="animable"
+            className="animable"
             style={{ transformOrigin: "412.13px 297.357px" }}
           >
             <path
@@ -1770,7 +1770,7 @@ const SigninSvg = () => {
                 transformOrigin: "396.934px 337.724px",
               }}
               id="elz9pvv7wiwur"
-              class="animable"
+              className="animable"
             ></path>
             <path
               d="M452.79,327.6,434.13,326c1.95,9.57,4,19.5,5.5,26.21a37.39,37.39,0,0,0,1.68,5.92c.89,4.32,11,4.84,13-2.07l-.43-5.89C453.62,344.72,453.15,335.7,452.79,327.6Z"
@@ -1779,7 +1779,7 @@ const SigninSvg = () => {
                 transformOrigin: "444.22px 343.663px",
               }}
               id="el9bwfpg2mfw7"
-              class="animable"
+              className="animable"
             ></path>
             <path
               d="M365.38,370.16c-.26,0-.65,2.93.75,4.17,1.62,1.44,6.36,3.8,12.63,3s8-2.12,10.54-4.28,4.81-4.43,7.65-5.08c2.63-.59,6.65-1.68,7.49-2.52s.73-4.56.73-4.56Z"
@@ -1788,7 +1788,7 @@ const SigninSvg = () => {
                 transformOrigin: "385.15px 369.191px",
               }}
               id="elbzrj3ws2ubw"
-              class="animable"
+              className="animable"
             ></path>
             <path
               d="M402.77,344.7a1.11,1.11,0,0,1,1.06.89c.19,1,.4,4,.81,5.7a43.09,43.09,0,0,1,.41,10.84c-.35,1.91-5.79,3.09-8.54,4.17a26,26,0,0,0-7.68,5,19,19,0,0,1-11.59,4.36c-4.84,0-10.28-1.65-11.53-4-1.54-2.85-1.77-5.59,5.4-9,1.36-.65,5.54-3.17,7.17-4.23a30.76,30.76,0,0,0,5-3.9,25.9,25.9,0,0,0,1.84-1.94,6.29,6.29,0,0,0,1-2.09,28.36,28.36,0,0,0,.47-4.24.75.75,0,0,1,.13-.36.67.67,0,0,1,.32-.2,8.19,8.19,0,0,1,3.52-.19,14,14,0,0,1,3.53.83,2.92,2.92,0,0,1,1.63,1.06,2.7,2.7,0,0,1,.31,1.38,11.33,11.33,0,0,0,0,1.43.89.89,0,0,0,.19.47c.24.25.63.05.84-.15a19.29,19.29,0,0,0,1.93-2.38c.34-.44,1.86-.71,2.29-1.05a13.14,13.14,0,0,0,1.23-.82C403,345.86,402.75,345.29,402.77,344.7Z"
@@ -1797,7 +1797,7 @@ const SigninSvg = () => {
                 transformOrigin: "385.025px 360.18px",
               }}
               id="elugjtf5rj7um"
-              class="animable"
+              className="animable"
             ></path>
             <path
               d="M388.83,371.3a34.63,34.63,0,0,1,3.33-2.63h0s-7.64,3.11-11.05.71c-2.2-1.54-1.15-3.41-1.1-4s-5.36-3.17-7.49-3.43h0c-.6.34-1.1.61-1.41.76-7.17,3.42-6.94,6.16-5.4,9,1.25,2.31,5.19,4.11,11.44,4.11A19.56,19.56,0,0,0,388.83,371.3Z"
@@ -1806,7 +1806,7 @@ const SigninSvg = () => {
                 transformOrigin: "378.496px 368.885px",
               }}
               id="elyx063aeasn"
-              class="animable"
+              className="animable"
             ></path>
             <path
               d="M380.6,363.61c-4.46,1.84-2.56,2.69-1.31,2.88s7.54-3.55,12.12-7.27c4.78-3.89,8.94-8,10.72-9.42.66-.54,1.37-1.19,2-1.8-.11-1-.21-1.93-.3-2.41a1.61,1.61,0,0,0-1.15-1.12l-.15,1.84a3.45,3.45,0,0,1-1.3.68,5.66,5.66,0,0,0-2.22,1.19,19.29,19.29,0,0,1-1.93,2.38C393.18,355.65,385.06,361.78,380.6,363.61Z"
@@ -1815,7 +1815,7 @@ const SigninSvg = () => {
                 transformOrigin: "390.964px 355.483px",
               }}
               id="eln5dqa3n0egn"
-              class="animable"
+              className="animable"
             ></path>
             <path
               d="M379.61,365.81a.42.42,0,0,0,.28-.1.46.46,0,0,0,.06-.64,10.49,10.49,0,0,0-8.17-3.32.46.46,0,0,0-.39.5.44.44,0,0,0,.49.41,9.68,9.68,0,0,1,7.39,3A.41.41,0,0,0,379.61,365.81Z"
@@ -1824,7 +1824,7 @@ const SigninSvg = () => {
                 transformOrigin: "375.72px 363.774px",
               }}
               id="el9wmeazz07zu"
-              class="animable"
+              className="animable"
             ></path>
             <path
               d="M383.51,363.55a.39.39,0,0,0,.28-.09.47.47,0,0,0,.07-.64,10.49,10.49,0,0,0-8.09-3.51.46.46,0,0,0,.08.91,9.72,9.72,0,0,1,7.32,3.16A.42.42,0,0,0,383.51,363.55Z"
@@ -1833,7 +1833,7 @@ const SigninSvg = () => {
                 transformOrigin: "379.679px 361.429px",
               }}
               id="el9amsva27eg"
-              class="animable"
+              className="animable"
             ></path>
             <path
               d="M387.11,361a.45.45,0,0,0,.28-.11.47.47,0,0,0,.06-.64,10.46,10.46,0,0,0-8.17-3.31.44.44,0,0,0-.39.5.43.43,0,0,0,.48.4,9.69,9.69,0,0,1,7.4,3A.42.42,0,0,0,387.11,361Z"
@@ -1842,7 +1842,7 @@ const SigninSvg = () => {
                 transformOrigin: "383.217px 358.964px",
               }}
               id="elq9o49ezlay"
-              class="animable"
+              className="animable"
             ></path>
             <path
               d="M390.29,358.66a.37.37,0,0,0,.28-.09.46.46,0,0,0,.09-.63,10.49,10.49,0,0,0-8-3.67.45.45,0,0,0-.42.48.44.44,0,0,0,.47.42,9.73,9.73,0,0,1,7.26,3.31A.43.43,0,0,0,390.29,358.66Z"
@@ -1851,7 +1851,7 @@ const SigninSvg = () => {
                 transformOrigin: "386.493px 356.466px",
               }}
               id="elzqz4tbsd9y"
-              class="animable"
+              className="animable"
             ></path>
             <path
               d="M393.71,355.92a.42.42,0,0,0,.28-.08.47.47,0,0,0,.09-.64c-1.64-2.31-5.5-3.95-8.79-3.71a.46.46,0,0,0-.41.49.45.45,0,0,0,.47.42c3-.21,6.56,1.29,8,3.34A.41.41,0,0,0,393.71,355.92Z"
@@ -1860,7 +1860,7 @@ const SigninSvg = () => {
                 transformOrigin: "389.523px 353.694px",
               }}
               id="eldnl5eaid4l4"
-              class="animable"
+              className="animable"
             ></path>
             <path
               d="M441.43,381.63c.31,4.46,1,7.41,2.6,10s4.49,3.38,7.43,2.57,6.67-2.91,7.46-6.78.59-6.5-.13-10.63Z"
@@ -1869,7 +1869,7 @@ const SigninSvg = () => {
                 transformOrigin: "450.429px 385.647px",
               }}
               id="el5hhnf5p9pv9"
-              class="animable"
+              className="animable"
             ></path>
             <path
               d="M453.88,350.15c1,.33,1.37,6.43,2.15,12.43.83,6.42,2,8.35,2.7,13.61.85,6,.46,8-1.54,11.72s-9.23,7.35-12.88,2.18c-3-4.21-3.05-8.26-2.86-14.28a129.9,129.9,0,0,0-.24-14.34c-.3-4.51-2.62-8.77-1.58-9.28a17.68,17.68,0,0,0,.77,3.37,5.71,5.71,0,0,0,.66,1.66c.58.84.84-.54.83-1.06,0-.89-.31-1.6.36-2.35a4.94,4.94,0,0,1,1.79-1.09,10.76,10.76,0,0,1,2.2-.68,22.21,22.21,0,0,1,4.68-.34,2.21,2.21,0,0,1,1.81.75,1.35,1.35,0,0,1,.18.47c.13.59.07,1.2.2,1.79,0,.16.1.59.25.69s.41.05.42-.07S454,351.2,453.88,350.15Z"
@@ -1878,7 +1878,7 @@ const SigninSvg = () => {
                 transformOrigin: "449.258px 371.404px",
               }}
               id="elrpdm75a6f4b"
-              class="animable"
+              className="animable"
             ></path>
             <path
               d="M458.45,374.13c.13.87.79,6.29-.72,7.35s-2.6-3.36-2.6-3.36-3.89-1.17-9.48,1.45c.3.93-.53,4-2.08,3.39s-2.13-6.54-2.14-6.63c-.16,5.78,0,9.67,2.88,13.76,3.65,5.17,10.87,1.49,12.88-2.18s2.39-5.7,1.54-11.72C458.65,375.59,458.57,374.68,458.45,374.13Z"
@@ -1887,7 +1887,7 @@ const SigninSvg = () => {
                 transformOrigin: "450.271px 383.388px",
               }}
               id="elaqm0ggidlra"
-              class="animable"
+              className="animable"
             ></path>
             <path
               d="M454.69,378.51c.06,2.18,1.94,1.4,2.19-1.67.37-4.6-.8-9-.85-14.26-.78-6-.94-12.35-2.15-12.43.06,1-.1,5.18-.1,5.18.44,4.49,1.65,9.72,1.54,14.36C455.22,373.77,454.64,376.33,454.69,378.51Z"
@@ -1896,7 +1896,7 @@ const SigninSvg = () => {
                 transformOrigin: "455.366px 364.95px",
               }}
               id="elm8p6tnof9jh"
-              class="animable"
+              className="animable"
             ></path>
             <path
               d="M446.3,379.5c-.43-2.14-1.11-2.74-1.59-6.79S442,361.42,441.08,357c-.24-1.35-1.44-4.81-1.45-4.85-.75.38,0,2.9.64,5.6s1.05,4.37,1.47,7c1.11,5.17,1.33,10.68,2.06,13.67S446.73,381.63,446.3,379.5Z"
@@ -1905,7 +1905,7 @@ const SigninSvg = () => {
                 transformOrigin: "442.836px 366.531px",
               }}
               id="el1hlt4k16idu"
-              class="animable"
+              className="animable"
             ></path>
             <path
               d="M445.82,379.61a.43.43,0,0,0,.16-.05,14,14,0,0,1,9.33-1.13.46.46,0,0,0,.55-.34.47.47,0,0,0-.33-.56,14.72,14.72,0,0,0-10,1.21.48.48,0,0,0-.18.63A.45.45,0,0,0,445.82,379.61Z"
@@ -1914,7 +1914,7 @@ const SigninSvg = () => {
                 transformOrigin: "450.585px 378.381px",
               }}
               id="el00v96nyb0uf"
-              class="animable"
+              className="animable"
             ></path>
             <path
               d="M444.54,375.3l.15,0c.05,0,5.4-2.65,10.88-1.43a.47.47,0,0,0,.54-.36.47.47,0,0,0-.35-.55,19,19,0,0,0-11.47,1.51.46.46,0,0,0-.21.62A.46.46,0,0,0,444.54,375.3Z"
@@ -1923,7 +1923,7 @@ const SigninSvg = () => {
                 transformOrigin: "450.075px 373.982px",
               }}
               id="els8bw5fk4wgo"
-              class="animable"
+              className="animable"
             ></path>
             <path
               d="M456.14,370.28a.45.45,0,0,0,.38-.32.46.46,0,0,0-.29-.58c-5.46-1.82-12.57.9-12.8,1a.47.47,0,0,0-.18.63.45.45,0,0,0,.61.18c.05,0,7-2.66,12.09-1A.43.43,0,0,0,456.14,370.28Z"
@@ -1932,7 +1932,7 @@ const SigninSvg = () => {
                 transformOrigin: "449.869px 369.999px",
               }}
               id="elohtth22bjds"
-              class="animable"
+              className="animable"
             ></path>
             <path
               d="M455.21,366.39a.47.47,0,0,0,.38-.31.47.47,0,0,0-.28-.59c-6-2.12-12.11,1.34-12.32,1.48a.46.46,0,0,0-.14.63.44.44,0,0,0,.62.15s5.95-3.35,11.54-1.38A.47.47,0,0,0,455.21,366.39Z"
@@ -1941,7 +1941,7 @@ const SigninSvg = () => {
                 transformOrigin: "449.197px 366.312px",
               }}
               id="elc5x85ub9n8u"
-              class="animable"
+              className="animable"
             ></path>
             <path
               d="M454.78,361.64a.47.47,0,0,0,.37-.31.47.47,0,0,0-.27-.59c-5.63-2.08-12.17,1.46-12.39,1.6a.47.47,0,0,0-.16.64.43.43,0,0,0,.61.16c.06,0,6.41-3.46,11.64-1.53A.44.44,0,0,0,454.78,361.64Z"
@@ -1950,7 +1950,7 @@ const SigninSvg = () => {
                 transformOrigin: "448.72px 361.647px",
               }}
               id="el7v28isfwoh6"
-              class="animable"
+              className="animable"
             ></path>
             <path
               d="M414.78,250.54l-4.64,28.86a92.89,92.89,0,0,1,1,17c-.41,8.33-5.26,33.11-7,41.94-9.21,5.6-17.65-.42-17.65-.42s-2.41-48.42-3.13-60.11,1-59.07,1.54-77.6l59.12.17s1.1,10,2.08,24.86S449.32,280,449.32,280c6,17.71,3.49,29.34,4.54,62.42a16.3,16.3,0,0,1-16.38,2s-8.7-32.49-12.05-45.67c-1.6-6.29-7.41-33.64-10.65-48.16"
@@ -1959,7 +1959,7 @@ const SigninSvg = () => {
                 transformOrigin: "418.523px 272.988px",
               }}
               id="el4daqfc40mff"
-              class="animable"
+              className="animable"
             ></path>
             <path
               d="M391.73,229.08l-1.59,22.72c-.1,3.63-.89,11.58-.95,15.21s-.17,7.26,0,10.83,1.85,33,1.57,40.3c-1-8.07-2.76-32.92-3.2-40.22-.18-7.35.64-15.67,1.59-26.21S390.83,236.3,391.73,229.08Z"
@@ -1968,7 +1968,7 @@ const SigninSvg = () => {
                 transformOrigin: "389.633px 273.61px",
               }}
               id="el0yrinh6tx7s"
-              class="animable"
+              className="animable"
             ></path>
             <path
               d="M424.47,225.19c2.77,11.92,7.32,42.72,8.36,51s8.67,40.74,9.45,49.05c-1.41-8.23-10-40.54-11.07-48.83S426.2,240.28,424.47,225.19Z"
@@ -1977,7 +1977,7 @@ const SigninSvg = () => {
                 transformOrigin: "433.375px 275.215px",
               }}
               id="elzmcceykxq4p"
-              class="animable"
+              className="animable"
             ></path>
             <path
               d="M410.05,228l4.73,22.56-4.64,28.86,1.92-24.14-5.14-24.68s-9.65-2.94-12.17-13C399.67,225.67,410.05,228,410.05,228Z"
@@ -1986,17 +1986,17 @@ const SigninSvg = () => {
                 transformOrigin: "404.765px 248.51px",
               }}
               id="elv8guhuyb5t"
-              class="animable"
+              className="animable"
             ></path>
           </g>
           <g
             id="freepik--Top--inject-59"
-            class="animable"
+            className="animable"
             style={{ transformOrigin: "403.826px 143.16px" }}
           >
             <g
               id="freepik--top--inject-59"
-              class="animable"
+              className="animable"
               style={{ transformOrigin: "397.629px 143.16px" }}
             >
               <path
@@ -2006,7 +2006,7 @@ const SigninSvg = () => {
                   transformOrigin: "371.42px 153.964px",
                 }}
                 id="eli8ahnalu7m"
-                class="animable"
+                className="animable"
               ></path>
               <path
                 d="M395.09,127.69c-3.23.52-8.3,2.14-11.17,5.57s-5.44,8.2-8,15.82-3.07,9.12-3.07,9.12,2.56,3.13,8.53,5.18,8.75,1.26,8.75,1.26l5-17.24Z"
@@ -2015,11 +2015,11 @@ const SigninSvg = () => {
                   transformOrigin: "383.99px 146.24px",
                 }}
                 id="eltahnho9w4bg"
-                class="animable"
+                className="animable"
               ></path>
               <g
                 id="freepik--Chest--inject-59"
-                class="animable"
+                className="animable"
                 style={{ transformOrigin: "415.884px 168.95px" }}
               >
                 <path
@@ -2029,7 +2029,7 @@ const SigninSvg = () => {
                     fill: "rgb(250, 250, 250)",
                     transformOrigin: "415.864px 168.942px",
                   }}
-                  class="animable"
+                  className="animable"
                 ></path>
                 <path
                   id="freepik--chest--inject-59"
@@ -2038,12 +2038,12 @@ const SigninSvg = () => {
                     fill: "rgb(224, 224, 224)",
                     transformOrigin: "415.889px 168.95px",
                   }}
-                  class="animable"
+                  className="animable"
                 ></path>
               </g>
               <g
                 id="freepik--Head--inject-59"
-                class="animable"
+                className="animable"
                 style={{ transformOrigin: "413.448px 103.586px" }}
               >
                 <path
@@ -2053,7 +2053,7 @@ const SigninSvg = () => {
                     transformOrigin: "412.599px 96.285px",
                   }}
                   id="elu7t56r5a3bc"
-                  class="animable"
+                  className="animable"
                 ></path>
                 <path
                   d="M431.43,111.93c-3.81,1.91-5.6-1.1-5.6-1.1l-.38,16.63c-7.24,9.94-26.94,6.22-19-1.26l0-4.68a28.15,28.15,0,0,1-3.32-.32c-3.41-.49-5.57-2.88-6.63-6.54-1.56-5.43-2.26-14.13-.32-23.42.37-1.79,1.12-3.75,2.75-4.58,4.05-2.07,7.86.79,13.56,2.93,2.36.89,8.07,1.22,9.57.5-2,2.21-.74,7.86-.19,9.65.79,2.57,1.9,3.82,2.44,3.93,2.33.45,2.58-1.54,3.61-2.65a4.27,4.27,0,0,1,6.67,1.45A7,7,0,0,1,431.43,111.93Z"
@@ -2062,7 +2062,7 @@ const SigninSvg = () => {
                     transformOrigin: "415.176px 109.718px",
                   }}
                   id="elaxq0z3kubsr"
-                  class="animable"
+                  className="animable"
                 ></path>
                 <path
                   d="M420.9,116.94c-.75,3.77-5.81,6.31-14.43,6.62l0-2a40.15,40.15,0,0,0,6.32-.65C416.8,120.15,420.9,116.94,420.9,116.94Z"
@@ -2071,7 +2071,7 @@ const SigninSvg = () => {
                     transformOrigin: "413.685px 120.25px",
                   }}
                   id="elf7emjvs75bj"
-                  class="animable"
+                  className="animable"
                 ></path>
                 <path
                   d="M412.33,95.63l3.77,1.59A2.16,2.16,0,0,0,415,94.47,2,2,0,0,0,412.33,95.63Z"
@@ -2080,7 +2080,7 @@ const SigninSvg = () => {
                     transformOrigin: "414.29px 95.764px",
                   }}
                   id="el68vvj5id6d3"
-                  class="animable"
+                  className="animable"
                 ></path>
                 <path
                   d="M398.14,96.69l3.94-1.19a2,2,0,0,0-2.5-1.41A2.15,2.15,0,0,0,398.14,96.69Z"
@@ -2089,7 +2089,7 @@ const SigninSvg = () => {
                     transformOrigin: "400.075px 95.3492px",
                   }}
                   id="el8gmls3hcd7x"
-                  class="animable"
+                  className="animable"
                 ></path>
                 <path
                   d="M414.73,99.67a1.67,1.67,0,1,1-1.62-1.7A1.66,1.66,0,0,1,414.73,99.67Z"
@@ -2098,7 +2098,7 @@ const SigninSvg = () => {
                     transformOrigin: "413.06px 99.6393px",
                   }}
                   id="elk2wkewoim1a"
-                  class="animable"
+                  className="animable"
                 ></path>
                 <path
                   d="M402.18,99.51a1.67,1.67,0,1,1-3.33-.08,1.66,1.66,0,0,1,1.7-1.62A1.51,1.51,0,0,1,402.18,99.51Z"
@@ -2107,7 +2107,7 @@ const SigninSvg = () => {
                     transformOrigin: "400.517px 99.5335px",
                   }}
                   id="elfscvjbfoqs5"
-                  class="animable"
+                  className="animable"
                 ></path>
                 <path
                   d="M407.41,97.62l-1.58,9.9-5.12-1.22A19.75,19.75,0,0,1,407.41,97.62Z"
@@ -2116,7 +2116,7 @@ const SigninSvg = () => {
                     transformOrigin: "404.06px 102.57px",
                   }}
                   id="elhry8j9qyr1"
-                  class="animable"
+                  className="animable"
                 ></path>
                 <path
                   d="M411.36,108.75,405.62,111a3,3,0,0,0,3.94,1.87A3.22,3.22,0,0,0,411.36,108.75Z"
@@ -2125,7 +2125,7 @@ const SigninSvg = () => {
                     transformOrigin: "408.594px 110.912px",
                   }}
                   id="el5cu4wndf0ht"
-                  class="animable"
+                  className="animable"
                 ></path>
                 <path
                   d="M410.8,109.83a3.15,3.15,0,0,1,.74-.11,3.19,3.19,0,0,1-2,3.12,3,3,0,0,1-1,.18A2.81,2.81,0,0,1,410.8,109.83Z"
@@ -2134,13 +2134,13 @@ const SigninSvg = () => {
                     transformOrigin: "410.026px 111.37px",
                   }}
                   id="elfhw8c0o2qt"
-                  class="animable"
+                  className="animable"
                 ></path>
               </g>
             </g>
             <g
               id="freepik--tablet--inject-59"
-              class="animable"
+              className="animable"
               style={{ transformOrigin: "367.838px 167.421px" }}
             >
               <path
@@ -2150,7 +2150,7 @@ const SigninSvg = () => {
                   transformOrigin: "367.831px 167.421px",
                 }}
                 id="el430e5mxvq7f"
-                class="animable"
+                className="animable"
               ></path>
               <g id="el06vv59d1vlkg">
                 <path
@@ -2160,7 +2160,7 @@ const SigninSvg = () => {
                     opacity: "0.7",
                     transformOrigin: "367.831px 167.421px",
                   }}
-                  class="animable"
+                  className="animable"
                 ></path>
               </g>
               <path
@@ -2170,7 +2170,7 @@ const SigninSvg = () => {
                   transformOrigin: "388.212px 175.645px",
                 }}
                 id="elo4nen85j8bp"
-                class="animable"
+                className="animable"
               ></path>
               <path
                 d="M391.44,191.94,384.8,161.1a5.31,5.31,0,0,0-2.83-3.38l-37.45-15.34c-1.28-.52-2.08.15-1.79,1.5,1.31,6.06,5.34,24.77,6.64,30.83a5.29,5.29,0,0,0,2.84,3.39l37.45,15.34C390.93,194,391.73,193.29,391.44,191.94Z"
@@ -2179,7 +2179,7 @@ const SigninSvg = () => {
                   transformOrigin: "367.085px 167.918px",
                 }}
                 id="el2z9cc14leg7"
-                class="animable"
+                className="animable"
               ></path>
               <g id="el1089i3k5aqi">
                 <path
@@ -2189,7 +2189,7 @@ const SigninSvg = () => {
                     opacity: "0.4",
                     transformOrigin: "367.085px 167.918px",
                   }}
-                  class="animable"
+                  className="animable"
                 ></path>
               </g>
               <path
@@ -2199,7 +2199,7 @@ const SigninSvg = () => {
                   transformOrigin: "381.661px 163.716px",
                 }}
                 id="el9a89ey5flke"
-                class="animable"
+                className="animable"
               ></path>
               <path
                 d="M382.49,162.84a2.47,2.47,0,0,0-1.36-1.56c-.61-.26-1,0-.87.65a2.47,2.47,0,0,0,1.35,1.57C382.23,163.75,382.62,163.46,382.49,162.84Z"
@@ -2208,7 +2208,7 @@ const SigninSvg = () => {
                   transformOrigin: "381.375px 162.385px",
                 }}
                 id="el5orr067q87l"
-                class="animable"
+                className="animable"
               ></path>
               <path
                 d="M383.08,165.75a2.52,2.52,0,0,0-1.35-1.57c-.62-.25-1,0-.88.66a2.49,2.49,0,0,0,1.36,1.57C382.82,166.66,383.22,166.37,383.08,165.75Z"
@@ -2217,7 +2217,7 @@ const SigninSvg = () => {
                   transformOrigin: "381.968px 165.292px",
                 }}
                 id="elziu88ficdm8"
-                class="animable"
+                className="animable"
               ></path>
               <path
                 d="M344,162.07c-1.21-1.9-1.07-2.13-.32-3a5.75,5.75,0,0,1,4.81-2.15c1.6.13,3.23.18,4,.65s0,2.18-2.11,2.54c-3.33.57-3.36,1.46-3.36,1.46s3.07-.51,4.3-.52a30.63,30.63,0,0,1,4.8,1c1.37.29,1.56,2.1-.83,2.59l2.52.54c1.77.38,2.33,1.36.87,2.39a2.61,2.61,0,0,1-1.65.53s1.9.09,1.91.73c0,1.81-1.18,2.23-5.08,3.14-3.72.87-4.58,2.8-3.92,4.2,0,0-1.43-.93-2.7-1.91-.92-.72-1.7-1.51-1.19-3,0,0-2.09-.07-2.15-1.37a6.71,6.71,0,0,1,.65-2.75,2.28,2.28,0,0,1-1-2.21,3.76,3.76,0,0,1,.88-2.23Z"
@@ -2226,7 +2226,7 @@ const SigninSvg = () => {
                   transformOrigin: "351.309px 166.541px",
                 }}
                 id="elst967btjgm"
-                class="animable"
+                className="animable"
               ></path>
               <path
                 d="M355.34,164.6a12.4,12.4,0,0,0-2.3-.37,7.49,7.49,0,0,0-2.28.59,28,28,0,0,0-4.15,2,27,27,0,0,0,4.38-1.31,12.28,12.28,0,0,1,2.09-.71C353.77,164.68,354.58,164.71,355.34,164.6Z"
@@ -2235,7 +2235,7 @@ const SigninSvg = () => {
                   transformOrigin: "350.975px 165.525px",
                 }}
                 id="elomk7u4gv4a"
-                class="animable"
+                className="animable"
               ></path>
               <path
                 d="M357.08,168.06a5,5,0,0,0-2.5-.21,12.3,12.3,0,0,0-2.42.63,23.16,23.16,0,0,0-4.48,2.1,45.81,45.81,0,0,0,4.7-1.47A13,13,0,0,1,357.08,168.06Z"
@@ -2244,17 +2244,17 @@ const SigninSvg = () => {
                   transformOrigin: "352.38px 169.179px",
                 }}
                 id="elabu75s84rp9"
-                class="animable"
+                className="animable"
               ></path>
             </g>
             <g
               id="freepik--Arm--inject-59"
-              class="animable"
+              className="animable"
               style={{ transformOrigin: "432.76px 162.55px" }}
             >
               <g
                 id="freepik--arm--inject-59"
-                class="animable"
+                className="animable"
                 style={{ transformOrigin: "432.76px 162.55px" }}
               >
                 <path
@@ -2264,7 +2264,7 @@ const SigninSvg = () => {
                     transformOrigin: "408.529px 152.879px",
                   }}
                   id="elnyofglq78ir"
-                  class="animable"
+                  className="animable"
                 ></path>
                 <path
                   d="M455.39,141.26c-2.78-7-5.49-9.1-12.7-11.45-7.72,6.65-3.4,25.05-3.4,25.05L446,174s-15.41-5.15-17.51-6.68-7.55-8.18-9.39-10.18c-2.52-2.73-3.86-2.47-5.23-2.35-4.49.39-5.48.7-6.46,1.24a2,2,0,0,0-1,1.68c-1.19.07-3-.07-3.3,1.85a5.58,5.58,0,0,0-.17,1.55,1.32,1.32,0,0,0-.8.39c-1.05,1.08.39,5.12,1.4,6.15.71.72,1.78.87,3.19.77,1.21-.09.73-1.34.73-1.34l1.67.2c3.45,2.79,3.32,7.89,8,9.31a33,33,0,0,1,5.77,1.49c10.07,4.1,23,15.61,32.08,17,8.9,1.33,10.05-3.87,10-9.36C465,177,458.15,148.25,455.39,141.26Z"
@@ -2273,7 +2273,7 @@ const SigninSvg = () => {
                     transformOrigin: "433.378px 162.55px",
                   }}
                   id="elae1oos7jvlh"
-                  class="animable"
+                  className="animable"
                 ></path>
                 <path
                   d="M406.47,157.75l5.66-.18-5.52-.54A2.09,2.09,0,0,0,406.47,157.75Z"
@@ -2282,7 +2282,7 @@ const SigninSvg = () => {
                     transformOrigin: "409.3px 157.39px",
                   }}
                   id="el1axw76357cc"
-                  class="animable"
+                  className="animable"
                 ></path>
                 <path
                   d="M403,161.15l6.12-.41-6.08-.29A3.14,3.14,0,0,0,403,161.15Z"
@@ -2291,7 +2291,7 @@ const SigninSvg = () => {
                     transformOrigin: "406.058px 160.8px",
                   }}
                   id="eldfaa21xuyag"
-                  class="animable"
+                  className="animable"
                 ></path>
                 <path
                   d="M408.07,166.26a2.37,2.37,0,0,1-.68-1.21,21.16,21.16,0,0,1-2.11-.27,7.64,7.64,0,0,1-.8-.29,2.42,2.42,0,0,1-.85-.61,2,2,0,0,0,.78.76,3.89,3.89,0,0,0,.89.37l.3.77a1.25,1.25,0,0,0-.65.21,1.61,1.61,0,0,0-.58.76,2.08,2.08,0,0,1,.66-.63,1.27,1.27,0,0,1,.83-.1,2.63,2.63,0,0,1,1.66,1.1l1.67.2A11.45,11.45,0,0,1,408.07,166.26Z"
@@ -2300,7 +2300,7 @@ const SigninSvg = () => {
                     transformOrigin: "406.41px 165.6px",
                   }}
                   id="elz3aainit3hc"
-                  class="animable"
+                  className="animable"
                 ></path>
               </g>
               <path
@@ -2310,7 +2310,7 @@ const SigninSvg = () => {
                   transformOrigin: "450.345px 176.365px",
                 }}
                 id="elaep2aeunif8"
-                class="animable"
+                className="animable"
               ></path>
             </g>
             <path
@@ -2320,24 +2320,24 @@ const SigninSvg = () => {
                 transformOrigin: "449.693px 149.974px",
               }}
               id="eli7wfsdmyut"
-              class="animable"
+              className="animable"
             ></path>
           </g>
         </g>
       </g>
       <g
         id="freepik--speech-bubble--inject-59"
-        class="animable"
+        className="animable"
         style={{ transformOrigin: "90.005px 106.192px" }}
       >
         <g
           id="freepik--speech-bubble--inject-59"
-          class="animable"
+          className="animable"
           style={{ transformOrigin: "90.005px 106.192px" }}
         >
           <g
             id="freepik--speech-bubble--inject-59"
-            class="animable"
+            className="animable"
             style={{ transformOrigin: "90.005px 106.192px" }}
           >
             <path
@@ -2347,7 +2347,7 @@ const SigninSvg = () => {
                 transformOrigin: "92.8275px 154.389px",
               }}
               id="elbre0zzgakkr"
-              class="animable"
+              className="animable"
             ></path>
             <g id="ely31k11t8hm">
               <path
@@ -2357,7 +2357,7 @@ const SigninSvg = () => {
                   opacity: "0.2",
                   transformOrigin: "92.8275px 154.389px",
                 }}
-                class="animable"
+                className="animable"
               ></path>
             </g>
             <path
@@ -2367,7 +2367,7 @@ const SigninSvg = () => {
                 transformOrigin: "90px 106.192px",
               }}
               id="elay2esx4jpj4"
-              class="animable"
+              className="animable"
             ></path>
             <g id="elin8r7z1bkak">
               <path
@@ -2377,7 +2377,7 @@ const SigninSvg = () => {
                   opacity: "0.2",
                   transformOrigin: "90px 106.192px",
                 }}
-                class="animable"
+                className="animable"
               ></path>
             </g>
             <path
@@ -2387,7 +2387,7 @@ const SigninSvg = () => {
                 transformOrigin: "94.45px 108.705px",
               }}
               id="elcfm6t1tl48"
-              class="animable"
+              className="animable"
             ></path>
             <g id="elj2nd5yv6xk">
               <path
@@ -2397,7 +2397,7 @@ const SigninSvg = () => {
                   opacity: "0.4",
                   transformOrigin: "94.45px 108.705px",
                 }}
-                class="animable"
+                className="animable"
               ></path>
             </g>
             <g id="elfn1vd80za4u">
@@ -2408,7 +2408,7 @@ const SigninSvg = () => {
                   opacity: "0.7",
                   transformOrigin: "90.365px 63.5745px",
                 }}
-                class="animable"
+                className="animable"
               ></path>
             </g>
           </g>
@@ -2419,7 +2419,7 @@ const SigninSvg = () => {
               transformOrigin: "94.45px 109.258px",
             }}
             id="elyjj7qbwric"
-            class="animable"
+            className="animable"
           ></path>
         </g>
       </g>
@@ -2434,8 +2434,8 @@ const SigninSvg = () => {
             radius="2"
           ></feMorphology>{" "}
           <feFlood
-            flood-color="#32DFEC"
-            flood-opacity="1"
+            floodColor="#32DFEC"
+            floodOpacity="1"
             result="PINK"
           ></feFlood>{" "}
           <feComposite
@@ -2459,8 +2459,8 @@ const SigninSvg = () => {
             radius="2"
           ></feMorphology>{" "}
           <feFlood
-            flood-color="#ff0000"
-            flood-opacity="0.5"
+            floodColor="#ff0000"
+            floodOpacity="0.5"
             result="PINK"
           ></feFlood>{" "}
           <feComposite

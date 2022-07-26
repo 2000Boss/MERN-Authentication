@@ -7,6 +7,7 @@ import PrivateRouter from "./services/PrivateRouter";
 import Checkout from "./pages/Payment-Note";
 import Profile from "./pages/Profile";
 import NotFound from "./pages/NotFound";
+import ResetPasswordEmail from "./pages/ResetPasswordEmail";
 // import Success from "./components/checkout/stripe-checkout/success";
 // import Canceled from "./components/checkout/stripe-checkout/canceled";
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/payment/:subscribeId" element={<Payment />} />
         <Route path="/checkout" element={<Checkout />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/reset" element={<ResetPasswordEmail />} />
       </Route>
 
       {/* <Route path="/success" component={Success} /> */}

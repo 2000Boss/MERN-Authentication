@@ -1,64 +1,50 @@
+import Error from "../layouts/Error";
 import Footer from "../layouts/Footer";
 import Navbar from "../layouts/Navbar";
 import Spinner from "../components/Spinner";
-import SigninSvg from "../static/SigninSvg";
+import ForgotPasswordSvg from "../static/ForgotPasswordSvg";
 import Request from "../services/Axios-CRUD";
-import { useDispatch } from "react-redux";
-import { useLocation, useNavigate } from "react-router-dom";
-import { updateUser } from "../StoreConfig/features/UserSlice";
-import Cookies from "js-cookie";
 import { useState } from "react";
-import Error from "../layouts/Error";
+import { useNavigate } from "react-router-dom";
 
-const Signin = () => {
-  const [getLoad, setLoad] = useState(false);
-  const [getError, setError] = useState("");
-  const dispatch = useDispatch();
+const ResetPasswordEmail = () => {
   const navigate = useNavigate();
-  const location = useLocation();
-  const [getSignin, setSignin] = useState({ email: "", password: "" });
 
-  const handleInput = (event) => {
-    setSignin((values) => ({
-      ...values,
-      [event.target.name]: event.target.value,
-    }));
-  };
+  const [getLoad, setLoad] = useState(false);
+  const [getPayment, setPayment] = useState({
+    cardNumber: "",
+    expiryDate: "",
+    cvc: "",
+    subscription: "12",
+  });
+  const [getError, setError] = useState("");
 
   const handleSubmit = (event) => {
     event.preventDefault();
     setLoad(true);
-    Request.login(getSignin)
+    Request.peyment(getPayment)
       .then((res) => {
-        Cookies.set("logged_in", "yes", {
-          secure: true,
-          expires: new Date(res.data.data.expires),
-        });
-        dispatch(
-          updateUser({
-            email: res.data.data.user.email,
-            firstName: res.data.data.user.firstName,
-            lastName: res.data.data.user.lastName,
-            _id: res.data.data.user._id,
-          })
-        );
-
-        res.data.status === "success" &&
-          (location.state?.from
-            ? navigate(location.state.from)
-            : navigate("/"));
+        res.data.status === "success" && navigate("/");
         setLoad(false);
       })
       .catch((error) => {
         setError(error.response.data.msg);
         setLoad(false);
       });
+
+    setPayment({
+      cardNumber: "",
+      expiryDate: "",
+      cvc: "",
+    });
   };
+
   return (
     <div className={getLoad && "relative z-10"}>
       <div className="dark:bg-slate-800">
-        <Navbar Signin={true} />
+        <Navbar Payment={true} />
         {<Error setError={setError}>{getError}</Error>}
+
         <section className="text-gray-600 bg-slate-800">
           <div className="container mx-auto flex px-5 md:flex-row flex-col items-center">
             <div className="lg:flex-grow md:w-1/2 flex flex-col content-start pt-4 text-center">
@@ -70,7 +56,7 @@ const Signin = () => {
                   <div>
                     <div className="mb-6 space-y-4">
                       <h1 className="font-medium text-4xl text-emerald-600">
-                        <p>Sign In</p>
+                        <p>Payment</p>
                       </h1>
                       <div className="space-x-8 flex items-center justify-center">
                         <a
@@ -92,25 +78,54 @@ const Signin = () => {
                           in
                         </a>
                       </div>
+                      <div className="font-medium text-4xl text-emerald-600">
+                        <span>Total Price: </span>
+                        <span className="text-gray-200">$12.00</span>
+                      </div>
                     </div>
                     <div className="space-y-8">
                       <div className="flex flex-col text-left space-y-6">
                         <input
-                          onChange={handleInput}
-                          value={getSignin.email}
-                          type="text"
-                          name="email"
-                          className="rounded-md shadow-md dark:shadow-neutral-600 focus:shadow-lg bg-slate-100 items-center pl-3 py-2 focus:outline-none focus:bg-gray-100 border-1 border-gray-200"
-                          placeholder="Email"
-                        />
-                        <input
-                          onChange={handleInput}
-                          value={getSignin.password}
+                          onChange={(event) =>
+                            setPayment((values) => ({
+                              ...values,
+                              [event.target.name]: event.target.value,
+                            }))
+                          }
+                          value={getPayment.cardNumber}
                           required
                           type="text"
-                          name="password"
+                          name="cardNumber"
                           className="rounded-md shadow-md dark:shadow-neutral-600 focus:shadow-lg bg-slate-100 items-center pl-3 py-2 focus:outline-none focus:bg-gray-100 border-1 border-gray-200"
-                          placeholder="Password"
+                          placeholder="Card Number"
+                        />
+                        <input
+                          onChange={(event) =>
+                            setPayment((values) => ({
+                              ...values,
+                              [event.target.name]: event.target.value,
+                            }))
+                          }
+                          value={getPayment.expiryDate}
+                          required
+                          type="text"
+                          name="expiryDate"
+                          className="rounded-md shadow-md dark:shadow-neutral-600 focus:shadow-lg bg-slate-100 items-center pl-3 py-2 focus:outline-none focus:bg-gray-100 border-1 border-gray-200"
+                          placeholder="ExpiryDate"
+                        />
+                        <input
+                          onChange={(event) =>
+                            setPayment((values) => ({
+                              ...values,
+                              [event.target.name]: event.target.value,
+                            }))
+                          }
+                          value={getPayment.cvc}
+                          required
+                          type="text"
+                          name="cvc"
+                          className="rounded-md shadow-md dark:shadow-neutral-600 focus:shadow-lg bg-slate-100 items-center pl-3 py-2 focus:outline-none focus:bg-gray-100 border-1 border-gray-200"
+                          placeholder="CVC"
                         />
                       </div>
                       <div className="space-y-2">
@@ -120,17 +135,9 @@ const Signin = () => {
                         >
                           <span className="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
                           <span className="text-xl relative">
-                            <p>Sign In</p>
+                            <p>Confirm Payment</p>
                           </span>
                         </button>
-                        <div className="">
-                          <a
-                            href="/"
-                            className="text-base text-gray-400 font-normal hover:text-emerald-600"
-                          >
-                            <p>Do not have Account?</p>
-                          </a>
-                        </div>
                       </div>
                     </div>
                   </div>
@@ -138,7 +145,7 @@ const Signin = () => {
               </form>
             </div>
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-              <SigninSvg />
+              <ForgotPasswordSvg />
             </div>
           </div>
         </section>
@@ -149,4 +156,4 @@ const Signin = () => {
   );
 };
 
-export default Signin;
+export default ResetPasswordEmail;

@@ -1,14 +1,14 @@
 const Spinner = () => {
   return (
     <>
-      <div class="fixed inset-0 bg-gray-900 bg-opacity-90 transition-opacity"></div>
+      <div className="fixed inset-0 bg-gray-900 bg-opacity-90 transition-opacity"></div>
 
-      <div class="fixed z-10 inset-0 overflow-y-auto">
-        <div class="flex items-end sm:items-center justify-center min-h-full p-4 text-center sm:p-0">
-          <div class="relative text-left overflow-hidden transform transition-all sm:my-8">
+      <div className="fixed z-10 inset-0 overflow-y-auto">
+        <div className="flex items-end sm:items-center justify-center min-h-full p-4 text-center sm:p-0">
+          <div className="relative text-left overflow-hidden transform transition-all sm:my-8">
             <svg
               role="status"
-              class="inline mr-2 w-16 h-16 text-gray-200 animate-spin dark:text-gray-600 fill-blue-600"
+              className="inline mr-2 w-16 h-16 text-gray-200 animate-spin dark:text-gray-600 fill-blue-600"
               viewBox="0 0 100 101"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"

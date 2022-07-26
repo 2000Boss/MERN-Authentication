@@ -1,200 +1,156 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <>
-      <section class="bg-slate-800 -mt-10">
+      <section className="bg-slate-800 -mt-10">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path
             fill="#0f172a"
-            fill-opacity="1"
+            fillOpacity="1"
             d="M0,224L48,229.3C96,235,192,245,288,240C384,235,480,213,576,186.7C672,160,768,128,864,144C960,160,1056,224,1152,229.3C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
           ></path>
         </svg>
       </section>
-      <footer class="text-gray-600 body-font bg-slate-900">
-        <div class="container px-4 py-6 mx-auto">
-          <div class="flex flex-wrap md:text-left order-first">
-            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 class="font-semibold text-gray-100 text-lg mb-3">
+      <footer className="text-gray-600 body-font bg-slate-900">
+        <div className="container px-4 py-6 mx-auto">
+          <div className="flex flex-wrap md:text-left order-first">
+            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2 className="font-semibold text-gray-100 text-lg mb-3">
                 Resources
               </h2>
-              <ul class="list-none mb-10">
-                <li class="my-2">
-                  <a
-                    href="/sitemap.xml/"
-                    class="text-gray-300 hover:text-gray-100"
-                  >
+              <ul className="list-none mb-10">
+                <li className="my-2">
+                  <Link to="/" className="text-gray-300 hover:text-gray-100">
                     Sitemap
-                  </a>
+                  </Link>
                 </li>
-                <li class="my-2">
-                  <a href="/feed/" class="text-gray-300 hover:text-gray-100">
-                    RSS feed
-                  </a>
+                <li className="my-2">
+                  <Link to="/">RSS feed</Link>
                 </li>
-                <li class="my-2">
-                  <a
-                    href="https://github.com/TheAbhijeet/Merooncentral-bugs-and-features"
-                    class="text-gray-300 hover:text-gray-100"
-                  >
+                <li className="my-2">
+                  <Link to="/" className="text-gray-300 hover:text-gray-100">
                     Feature request
-                  </a>
+                  </Link>
                 </li>
-                <li class="my-2">
-                  <a
-                    href="https://github.com/TheAbhijeet/Merooncentral-bugs-and-features"
-                    class="text-gray-300 hover:text-gray-100"
+                <li className="my-2">
+                  <Link
+                    to="/profile"
+                    className="text-gray-300 hover:text-gray-100"
                   >
                     Report bug
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
-            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 class="font-semibold text-gray-100 text-lg mb-3">Pages</h2>
-              <ul class="list-none mb-10">
-                <li class="my-2">
-                  <a
-                    href="/pages/about-us/"
-                    class="text-gray-300 hover:text-gray-100"
-                  >
+            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2 className="font-semibold text-gray-100 text-lg mb-3">
+                Pages
+              </h2>
+              <ul className="list-none mb-10">
+                <li className="my-2">
+                  <Link to="/" className="text-gray-300 hover:text-gray-100">
                     About us
-                  </a>
+                  </Link>
                 </li>
-                <li class="my-2">
-                  <a
-                    href="/pages/contact-us/"
-                    class="text-gray-300 hover:text-gray-100"
-                  >
+                <li className="my-2">
+                  <Link to="/" className="text-gray-300 hover:text-gray-100">
                     Contact us
-                  </a>
+                  </Link>
                 </li>
-                <li class="my-2">
-                  <a
-                    href="/pages/privacy-policy/"
-                    class="text-gray-300 hover:text-gray-100"
-                  >
+                <li className="my-2">
+                  <Link to="/" className="text-gray-300 hover:text-gray-100">
                     Privacy policy
-                  </a>
+                  </Link>
                 </li>
-                <li class="my-2">
-                  <a
-                    href="/pages/terms-and-conditions/"
-                    class="text-gray-300 hover:text-gray-100"
-                  >
+                <li className="my-2">
+                  <Link to="/" className="text-gray-300 hover:text-gray-100">
                     Terms and conditions
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
-            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 class="font-semibold text-gray-100 text-lg mb-3">Explore</h2>
-              <ul class="list-none mb-10">
-                <li class="my-2">
-                  <a
-                    class="text-gray-300 hover:text-gray-100"
-                    href="/articles/"
-                  >
+            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2 className="font-semibold text-gray-100 text-lg mb-3">
+                Explore
+              </h2>
+              <ul className="list-none mb-10">
+                <li className="my-2">
+                  <Link className="text-gray-300 hover:text-gray-100" to="/">
                     Articles
-                  </a>
+                  </Link>
                 </li>
-                <li class="my-2">
-                  <a
-                    class="text-gray-300 hover:text-gray-100"
-                    href="/madewithMeroon/all/"
-                  >
+                <li className="my-2">
+                  <Link className="text-gray-300 hover:text-gray-100" to="/">
                     MadewithMeroon
-                  </a>
+                  </Link>
                 </li>
-                <li class="my-2">
-                  <a
-                    class="text-gray-300 hover:text-gray-100"
-                    href="/books/all/"
-                  >
+                <li className="my-2">
+                  <Link className="text-gray-300 hover:text-gray-100" to="/">
                     Books
-                  </a>
+                  </Link>
                 </li>
-                <li class="my-2">
-                  <a
-                    class="text-gray-300 hover:text-gray-100"
-                    href="/courses/all/"
-                  >
+                <li className="my-2">
+                  <Link className="text-gray-300 hover:text-gray-100" to="/">
                     Courses
-                  </a>
+                  </Link>
                 </li>
-                <li class="my-2">
-                  <a
-                    class="text-gray-300 hover:text-gray-100"
-                    href="/tools/notepad/"
-                  >
+                <li className="my-2">
+                  <Link className="text-gray-300 hover:text-gray-100" to="/">
                     Notepad
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
-            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 class="font-semibold text-gray-100 text-lg mb-3">
+            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2 className="font-semibold text-gray-100 text-lg mb-3">
                 MadewithMeroon
               </h2>
-              <ul class="list-none mb-10">
-                <li class="my-2">
-                  <a
-                    class="text-gray-300 hover:text-gray-100"
-                    href="/madewithMeroon/submit-project/"
-                  >
+              <ul className="list-none mb-10">
+                <li className="my-2">
+                  <Link className="text-gray-300 hover:text-gray-100" to="/">
                     Submit a project
-                  </a>
+                  </Link>
                 </li>
-                <li class="my-2">
-                  <a
-                    class="text-gray-300 hover:text-gray-100"
-                    href="/madewithMeroon/tag/social-media"
-                  >
+                <li className="my-2">
+                  <Link className="text-gray-300 hover:text-gray-100" to="/">
                     Social Media
-                  </a>
+                  </Link>
                 </li>
-                <li class="my-2">
-                  <a
-                    class="text-gray-300 hover:text-gray-100"
-                    href="/madewithMeroon/open-sourced/"
-                  >
+                <li className="my-2">
+                  <Link className="text-gray-300 hover:text-gray-100" to="/">
                     Open Source projects
-                  </a>
+                  </Link>
                 </li>
-                <li class="my-2">
-                  <a
-                    class="text-gray-300 hover:text-gray-100"
-                    href="/madewithMeroon/tag/edtech"
-                  >
+                <li className="my-2">
+                  <Link className="text-gray-300 hover:text-gray-100" to="/">
                     Edtech
-                  </a>
+                  </Link>
                 </li>
-                <li class="my-2">
-                  <a
-                    class="text-gray-300 hover:text-gray-100"
-                    href="/madewithMeroon/tag/fintech"
-                  >
+                <li className="my-2">
+                  <Link className="text-gray-300 hover:text-gray-100" to="/">
                     Fintech
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
           </div>
         </div>
 
-        <div class="bg-slate-900 items-center ml-48 justify-center">
+        <div className="bg-slate-900 items-center ml-48 justify-center">
           <div
             x-data="{ year: new Date().getFullYear() }"
-            class="container px-5 py-6 lg:mx-auto flex items-center sm:flex-row flex-col"
+            className="container px-5 py-6 lg:mx-auto flex items-center sm:flex-row flex-col"
           >
             <p
               aria-label="copyright"
-              class="text-sm text-gray-400 sm:ml-6 sm:mt-0 mt-4"
+              className="text-sm text-gray-400 sm:ml-6 sm:mt-0 mt-4"
             >
               © <span x-text="year">2022</span> —
             </p>
-            <p class="text-gray-400 ml-1" target="_blank">
+            <p className="text-gray-400 ml-1" target="_blank">
               Merooncentral |
-              <span class="text-xs">
+              <span className="text-xs">
                 Merooncentral is not associated with the DSF | Meroon is a
                 registered trademark of the Meroon Software Foundation
               </span>
@@ -202,24 +158,24 @@ const Footer = () => {
             <p></p>
           </div>
         </div>
-        <div class="fixed flex-col hidden gap-3 pl-0 ml-0 right-8 bottom-8 md:flex">
+        <div className="fixed flex-col hidden gap-3 pl-0 ml-0 right-8 bottom-8 md:flex">
           <button
             x-data=""
             aria-label="Scroll To Top"
             type="button"
-            class="p-2 transition-all rounded-full text-gray-400 bg-slate-700 hover:bg-gray-600"
+            className="p-2 transition-all rounded-full text-gray-400 bg-slate-700 hover:bg-gray-600"
           >
             <svg
-              class="w-5 h-5"
+              className="w-5 h-5"
               viewBox="0 0 20 20"
               fill="currentColor"
               data-darkreader-inline-fill=""
               style={{ darkreaderInlineFill: "currentColor" }}
             >
               <path
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M3.293 9.707a1 1 0 010-1.414l6-6a1 1 0 011.414 0l6 6a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L4.707 9.707a1 1 0 01-1.414 0z"
-                clip-rule="evenodd"
+                clipRule="evenodd"
               ></path>
             </svg>
           </button>
