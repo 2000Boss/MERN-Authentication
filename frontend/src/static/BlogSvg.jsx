@@ -1,5 +1,5 @@
 import "./BlogStyle.css";
-const Blog = () => {
+const BlogSvg = () => {
   return (
     <svg
       className="animated  -mr-80 "
@@ -1547,4 +1547,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default BlogSvg;

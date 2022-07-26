@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Blog from "../static/Blog";
+import BlogSvg from "../static/BlogSvg";
 
 const Hero = () => {
   return (
@@ -36,7 +36,7 @@ const Hero = () => {
               </Link>
             </div>
           </div>
-          <Blog />
+          <BlogSvg />
 
           {/* <img src="./Blogging.svg" alt=""  /> */}
           <div className="lg:max-w-lg lg:w-full mb-5 md:mb-0 md:w-1/2 w-3/6"></div>

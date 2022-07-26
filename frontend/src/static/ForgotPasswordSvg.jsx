@@ -1,4 +1,4 @@
-import React from "react";
+import "./ForgotPasswordStyle.css";
 
 const ForgotPassword = () => {
   return (

@@ -1,1170 +1,130 @@
-svg#freepik_stories-oops-404-error-with-a-broken-robot:not(.animated)
-  .animable {
+svg#freepik_stories-blogging:not(.animated) .animable {
   opacity: 0;
 }
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated
-  #freepik--background-complete--inject-21 {
+svg#freepik_stories-blogging.animated #freepik--background-complete--inject-44 {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) zoomOut;
+  animation-delay: 0s;
+}
+svg#freepik_stories-blogging.animated #freepik--Floor--inject-44 {
   animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
   animation-delay: 0s;
 }
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated
-  #freepik--speech-bubble--inject-21 {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedRight,
-    1.5s Infinite linear heartbeat;
-  animation-delay: 0s, 2s;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elgn17kpaft4s {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
+svg#freepik_stories-blogging.animated #freepik--Device--inject-44 {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) fadeIn;
   animation-delay: 0s;
 }
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated
-  #el10snufd05d4r {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.004405286343612335s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #ely5kx0lil4i {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.00881057268722467s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elz1mxzbal8yf {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.013215859030837006s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elbiy8m6lp0kr {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.01762114537444934s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el7ax4u7xfa65 {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.022026431718061675s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elvqjxltg7ual {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.026431718061674013s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el2ogyys03tbg {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.030837004405286347s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elz4i0kcfzupe {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.03524229074889868s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elt0ql5hqtm3b {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.039647577092511016s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elm7ci5ttx7p {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.04405286343612335s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elxc6x3qrhpop {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.048458149779735685s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elzjlhbyre9q {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.052863436123348026s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el7lroen4r86 {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.05726872246696036s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elxahbvu23o4 {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.061674008810572695s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #eltzu4fuu7qxs {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.06607929515418502s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #eldtohjm9td79 {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.07048458149779736s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elyazyhisfl7h {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.0748898678414097s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elew77kmvbreo {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.07929515418502203s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el9ul0h66t7li {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.08370044052863437s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elho1bdkjj7dp {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.0881057268722467s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elccpr4ymgcvp {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.09251101321585904s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elnyha0eypnuh {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.09691629955947137s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #eli56f9lpfgrn {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.10132158590308371s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #eloxo69sv3b5m {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.10572687224669605s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el50rpg9c0i2r {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.11013215859030838s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elfoajdjwizjv {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.11453744493392072s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elkmz49f3u7w {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.11894273127753305s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #eln2ba5uxoevp {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.12334801762114539s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elk4078t2mql {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.12775330396475773s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #eln5aecr00tb {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.13215859030837004s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elkdxtyt9kvx {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.13656387665198239s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elrark4mr1i8k {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.14096916299559473s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elz2q4anid4ha {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.14537444933920707s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elcdphdqa6zz {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.1497797356828194s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el60hdjq643y4 {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.15418502202643172s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el1lbwp3d2dd2 {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.15859030837004406s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elur2nfqork8b {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.1629955947136564s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elxo9ogfv60gh {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.16740088105726875s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #els0nc5qtlquq {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.17180616740088106s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elltqyr8eppc {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.1762114537444934s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated
-  #el06f4c1ncy2ut {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.18061674008810574s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el6voekk6j69j {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.18502202643171808s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #ela48tpx20f2v {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.18942731277533043s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elvaqawn0217b {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.19383259911894274s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elj747ft39an {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.19823788546255508s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el2cee0w1n4lu {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.20264317180616742s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el5c53enitre {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.20704845814977976s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el1dy7nsth3ay {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.2114537444933921s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elg4kt4d4e8u {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.21585903083700442s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #eldi29wwbg3vd {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.22026431718061676s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el1mnykme6ogy {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.2246696035242291s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elj73zvhf630h {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.22907488986784144s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elc2norn9d3qv {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.23348017621145375s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el5fl0r2d4xsw {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.2378854625550661s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #els8p9wo2n9k {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.24229074889867844s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elc4l2wvx9fpt {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.24669603524229078s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elx8ombdx41qs {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.2511013215859031s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el9rh8ysgsa2 {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.25550660792951546s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated
-  #el0coyvzmod8hk {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.2599118942731278s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elxszcn22y86g {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.2643171806167401s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elg5q0f4uhwoa {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.26872246696035246s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #eld3vgxcyay8c {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.27312775330396477s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elth8xgdy5pyg {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.27753303964757714s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #eleewkhbpcbmk {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.28193832599118945s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elorjv7npq5n {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.28634361233480177s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #eln9tu61vyevf {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.29074889867841414s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elf12ulz3st0k {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.29515418502202645s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el5i4idxt8elb {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.2995594713656388s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elbfcbhqqhp4 {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.30396475770925113s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el4z4mi4nargp {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.30837004405286345s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el938lknndsse {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.3127753303964758s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el9xh6ypsejfm {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.31718061674008813s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #eloholpo2dk6 {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.3215859030837005s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elok5bu7d1ull {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.3259911894273128s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elociq96uod5m {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.3303964757709251s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el83gfc9hmgb9 {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.3348017621145375s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elcnklvt3i78q {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.3392070484581498s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elnpnccxfc9ak {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.3436123348017621s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated
-  #el0jtydmnupqkc {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.3480176211453745s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elezxzei4l3z4 {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.3524229074889868s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elkbczg17z7zi {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.35682819383259917s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elmdnzcesxr8c {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.3612334801762115s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el9tdj74i67zn {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.3656387665198238s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elf89mk6pgbx4 {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.37004405286343617s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el9przrj0tij {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.3744493392070485s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elyter2dqwsv8 {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.37885462555066085s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elh67cy9kx21i {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.38325991189427316s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elplypi9z226e {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.3876651982378855s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el6xxc4dzmxu {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.39207048458149785s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elm3buocgcf {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.39647577092511016s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elh094ba12p6 {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.40088105726872253s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el57smuu6vofh {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.40528634361233484s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el7lgw7zxh5y8 {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.40969162995594716s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elg8gel9pvidf {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.4140969162995595s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el4yajp1qw23l {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.41850220264317184s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elvbbojxu9147 {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.4229074889867842s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elh6gzcdex5ij {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.4273127753303965s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elu0zelbxpjth {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.43171806167400884s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el8b21nm9rvgs {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.4361233480176212s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elc05suk7mbw5 {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.4405286343612335s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #eljd3rrbqbcc {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.44493392070484583s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elcsv25ug7h15 {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.4493392070484582s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated
-  #el0fr0zjbhl95a {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.4537444933920705s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elkvmq8ntqp6 {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.4581497797356829s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elwj3l47xbgio {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.4625550660792952s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated
-  #el13yuwwl7yexq {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.4669603524229075s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elnmydpzkkep {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.4713656387665199s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elbq3jsgxctij {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.4757709251101322s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated
-  #el0qf2tda0epta {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.48017621145374456s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #eli0utmabszrm {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.4845814977973569s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #eld42lerdo03 {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.4889867841409692s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elca3vy6y7pzf {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.49339207048458156s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elyof0gep0fxb {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.49779735682819387s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elf5lfr760ddn {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.5022026431718062s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elzqwspgw3tds {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.5066079295154186s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elydu8o11g1z {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.5110132158590309s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elj0wy9rd68sl {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.5154185022026432s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elz4ve7gnf9a {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.5198237885462555s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el8g94sdkiz4o {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.5242290748898679s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #ela4w2a58spss {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.5286343612334802s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elbse7dpgs9uf {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.5330396475770925s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el310z6gb1mw8 {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.5374449339207049s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el764czsddgcj {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.5418502202643173s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el67btgcnf2uv {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.5462555066079295s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #eltu4s1r83vvq {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.5506607929515419s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elduhuzih1pud {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.5550660792951543s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elsgoii2ywk7 {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.5594713656387665s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el20d6pjxkfky {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.5638766519823789s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elb5av3pmvfm {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.5682819383259913s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el8hzy6nlvhrk {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.5726872246696035s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elfvjmnadzmrb {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.5770925110132159s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #eltug7o9c9wzc {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.5814977973568283s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el8q01wlzsk4g {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.5859030837004405s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el334gtzohtp9 {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.5903083700440529s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elojurgjgltmd {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.5947136563876653s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elbp556epx2xg {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.5991189427312776s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #ely1vvq25or9q {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.6035242290748899s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el4o7tdyoq4vr {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.6079295154185023s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elpvhyh6bns7 {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.6123348017621146s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el421hkwk545v {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.6167400881057269s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elat3mqodx81w {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.6211453744493393s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elb15nk56wez {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.6255506607929516s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #ele49u1crzmr {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.6299559471365639s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el6jurcwtt66 {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.6343612334801763s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el2q5yd01e3sp {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.6387665198237886s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elu95vn74yxlp {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.643171806167401s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated
-  #el1jujgsu203gg {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.6475770925110133s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elftart1jai7h {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.6519823788546256s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el3agk8o71ei6 {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.656387665198238s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el92regt8p96b {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.6607929515418502s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elskb413n8vo {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.6651982378854626s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el0xb0leh8l3u {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.669603524229075s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elupbm3lpu8i {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.6740088105726872s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el8kqdux2epmt {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.6784140969162996s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elxo1ghc79h9 {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.682819383259912s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elckhtj781mup {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.6872246696035242s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elcgvvqgvxqun {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.6916299559471366s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el5hbwoaa7bxo {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.696035242290749s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el3b2kj6esznu {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.7004405286343613s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #eluw7lc0h78dg {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.7048458149779736s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el95k318mjgop {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.709251101321586s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el5sm5vo59x0k {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.7136563876651983s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated
-  #el0f0r1fpwufo8 {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.7180616740088106s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elet3ihup0hns {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.722466960352423s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elee35iifb66 {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.7268722466960353s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elvf5de8yd37m {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.7312775330396476s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #eltvllx5dxl1k {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.73568281938326s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el61jrtoe4n7o {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.7400881057268723s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el2rh8sod3mz {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.7444933920704847s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elmxffh106yw9 {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.748898678414097s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #eljakc3yv1xcl {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.7533039647577093s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el6xusn49mz3 {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.7577092511013217s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elrcl7hwflbfa {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.762114537444934s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #eln9sop5rhwoa {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.7665198237885463s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el4hr8xt4k4qy {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.7709251101321587s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #eloa4i5ffvzz {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.775330396475771s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elz2tentqmr6 {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.7797356828193833s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elm1q7zsuj9xh {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.7841409691629957s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el23crtyg0egi {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.788546255506608s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el1u2faoqv7cl {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.7929515418502203s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el2pgjvf3cuc9 {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.7973568281938327s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #eltljdn6997nd {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.8017621145374451s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #eldlm6v7js8y7 {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.8061674008810573s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el3vq3rt52wjh {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.8105726872246697s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #eld2qewz3rvet {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.814977973568282s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elixw7hv4ccxs {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.8193832599118943s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elfub1rbtabm {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.8237885462555067s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #eluid7igdtrnc {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.828193832599119s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elq1h6y8ur1k {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.8325991189427313s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el8hv6yt57mkp {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.8370044052863437s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elwiht0so4dkg {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.841409691629956s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el9xuabfnwuk {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.8458149779735684s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #eliu4xohmqp4 {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.8502202643171807s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elideeu7lmz3m {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.854625550660793s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elfq07ff6akg {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.8590308370044054s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elkypzoxq06sh {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.8634361233480177s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el8aai3iwg1if {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.86784140969163s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el5lbw96y2si8 {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.8722466960352424s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elen7ycfgsirp {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.8766519823788547s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elmqoanzu9fee {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.881057268722467s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elcu2bxek02lg {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.8854625550660794s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elf060ouspdkh {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.8898678414096917s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el1cm3ay1ru0p {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.894273127753304s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elekv5m42gnm {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.8986784140969164s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el1nes4dficzf {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.9030837004405288s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el6ma5ubylnu {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.907488986784141s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #ely92h1grcy6f {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.9118942731277534s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el9bklu8c8y8c {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.9162995594713658s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el1xzj8ypllp6 {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.920704845814978s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el6iooitr95sr {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.9251101321585904s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elmk4aef89u69 {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.9295154185022028s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elzi9h5v88mf {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.933920704845815s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elmnf5irzo5if {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.9383259911894274s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elgb961ers2xc {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.9427312775330398s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elxogebqupsjo {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.947136563876652s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el1e9rzxbnteg {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.9515418502202644s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elhuqw1gircof {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.9559471365638768s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elhvko4xndvfd {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.9603524229074891s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el3yegdizhqtj {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.9647577092511014s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #el7u3805qv06p {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.9691629955947137s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elcawewbcbg1t {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.9735682819383261s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elegg7d0fi24t {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.9779735682819384s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elfl3616hcmjm {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.9823788546255507s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elsb6khl48l6 {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.9867841409691631s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elkg10ybntmy {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.9911894273127754s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #elm20lsgt57e {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
-  animation-delay: 0.9955947136563877s;
-  opacity: 0;
-}
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated
-  #freepik--Robot--inject-21 {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
+svg#freepik_stories-blogging.animated #ele8pu45sbryd {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
   animation-delay: 0s;
 }
-svg#freepik_stories-oops-404-error-with-a-broken-robot.animated
-  #freepik--Floor--inject-21 {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) zoomOut;
+svg#freepik_stories-blogging.animated #elxz21jrr68fr {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
+  animation-delay: 0.05555555555555555s;
+  opacity: 0;
+}
+svg#freepik_stories-blogging.animated #eldu07jhrdlue {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
+  animation-delay: 0.1111111111111111s;
+  opacity: 0;
+}
+svg#freepik_stories-blogging.animated #el7rxlpqufus {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
+  animation-delay: 0.16666666666666666s;
+  opacity: 0;
+}
+svg#freepik_stories-blogging.animated #elsj8l9j5x8d {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
+  animation-delay: 0.2222222222222222s;
+  opacity: 0;
+}
+svg#freepik_stories-blogging.animated #el1zcbes6q7n5 {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
+  animation-delay: 0.2777777777777778s;
+  opacity: 0;
+}
+svg#freepik_stories-blogging.animated #eli5n33meo2gc {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
+  animation-delay: 0.3333333333333333s;
+  opacity: 0;
+}
+svg#freepik_stories-blogging.animated #elzzbnp6xsld {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
+  animation-delay: 0.38888888888888884s;
+  opacity: 0;
+}
+svg#freepik_stories-blogging.animated #eltmji43r7tlf {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
+  animation-delay: 0.4444444444444444s;
+  opacity: 0;
+}
+svg#freepik_stories-blogging.animated #elitnmq6az19 {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
+  animation-delay: 0.5s;
+  opacity: 0;
+}
+svg#freepik_stories-blogging.animated #ele2cmscv69ql {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
+  animation-delay: 0.5555555555555556s;
+  opacity: 0;
+}
+svg#freepik_stories-blogging.animated #eln4bfvkmw82g {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
+  animation-delay: 0.611111111111111s;
+  opacity: 0;
+}
+svg#freepik_stories-blogging.animated #elnjlqol4qy5m {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
+  animation-delay: 0.6666666666666666s;
+  opacity: 0;
+}
+svg#freepik_stories-blogging.animated #ely52p4is9t0s {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
+  animation-delay: 0.7222222222222222s;
+  opacity: 0;
+}
+svg#freepik_stories-blogging.animated #elg7hs51i4ovl {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
+  animation-delay: 0.7777777777777777s;
+  opacity: 0;
+}
+svg#freepik_stories-blogging.animated #eltbx6qfodrxh {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
+  animation-delay: 0.8333333333333333s;
+  opacity: 0;
+}
+svg#freepik_stories-blogging.animated #eldt247qf515h {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
+  animation-delay: 0.8888888888888888s;
+  opacity: 0;
+}
+svg#freepik_stories-blogging.animated #elcw2p3cap65n {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
+  animation-delay: 0.9444444444444444s;
+  opacity: 0;
+}
+svg#freepik_stories-blogging.animated #freepik--Box--inject-44 {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
   animation-delay: 0s;
+}
+svg#freepik_stories-blogging.animated #freepik--Character--inject-44 {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideLeft,
+    1.5s Infinite linear shake;
+  animation-delay: 0s, 1s;
+}
+svg#freepik_stories-blogging.animated #freepik--speech-bubble--inject-44 {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideDown,
+    1.5s Infinite linear shake;
+  animation-delay: 0s, 1s;
+}
+@keyframes zoomOut {
+  0% {
+    opacity: 0;
+    transform: scale(1.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 @keyframes slideRight {
   0% {
@@ -1176,62 +136,170 @@ svg#freepik_stories-oops-404-error-with-a-broken-robot.animated
     transform: translateX(0);
   }
 }
-@keyframes lightSpeedRight {
-  from {
-    transform: translate3d(50%, 0, 0) skewX(-20deg);
-    opacity: 0;
-  }
-  60% {
-    transform: skewX(10deg);
-    opacity: 1;
-  }
-  80% {
-    transform: skewX(-2deg);
-  }
-  to {
-    opacity: 1;
-    transform: translate3d(0, 0, 0);
-  }
-}
-@keyframes heartbeat {
+@keyframes fadeIn {
   0% {
-    transform: scale(1);
-  }
-  10% {
-    transform: scale(1.1);
-  }
-  30% {
-    transform: scale(1);
-  }
-  40% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.1);
-  }
-  60% {
-    transform: scale(1);
+    opacity: 0;
   }
   100% {
-    transform: scale(1);
+    opacity: 1;
   }
 }
-@keyframes lightSpeedLeft {
-  from {
-    transform: translate3d(-50%, 0, 0) skewX(20deg);
+@keyframes slideLeft {
+  0% {
     opacity: 0;
+    transform: translateX(-30px);
   }
-  60% {
-    transform: skewX(-10deg);
+  100% {
     opacity: 1;
+    transform: translateX(0);
   }
+}
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%,
   80% {
-    transform: skewX(2deg);
+    transform: translate3d(2px, 0, 0);
   }
-  to {
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
     opacity: 1;
-    transform: translate3d(0, 0, 0);
+    transform: translateY(0);
   }
+}
+svg#freepik_stories-blogging:not(.animated) .animable {
+  opacity: 0;
+}
+svg#freepik_stories-blogging.animated #freepik--background-complete--inject-44 {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) zoomOut;
+  animation-delay: 0s;
+}
+svg#freepik_stories-blogging.animated #freepik--Floor--inject-44 {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
+  animation-delay: 0s;
+}
+svg#freepik_stories-blogging.animated #freepik--Device--inject-44 {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) fadeIn;
+  animation-delay: 0s;
+}
+svg#freepik_stories-blogging.animated #ele8pu45sbryd {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
+  animation-delay: 0s;
+}
+svg#freepik_stories-blogging.animated #elxz21jrr68fr {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
+  animation-delay: 0.05555555555555555s;
+  opacity: 0;
+}
+svg#freepik_stories-blogging.animated #eldu07jhrdlue {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
+  animation-delay: 0.1111111111111111s;
+  opacity: 0;
+}
+svg#freepik_stories-blogging.animated #el7rxlpqufus {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
+  animation-delay: 0.16666666666666666s;
+  opacity: 0;
+}
+svg#freepik_stories-blogging.animated #elsj8l9j5x8d {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
+  animation-delay: 0.2222222222222222s;
+  opacity: 0;
+}
+svg#freepik_stories-blogging.animated #el1zcbes6q7n5 {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
+  animation-delay: 0.2777777777777778s;
+  opacity: 0;
+}
+svg#freepik_stories-blogging.animated #eli5n33meo2gc {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
+  animation-delay: 0.3333333333333333s;
+  opacity: 0;
+}
+svg#freepik_stories-blogging.animated #elzzbnp6xsld {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
+  animation-delay: 0.38888888888888884s;
+  opacity: 0;
+}
+svg#freepik_stories-blogging.animated #eltmji43r7tlf {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
+  animation-delay: 0.4444444444444444s;
+  opacity: 0;
+}
+svg#freepik_stories-blogging.animated #elitnmq6az19 {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
+  animation-delay: 0.5s;
+  opacity: 0;
+}
+svg#freepik_stories-blogging.animated #ele2cmscv69ql {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
+  animation-delay: 0.5555555555555556s;
+  opacity: 0;
+}
+svg#freepik_stories-blogging.animated #eln4bfvkmw82g {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
+  animation-delay: 0.611111111111111s;
+  opacity: 0;
+}
+svg#freepik_stories-blogging.animated #elnjlqol4qy5m {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
+  animation-delay: 0.6666666666666666s;
+  opacity: 0;
+}
+svg#freepik_stories-blogging.animated #ely52p4is9t0s {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
+  animation-delay: 0.7222222222222222s;
+  opacity: 0;
+}
+svg#freepik_stories-blogging.animated #elg7hs51i4ovl {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
+  animation-delay: 0.7777777777777777s;
+  opacity: 0;
+}
+svg#freepik_stories-blogging.animated #eltbx6qfodrxh {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
+  animation-delay: 0.8333333333333333s;
+  opacity: 0;
+}
+svg#freepik_stories-blogging.animated #eldt247qf515h {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
+  animation-delay: 0.8888888888888888s;
+  opacity: 0;
+}
+svg#freepik_stories-blogging.animated #elcw2p3cap65n {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
+  animation-delay: 0.9444444444444444s;
+  opacity: 0;
+}
+svg#freepik_stories-blogging.animated #freepik--Box--inject-44 {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
+  animation-delay: 0s;
+}
+svg#freepik_stories-blogging.animated #freepik--Character--inject-44 {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideLeft,
+    1.5s Infinite linear shake;
+  animation-delay: 0s, 1s;
+}
+svg#freepik_stories-blogging.animated #freepik--speech-bubble--inject-44 {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideDown,
+    1.5s Infinite linear shake;
+  animation-delay: 0s, 1s;
 }
 @keyframes zoomOut {
   0% {
@@ -1241,5 +309,62 @@ svg#freepik_stories-oops-404-error-with-a-broken-robot.animated
   100% {
     opacity: 1;
     transform: scale(1);
+  }
+}
+@keyframes slideRight {
+  0% {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes slideLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
