@@ -59,16 +59,18 @@ exports.createUser = (req, res) => {
   });
 };
 
-const s3 = new AWS.S3({
-  accessKeyId: "AKIAZZJJ3APNFWUUTSSA",
-  secretAccessKey: "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",
-  region: "ap-south-1",
-  apiVersion: "2010-12-01",
-  signatureVersion: "v4",
-  // expiresIn: 600,
-});
-
 exports.media_upload = catchAsync(async (req, res, next) => {
+  const accessKeyId = `${process.env.AccessKeyID}`;
+  const secretAccessKey = `${process.env.SecretAccessKey}`;
+
+  const s3 = new AWS.S3({
+    accessKeyId,
+    secretAccessKey,
+    region: "ap-south-1",
+    apiVersion: "2010-12-01",
+    signatureVersion: "v4",
+  });
+
   const key = `${req.cookies.jwt.substr(1, 13)}/${uuid()}.jpeg`;
   s3.getSignedUrl(
     "putObject",
