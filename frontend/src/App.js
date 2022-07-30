@@ -12,6 +12,7 @@ import ResetPasswordEmail from "./pages/ResetPasswordEmail";
 // import Canceled from "./components/checkout/stripe-checkout/canceled";
 
 import { Route, Routes } from "react-router-dom";
+import CreateBlog from "./pages/CreateBlog";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/payment/:subscribeId" element={<Payment />} />
         <Route path="/checkout" element={<Checkout />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/editor" element={<CreateBlog />} />
         <Route path="/reset" element={<ResetPasswordEmail />} />
       </Route>
 

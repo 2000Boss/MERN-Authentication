@@ -26,6 +26,9 @@ class Request {
   signup(data) {
     return http.post("user/signup", data);
   }
+  createBlog(data) {
+    return http.post("blog", data);
+  }
 
   updateProfile(data, _id) {
     return http.patch(`user/update/${_id}`, data);
@@ -35,8 +38,8 @@ class Request {
     return await http.post("payment", data);
   }
 
-  async AWS_Link() {
-    return await http.get("user/upload");
+  AWS_Link() {
+    return http.get("user/upload");
   }
 }
 

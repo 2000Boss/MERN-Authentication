@@ -143,20 +143,20 @@ const Navbar = (props) => {
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="/"
+                    <Link
+                      to="/profile"
                       className="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                     >
                       Settings
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="/"
+                    <Link
+                      to="/editor"
                       className="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                     >
-                      Earnings
-                    </a>
+                      Create New Blog
+                    </Link>
                   </li>
                 </ul>
                 <div className="py-1 mx-full">
