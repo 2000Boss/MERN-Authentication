@@ -23,6 +23,8 @@
     "html-to-text": "^8.2.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.4.4",
+    "nodemailer": "^6.7.7",
+    "nodemailer-sendgrid-transport": "^0.2.0",
     "pug": "^3.0.2",
     "stripe": "^9.13.0",
     "uuid": "^8.3.2",
